@@ -1,0 +1,33 @@
+{
+  "$description": "Stable component decisions explicitly established by the visual specification.",
+  "component": {
+    "control": {
+      "targetMinimum": { "$type": "dimension", "$value": "{dimension.control.targetMinimum}", "$description": "Minimum interactive target." },
+      "radius": { "$type": "dimension", "$value": "{dimension.radius.control}", "$description": "Shared control radius." }
+    },
+    "button": {
+      "height": { "$type": "dimension", "$value": "{dimension.control.primaryHeight}", "$description": "Primary and secondary button height." },
+      "paddingInlineMinimum": { "$type": "dimension", "$value": "{dimension.control.buttonPaddingMinimum}", "$description": "Minimum button inline padding." },
+      "paddingInlineMaximum": { "$type": "dimension", "$value": "{dimension.space.5}", "$description": "Maximum button inline padding." },
+      "hoverLift": { "$type": "dimension", "$value": "{dimension.motion.buttonLift}", "$description": "Button hover translation." }
+    },
+    "field": {
+      "height": { "$type": "dimension", "$value": "{dimension.control.fieldHeight}", "$description": "Minimum single-line field height." },
+      "textareaMinimum": { "$type": "dimension", "$value": "{dimension.control.textareaMinimum}", "$description": "Minimum textarea height." },
+      "radius": { "$type": "dimension", "$value": "{dimension.radius.control}", "$description": "Form-field radius." }
+    },
+    "panel": {
+      "radius": { "$type": "dimension", "$value": "{dimension.radius.card}", "$description": "Panel radius." },
+      "paddingMobile": { "$type": "dimension", "$value": "{dimension.space.5}", "$description": "Mobile panel padding." },
+      "paddingDesktop": { "$type": "dimension", "$value": "{dimension.space.6}", "$description": "Desktop panel padding." },
+      "hoverLift": { "$type": "dimension", "$value": "{dimension.motion.cardLift}", "$description": "Maximum interactive-panel lift." }
+    },
+    "workshopRow": {
+      "minimumHeight": { "$type": "dimension", "$value": "{dimension.control.workshopRowMinimum}", "$description": "Minimum desktop workshop-row height." }
+    },
+    "focusRing": {
+      "innerWidth": { "$type": "dimension", "$value": "{dimension.border.focus}", "$description": "Rose inner focus-ring width." },
+      "outerWidth": { "$type": "dimension", "$value": "{dimension.border.focus}", "$description": "White outer focus-ring width." }
+    }
+  }
+}

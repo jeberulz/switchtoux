@@ -1,0 +1,131 @@
+{
+  "$description": "Contextual Switch to UX design roles.",
+  "color": {
+    "background": {
+      "canvas": { "$type": "color", "$value": "{color.neutral.black}", "$description": "Page canvas." }
+    },
+    "surface": {
+      "default": { "$type": "color", "$value": "{color.neutral.zinc950}", "$description": "Low-elevation surface." },
+      "raised": { "$type": "color", "$value": "{color.neutral.zinc900}", "$description": "Raised panel and menu surface." },
+      "hover": { "$type": "color", "$value": "{color.neutral.zinc850}", "$description": "Interactive surface hover." }
+    },
+    "border": {
+      "subtle": { "$type": "color", "$value": "{color.neutral.zinc900}", "$description": "Decorative subtle border." },
+      "default": { "$type": "color", "$value": "{color.neutral.zinc700}", "$description": "Decorative standard border." },
+      "strong": { "$type": "color", "$value": "{color.neutral.zinc600}", "$description": "Decorative strong border." },
+      "control": { "$type": "color", "$value": "{color.neutral.zinc500}", "$description": "Accessible interactive control boundary." }
+    },
+    "text": {
+      "primary": { "$type": "color", "$value": "{color.neutral.white}", "$description": "Primary reading and heading text." },
+      "secondary": { "$type": "color", "$value": "{color.neutral.zinc300}", "$description": "Secondary body text." },
+      "muted": { "$type": "color", "$value": "{color.neutral.zinc400}", "$description": "Muted supporting text." },
+      "disabled": { "$type": "color", "$value": "{color.neutral.zinc500}", "$description": "Disabled text." },
+      "onAction": { "$type": "color", "$value": "{color.neutral.black}", "$description": "Text on rose action surfaces." }
+    },
+    "action": {
+      "primary": { "$type": "color", "$value": "{color.rose.default}", "$description": "Primary action background and signal." },
+      "hover": { "$type": "color", "$value": "{color.rose.hover}", "$description": "Primary action hover." },
+      "pressed": { "$type": "color", "$value": "{color.rose.pressed}", "$description": "Primary action pressed state." },
+      "soft": { "$type": "color", "$value": "{color.alpha.roseSoft}", "$description": "Soft rose action background." },
+      "line": { "$type": "color", "$value": "{color.alpha.roseLine}", "$description": "Rose active and connection line." },
+      "glow": { "$type": "color", "$value": "{color.alpha.roseGlow}", "$description": "Rose ambient glow." }
+    },
+    "status": {
+      "success": {
+        "signal": { "$type": "color", "$value": "{color.signal.success}", "$description": "Success foreground signal." },
+        "background": { "$type": "color", "$value": "{color.alpha.successSoft}", "$description": "Success background." },
+        "border": { "$type": "color", "$value": "{color.alpha.successLine}", "$description": "Success border." }
+      },
+      "warning": {
+        "signal": { "$type": "color", "$value": "{color.signal.warning}", "$description": "Warning foreground signal." },
+        "background": { "$type": "color", "$value": "{color.alpha.warningSoft}", "$description": "Warning background." },
+        "border": { "$type": "color", "$value": "{color.alpha.warningLine}", "$description": "Warning border." }
+      },
+      "info": {
+        "signal": { "$type": "color", "$value": "{color.signal.info}", "$description": "Informational foreground signal." },
+        "background": { "$type": "color", "$value": "{color.alpha.infoSoft}", "$description": "Informational background." },
+        "border": { "$type": "color", "$value": "{color.alpha.infoLine}", "$description": "Informational border." }
+      },
+      "error": {
+        "signal": { "$type": "color", "$value": "{color.signal.error}", "$description": "Error foreground signal." },
+        "background": { "$type": "color", "$value": "{color.alpha.errorSoft}", "$description": "Error background." },
+        "border": { "$type": "color", "$value": "{color.alpha.errorLine}", "$description": "Error border." }
+      },
+      "closed": {
+        "signal": { "$type": "color", "$value": "{color.neutral.zinc300}", "$description": "Closed-state foreground." },
+        "background": { "$type": "color", "$value": "{color.neutral.zinc900}", "$description": "Closed-state background." },
+        "border": { "$type": "color", "$value": "{color.neutral.zinc600}", "$description": "Closed-state border." }
+      }
+    },
+    "focus": {
+      "inner": { "$type": "color", "$value": "{color.rose.default}", "$description": "Inner focus ring." },
+      "outer": { "$type": "color", "$value": "{color.neutral.white}", "$description": "Outer focus ring." }
+    }
+  },
+  "effect": {
+    "shadow": {
+      "raised": { "$type": "shadow", "$value": "{shadow.raised}", "$description": "Raised-surface shadow." },
+      "accent": { "$type": "shadow", "$value": "{shadow.accent}", "$description": "Accent glow shadow." }
+    },
+    "focusRing": {
+      "$type": "shadow",
+      "$value": "{shadow.focusRing}",
+      "$description": "Two-stage rose inner and white outer focus treatment."
+    }
+  },
+  "layout": {
+    "container": {
+      "content": { "$type": "dimension", "$value": "{dimension.layout.containerContent}", "$description": "Content container maximum." },
+      "atmospheric": { "$type": "dimension", "$value": "{dimension.layout.containerAtmospheric}", "$description": "Atmospheric container maximum." }
+    },
+    "pagePadding": {
+      "smallFallback": { "$type": "dimension", "$value": "{dimension.layout.pagePaddingSmallFallback}", "$description": "Constrained mobile padding." },
+      "mobile": { "$type": "dimension", "$value": "{dimension.layout.pagePaddingMobile}", "$description": "Mobile page padding." },
+      "tablet": { "$type": "dimension", "$value": "{dimension.layout.pagePaddingTablet}", "$description": "Tablet page padding." },
+      "desktop": { "$type": "dimension", "$value": "{dimension.layout.pagePaddingDesktop}", "$description": "Desktop page padding." },
+      "large": { "$type": "dimension", "$value": "{dimension.layout.pagePaddingLarge}", "$description": "Large desktop page padding." }
+    },
+    "gutter": {
+      "mobile": { "$type": "dimension", "$value": "{dimension.layout.gutterMobile}", "$description": "Mobile grid gutter." },
+      "tablet": { "$type": "dimension", "$value": "{dimension.layout.gutterTablet}", "$description": "Tablet grid gutter." },
+      "desktop": { "$type": "dimension", "$value": "{dimension.layout.gutterDesktop}", "$description": "Desktop grid gutter." }
+    },
+    "columns": {
+      "mobile": { "$type": "number", "$value": "{number.grid.mobileColumns}", "$description": "Mobile grid columns." },
+      "tablet": { "$type": "number", "$value": "{number.grid.tabletColumns}", "$description": "Tablet grid columns." },
+      "desktop": { "$type": "number", "$value": "{number.grid.desktopColumns}", "$description": "Desktop grid columns." }
+    },
+    "section": {
+      "mobile": { "$type": "dimension", "$value": "{dimension.layout.sectionMobile}", "$description": "Mobile primary section spacing." },
+      "tablet": { "$type": "dimension", "$value": "{dimension.layout.sectionTablet}", "$description": "Tablet primary section spacing." },
+      "desktop": { "$type": "dimension", "$value": "{dimension.layout.sectionDesktop}", "$description": "Desktop primary section spacing." },
+      "compactMinimum": { "$type": "dimension", "$value": "{dimension.layout.sectionCompactMinimum}", "$description": "Compact section minimum." },
+      "compactMaximum": { "$type": "dimension", "$value": "{dimension.layout.sectionCompactMaximum}", "$description": "Compact section maximum." }
+    },
+    "reading": {
+      "standard": { "$type": "dimension", "$value": "{dimension.layout.readingStandard}", "$description": "Standard copy width." },
+      "hero": { "$type": "dimension", "$value": "{dimension.layout.readingHero}", "$description": "Hero copy width." },
+      "article": { "$type": "dimension", "$value": "{dimension.layout.readingArticle}", "$description": "Article copy width." },
+      "course": { "$type": "dimension", "$value": "{dimension.layout.readingCourse}", "$description": "Course introduction width." }
+    },
+    "breakpoint": {
+      "mobile": { "$type": "dimension", "$value": "{dimension.layout.breakpointMobile}", "$description": "Mobile breakpoint." },
+      "tablet": { "$type": "dimension", "$value": "{dimension.layout.breakpointTablet}", "$description": "Tablet breakpoint." },
+      "comparison": { "$type": "dimension", "$value": "{dimension.layout.breakpointComparison}", "$description": "Comparison breakpoint." },
+      "desktop": { "$type": "dimension", "$value": "{dimension.layout.breakpointDesktop}", "$description": "Desktop breakpoint." },
+      "wide": { "$type": "dimension", "$value": "{dimension.layout.breakpointWide}", "$description": "Wide breakpoint." },
+      "canvas": { "$type": "dimension", "$value": "{dimension.layout.breakpointCanvas}", "$description": "Canvas breakpoint." }
+    },
+    "qaViewport": {
+      "wide": { "$type": "dimension", "$value": "{dimension.layout.qaWide}", "$description": "Additional wide QA viewport." }
+    }
+  },
+  "layer": {
+    "base": { "$type": "number", "$value": "{number.layer.base}", "$description": "Base layer." },
+    "content": { "$type": "number", "$value": "{number.layer.content}", "$description": "Content layer." },
+    "sticky": { "$type": "number", "$value": "{number.layer.sticky}", "$description": "Sticky layer." },
+    "overlay": { "$type": "number", "$value": "{number.layer.overlay}", "$description": "Overlay layer." },
+    "modal": { "$type": "number", "$value": "{number.layer.modal}", "$description": "Modal layer." },
+    "toast": { "$type": "number", "$value": "{number.layer.toast}", "$description": "Toast layer." }
+  }
+}

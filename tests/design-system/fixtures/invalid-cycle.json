@@ -1,0 +1,6 @@
+{
+  "fixture": {
+    "first": { "$type": "color", "$value": "{fixture.second}", "$description": "First circular fixture." },
+    "second": { "$type": "color", "$value": "{fixture.first}", "$description": "Second circular fixture." }
+  }
+}

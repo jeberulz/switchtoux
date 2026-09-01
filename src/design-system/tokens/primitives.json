@@ -1,0 +1,157 @@
+{
+  "$description": "Raw, context-free Switch to UX design values.",
+  "color": {
+    "neutral": {
+      "black": { "$type": "color", "$value": "#000000", "$description": "Absolute black canvas." },
+      "zinc950": { "$type": "color", "$value": "#18181b", "$description": "Lowest zinc surface." },
+      "zinc900": { "$type": "color", "$value": "#27272a", "$description": "Raised zinc surface and subtle border." },
+      "zinc850": { "$type": "color", "$value": "#303036", "$description": "Interactive zinc hover surface." },
+      "zinc700": { "$type": "color", "$value": "#3f3f46", "$description": "Standard decorative zinc border." },
+      "zinc600": { "$type": "color", "$value": "#52525b", "$description": "Strong decorative zinc border." },
+      "zinc500": { "$type": "color", "$value": "#71717a", "$description": "Accessible interactive boundary and disabled text." },
+      "zinc400": { "$type": "color", "$value": "#a1a1aa", "$description": "Muted zinc text." },
+      "zinc300": { "$type": "color", "$value": "#d4d4d8", "$description": "Secondary zinc text." },
+      "white": { "$type": "color", "$value": "#ffffff", "$description": "Primary white text and focus ring." }
+    },
+    "rose": {
+      "default": { "$type": "color", "$value": "#f43f5e", "$description": "Primary rose signal." },
+      "hover": { "$type": "color", "$value": "#fb7185", "$description": "Rose hover and error signal." },
+      "pressed": { "$type": "color", "$value": "#e21e49", "$description": "Accessibility-corrected pressed rose." }
+    },
+    "signal": {
+      "success": { "$type": "color", "$value": "#34d399", "$description": "Success signal." },
+      "warning": { "$type": "color", "$value": "#fbbf24", "$description": "Warning signal." },
+      "info": { "$type": "color", "$value": "#38bdf8", "$description": "Informational signal." },
+      "error": { "$type": "color", "$value": "#fb7185", "$description": "Error signal." }
+    },
+    "alpha": {
+      "roseSoft": { "$type": "color", "$value": "rgba(244, 63, 94, 0.14)", "$description": "Soft rose background." },
+      "roseLine": { "$type": "color", "$value": "rgba(244, 63, 94, 0.42)", "$description": "Rose connection and border line." },
+      "roseGlow": { "$type": "color", "$value": "rgba(244, 63, 94, 0.22)", "$description": "Rose atmospheric glow." },
+      "successSoft": { "$type": "color", "$value": "rgba(52, 211, 153, 0.14)", "$description": "Soft success background." },
+      "successLine": { "$type": "color", "$value": "rgba(52, 211, 153, 0.42)", "$description": "Success border line." },
+      "warningSoft": { "$type": "color", "$value": "rgba(251, 191, 36, 0.14)", "$description": "Soft warning background." },
+      "warningLine": { "$type": "color", "$value": "rgba(251, 191, 36, 0.42)", "$description": "Warning border line." },
+      "infoSoft": { "$type": "color", "$value": "rgba(56, 189, 248, 0.14)", "$description": "Soft informational background." },
+      "infoLine": { "$type": "color", "$value": "rgba(56, 189, 248, 0.42)", "$description": "Informational border line." },
+      "errorSoft": { "$type": "color", "$value": "rgba(251, 113, 133, 0.14)", "$description": "Soft error background." },
+      "errorLine": { "$type": "color", "$value": "rgba(251, 113, 133, 0.42)", "$description": "Error border line." },
+      "blackRaised": { "$type": "color", "$value": "rgba(0, 0, 0, 0.42)", "$description": "Raised shadow colour." },
+      "roseShadow": { "$type": "color", "$value": "rgba(244, 63, 94, 0.18)", "$description": "Rose shadow colour." }
+    }
+  },
+  "dimension": {
+    "space": {
+      "1": { "$type": "dimension", "$value": "0.25rem", "$description": "4px spacing step." },
+      "2": { "$type": "dimension", "$value": "0.5rem", "$description": "8px spacing step." },
+      "3": { "$type": "dimension", "$value": "0.75rem", "$description": "12px spacing step." },
+      "4": { "$type": "dimension", "$value": "1rem", "$description": "16px spacing step." },
+      "5": { "$type": "dimension", "$value": "1.5rem", "$description": "24px spacing step." },
+      "6": { "$type": "dimension", "$value": "2rem", "$description": "32px spacing step." },
+      "7": { "$type": "dimension", "$value": "3rem", "$description": "48px spacing step." },
+      "8": { "$type": "dimension", "$value": "4rem", "$description": "64px spacing step." },
+      "9": { "$type": "dimension", "$value": "5rem", "$description": "80px spacing step." },
+      "10": { "$type": "dimension", "$value": "6rem", "$description": "96px spacing step." },
+      "11": { "$type": "dimension", "$value": "8rem", "$description": "128px spacing step." }
+    },
+    "radius": {
+      "small": { "$type": "dimension", "$value": "8px", "$description": "Nested-panel radius." },
+      "card": { "$type": "dimension", "$value": "14px", "$description": "Standard card radius." },
+      "control": { "$type": "dimension", "$value": "14px", "$description": "Standard control radius." },
+      "pill": { "$type": "dimension", "$value": "9999px", "$description": "Compact pill radius." }
+    },
+    "border": {
+      "default": { "$type": "dimension", "$value": "1px", "$description": "Default border width." },
+      "focus": { "$type": "dimension", "$value": "2px", "$description": "Each focus-ring stage width." }
+    },
+    "icon": {
+      "small": { "$type": "dimension", "$value": "16px", "$description": "Small icon size." },
+      "medium": { "$type": "dimension", "$value": "20px", "$description": "Medium icon size." },
+      "large": { "$type": "dimension", "$value": "24px", "$description": "Large icon size." }
+    },
+    "control": {
+      "targetMinimum": { "$type": "dimension", "$value": "44px", "$description": "Minimum pointer target." },
+      "primaryHeight": { "$type": "dimension", "$value": "48px", "$description": "Primary button height." },
+      "buttonPaddingMinimum": { "$type": "dimension", "$value": "20px", "$description": "Minimum button inline padding." },
+      "fieldHeight": { "$type": "dimension", "$value": "52px", "$description": "Minimum form-field height." },
+      "textareaMinimum": { "$type": "dimension", "$value": "140px", "$description": "Minimum textarea height." },
+      "workshopRowMinimum": { "$type": "dimension", "$value": "112px", "$description": "Minimum desktop workshop-row height." }
+    },
+    "layout": {
+      "containerContent": { "$type": "dimension", "$value": "1280px", "$description": "Maximum content container width." },
+      "containerAtmospheric": { "$type": "dimension", "$value": "1440px", "$description": "Maximum atmospheric composition width." },
+      "pagePaddingSmallFallback": { "$type": "dimension", "$value": "16px", "$description": "Page padding for constrained 320px viewports." },
+      "pagePaddingMobile": { "$type": "dimension", "$value": "20px", "$description": "Default mobile page padding." },
+      "pagePaddingTablet": { "$type": "dimension", "$value": "32px", "$description": "Tablet page padding." },
+      "pagePaddingDesktop": { "$type": "dimension", "$value": "40px", "$description": "Small-desktop page padding." },
+      "pagePaddingLarge": { "$type": "dimension", "$value": "64px", "$description": "Large-desktop page padding." },
+      "gutterMobile": { "$type": "dimension", "$value": "16px", "$description": "Four-column mobile gutter." },
+      "gutterTablet": { "$type": "dimension", "$value": "20px", "$description": "Eight-column tablet gutter." },
+      "gutterDesktop": { "$type": "dimension", "$value": "24px", "$description": "Twelve-column desktop gutter." },
+      "sectionMobile": { "$type": "dimension", "$value": "72px", "$description": "Primary mobile section spacing." },
+      "sectionTablet": { "$type": "dimension", "$value": "96px", "$description": "Primary tablet section spacing." },
+      "sectionDesktop": { "$type": "dimension", "$value": "128px", "$description": "Primary desktop section spacing." },
+      "sectionCompactMinimum": { "$type": "dimension", "$value": "48px", "$description": "Minimum compact-band spacing." },
+      "sectionCompactMaximum": { "$type": "dimension", "$value": "64px", "$description": "Maximum compact-band spacing." },
+      "readingStandard": { "$type": "dimension", "$value": "600px", "$description": "Standard supporting-copy width." },
+      "readingHero": { "$type": "dimension", "$value": "620px", "$description": "Hero supporting-copy width." },
+      "readingArticle": { "$type": "dimension", "$value": "680px", "$description": "Long-form article width." },
+      "readingCourse": { "$type": "dimension", "$value": "720px", "$description": "Course introduction width." },
+      "breakpointMobile": { "$type": "dimension", "$value": "375px", "$description": "Default mobile breakpoint." },
+      "breakpointTablet": { "$type": "dimension", "$value": "768px", "$description": "Tablet breakpoint." },
+      "breakpointComparison": { "$type": "dimension", "$value": "900px", "$description": "Course-comparison transformation breakpoint." },
+      "breakpointDesktop": { "$type": "dimension", "$value": "1024px", "$description": "Desktop and sticky-layout breakpoint." },
+      "breakpointWide": { "$type": "dimension", "$value": "1280px", "$description": "Wide desktop breakpoint." },
+      "breakpointCanvas": { "$type": "dimension", "$value": "1440px", "$description": "Atmospheric canvas breakpoint." },
+      "qaWide": { "$type": "dimension", "$value": "1728px", "$description": "Wide QA viewport, not a responsive breakpoint." }
+    },
+    "motion": {
+      "none": { "$type": "dimension", "$value": "0px", "$description": "No transform distance." },
+      "cardLift": { "$type": "dimension", "$value": "4px", "$description": "Maximum interactive panel lift." },
+      "buttonLift": { "$type": "dimension", "$value": "1px", "$description": "Primary button hover lift." },
+      "arrowShift": { "$type": "dimension", "$value": "3px", "$description": "Text-action arrow movement." },
+      "revealMinimum": { "$type": "dimension", "$value": "12px", "$description": "Minimum scroll-reveal translation." },
+      "revealMaximum": { "$type": "dimension", "$value": "20px", "$description": "Maximum scroll-reveal translation." },
+      "parallaxMinimum": { "$type": "dimension", "$value": "4px", "$description": "Minimum pointer-parallax range." },
+      "parallaxMaximum": { "$type": "dimension", "$value": "8px", "$description": "Maximum pointer-parallax range." }
+    }
+  },
+  "number": {
+    "grid": {
+      "mobileColumns": { "$type": "number", "$value": 4, "$description": "Mobile grid columns." },
+      "tabletColumns": { "$type": "number", "$value": 8, "$description": "Tablet grid columns." },
+      "desktopColumns": { "$type": "number", "$value": 12, "$description": "Desktop grid columns." }
+    },
+    "layer": {
+      "base": { "$type": "number", "$value": 0, "$description": "Base document layer." },
+      "content": { "$type": "number", "$value": 10, "$description": "Raised content layer." },
+      "sticky": { "$type": "number", "$value": 20, "$description": "Sticky interface layer." },
+      "overlay": { "$type": "number", "$value": 40, "$description": "Overlay backdrop layer." },
+      "modal": { "$type": "number", "$value": 50, "$description": "Dialog and modal layer." },
+      "toast": { "$type": "number", "$value": 60, "$description": "Transient notification layer." }
+    },
+    "opacity": {
+      "disabled": { "$type": "number", "$value": 0.58, "$description": "Disabled-content opacity when opacity is unavoidable." },
+      "decorative": { "$type": "number", "$value": 0.6, "$description": "Decorative atmosphere ceiling." }
+    }
+  },
+  "duration": {
+    "instant": { "$type": "duration", "$value": "0ms", "$description": "Immediate reduced-motion state change." },
+    "fast": { "$type": "duration", "$value": "120ms", "$description": "Fast state feedback." },
+    "standard": { "$type": "duration", "$value": "200ms", "$description": "Standard interaction transition." },
+    "menu": { "$type": "duration", "$value": "240ms", "$description": "Mobile navigation reveal within the approved range." },
+    "emphasis": { "$type": "duration", "$value": "420ms", "$description": "Emphasised reveal transition." },
+    "entrance": { "$type": "duration", "$value": "700ms", "$description": "Maximum hero-copy entrance sequence." },
+    "ambient": { "$type": "duration", "$value": "8000ms", "$description": "Ambient path movement." }
+  },
+  "easing": {
+    "linear": { "$type": "cubicBezier", "$value": [0, 0, 1, 1], "$description": "Linear ambient progression." },
+    "standard": { "$type": "cubicBezier", "$value": [0.2, 0.8, 0.2, 1], "$description": "Standard interface easing." },
+    "emphasis": { "$type": "cubicBezier", "$value": [0.16, 1, 0.3, 1], "$description": "Emphasised reveal easing." }
+  },
+  "shadow": {
+    "raised": { "$type": "shadow", "$value": "0 24px 80px rgba(0, 0, 0, 0.42)", "$description": "Raised panel shadow." },
+    "accent": { "$type": "shadow", "$value": "0 0 64px rgba(244, 63, 94, 0.18)", "$description": "Rose atmospheric shadow." },
+    "focusRing": { "$type": "shadow", "$value": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff", "$description": "Two-stage rose inner and white outer focus treatment." }
+  }
+}

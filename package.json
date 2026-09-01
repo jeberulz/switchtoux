@@ -4,11 +4,18 @@
   "private": true,
   "description": "The SwitchToUX web application.",
   "scripts": {
+    "design:tokens": "node scripts/build-design-tokens.mjs",
+    "design:tokens:check": "node scripts/build-design-tokens.mjs --check",
+    "design:tokens:validate": "node scripts/validate-design-tokens.mjs && node scripts/validate-design-token-usage.mjs",
+    "design:tokens:usage": "node scripts/validate-design-token-usage.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:tokens": "vitest run tests/design-system/tokens.test.mjs"
   },
   "repository": {
     "type": "git",
@@ -34,6 +41,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.11"
   }
 }

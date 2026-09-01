@@ -1,0 +1,5471 @@
+{
+  "entries": [
+    {
+      "aliasOf": "color.alpha.roseGlow",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-rose-glow)",
+      "cssVariable": "--color-accent-glow",
+      "description": "Rose ambient glow.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.action.glow",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.22)"
+    },
+    {
+      "aliasOf": "color.rose.hover",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-rose-hover)",
+      "cssVariable": "--color-accent-hover",
+      "description": "Primary action hover.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.action.hover",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#fb7185"
+    },
+    {
+      "aliasOf": "color.alpha.roseLine",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-rose-line)",
+      "cssVariable": "--color-accent-line",
+      "description": "Rose active and connection line.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.action.line",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.42)"
+    },
+    {
+      "aliasOf": "color.rose.pressed",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-rose-pressed)",
+      "cssVariable": "--color-accent-pressed",
+      "description": "Primary action pressed state.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.action.pressed",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#e21e49"
+    },
+    {
+      "aliasOf": "color.rose.default",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-rose-default)",
+      "cssVariable": "--color-accent",
+      "description": "Primary action background and signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.action.primary",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#f43f5e"
+    },
+    {
+      "aliasOf": "color.alpha.roseSoft",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-rose-soft)",
+      "cssVariable": "--color-accent-soft",
+      "description": "Soft rose action background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.action.soft",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.14)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(0, 0, 0, 0.42)",
+      "cssVariable": "--primitive-color-alpha-black-raised",
+      "description": "Raised shadow colour.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.blackRaised",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(251, 113, 133, 0.42)",
+      "cssVariable": "--primitive-color-alpha-error-line",
+      "description": "Error border line.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.errorLine",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(251, 113, 133, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(251, 113, 133, 0.14)",
+      "cssVariable": "--primitive-color-alpha-error-soft",
+      "description": "Soft error background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.errorSoft",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(251, 113, 133, 0.14)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(56, 189, 248, 0.42)",
+      "cssVariable": "--primitive-color-alpha-info-line",
+      "description": "Informational border line.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.infoLine",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(56, 189, 248, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(56, 189, 248, 0.14)",
+      "cssVariable": "--primitive-color-alpha-info-soft",
+      "description": "Soft informational background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.infoSoft",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(56, 189, 248, 0.14)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(244, 63, 94, 0.22)",
+      "cssVariable": "--primitive-color-alpha-rose-glow",
+      "description": "Rose atmospheric glow.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.roseGlow",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.22)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(244, 63, 94, 0.42)",
+      "cssVariable": "--primitive-color-alpha-rose-line",
+      "description": "Rose connection and border line.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.roseLine",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(244, 63, 94, 0.18)",
+      "cssVariable": "--primitive-color-alpha-rose-shadow",
+      "description": "Rose shadow colour.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.roseShadow",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.18)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(244, 63, 94, 0.14)",
+      "cssVariable": "--primitive-color-alpha-rose-soft",
+      "description": "Soft rose background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.roseSoft",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(244, 63, 94, 0.14)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(52, 211, 153, 0.42)",
+      "cssVariable": "--primitive-color-alpha-success-line",
+      "description": "Success border line.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.successLine",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(52, 211, 153, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(52, 211, 153, 0.14)",
+      "cssVariable": "--primitive-color-alpha-success-soft",
+      "description": "Soft success background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.successSoft",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(52, 211, 153, 0.14)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(251, 191, 36, 0.42)",
+      "cssVariable": "--primitive-color-alpha-warning-line",
+      "description": "Warning border line.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.warningLine",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(251, 191, 36, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "rgba(251, 191, 36, 0.14)",
+      "cssVariable": "--primitive-color-alpha-warning-soft",
+      "description": "Soft warning background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.alpha.warningSoft",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "rgba(251, 191, 36, 0.14)"
+    },
+    {
+      "aliasOf": "color.neutral.black",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-black)",
+      "cssVariable": "--color-bg",
+      "description": "Page canvas.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.background.canvas",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#000000"
+    },
+    {
+      "aliasOf": "color.neutral.zinc500",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc500)",
+      "cssVariable": "--color-border-control",
+      "description": "Accessible interactive control boundary.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.border.control",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#71717a"
+    },
+    {
+      "aliasOf": "color.neutral.zinc700",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc700)",
+      "cssVariable": "--color-border",
+      "description": "Decorative standard border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.border.default",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#3f3f46"
+    },
+    {
+      "aliasOf": "color.neutral.zinc600",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc600)",
+      "cssVariable": "--color-border-strong",
+      "description": "Decorative strong border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.border.strong",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#52525b"
+    },
+    {
+      "aliasOf": "color.neutral.zinc900",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc900)",
+      "cssVariable": "--color-border-subtle",
+      "description": "Decorative subtle border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.border.subtle",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#27272a"
+    },
+    {
+      "aliasOf": "color.rose.default",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-rose-default)",
+      "cssVariable": "--color-focus-inner",
+      "description": "Inner focus ring.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.focus.inner",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#f43f5e"
+    },
+    {
+      "aliasOf": "color.neutral.white",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-white)",
+      "cssVariable": "--color-focus-outer",
+      "description": "Outer focus ring.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.focus.outer",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#ffffff"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#000000",
+      "cssVariable": "--primitive-color-neutral-black",
+      "description": "Absolute black canvas.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.black",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#000000"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#ffffff",
+      "cssVariable": "--primitive-color-neutral-white",
+      "description": "Primary white text and focus ring.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.white",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#ffffff"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#d4d4d8",
+      "cssVariable": "--primitive-color-neutral-zinc300",
+      "description": "Secondary zinc text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc300",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#d4d4d8"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#a1a1aa",
+      "cssVariable": "--primitive-color-neutral-zinc400",
+      "description": "Muted zinc text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc400",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#a1a1aa"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#71717a",
+      "cssVariable": "--primitive-color-neutral-zinc500",
+      "description": "Accessible interactive boundary and disabled text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc500",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#71717a"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#52525b",
+      "cssVariable": "--primitive-color-neutral-zinc600",
+      "description": "Strong decorative zinc border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc600",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#52525b"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#3f3f46",
+      "cssVariable": "--primitive-color-neutral-zinc700",
+      "description": "Standard decorative zinc border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc700",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#3f3f46"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#303036",
+      "cssVariable": "--primitive-color-neutral-zinc850",
+      "description": "Interactive zinc hover surface.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc850",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#303036"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#27272a",
+      "cssVariable": "--primitive-color-neutral-zinc900",
+      "description": "Raised zinc surface and subtle border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc900",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#27272a"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#18181b",
+      "cssVariable": "--primitive-color-neutral-zinc950",
+      "description": "Lowest zinc surface.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc950",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#18181b"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#f43f5e",
+      "cssVariable": "--primitive-color-rose-default",
+      "description": "Primary rose signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.rose.default",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#f43f5e"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#fb7185",
+      "cssVariable": "--primitive-color-rose-hover",
+      "description": "Rose hover and error signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.rose.hover",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#fb7185"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#e21e49",
+      "cssVariable": "--primitive-color-rose-pressed",
+      "description": "Accessibility-corrected pressed rose.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.rose.pressed",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#e21e49"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#fb7185",
+      "cssVariable": "--primitive-color-signal-error",
+      "description": "Error signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.signal.error",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#fb7185"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#38bdf8",
+      "cssVariable": "--primitive-color-signal-info",
+      "description": "Informational signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.signal.info",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#38bdf8"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#34d399",
+      "cssVariable": "--primitive-color-signal-success",
+      "description": "Success signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.signal.success",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#34d399"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#fbbf24",
+      "cssVariable": "--primitive-color-signal-warning",
+      "description": "Warning signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.signal.warning",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#fbbf24"
+    },
+    {
+      "aliasOf": "color.neutral.zinc900",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc900)",
+      "cssVariable": "--color-status-closed-background",
+      "description": "Closed-state background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.closed.background",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#27272a"
+    },
+    {
+      "aliasOf": "color.neutral.zinc600",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc600)",
+      "cssVariable": "--color-status-closed-border",
+      "description": "Closed-state border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.closed.border",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#52525b"
+    },
+    {
+      "aliasOf": "color.neutral.zinc300",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc300)",
+      "cssVariable": "--color-status-closed-signal",
+      "description": "Closed-state foreground.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.closed.signal",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#d4d4d8"
+    },
+    {
+      "aliasOf": "color.alpha.errorSoft",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-error-soft)",
+      "cssVariable": "--color-status-error-background",
+      "description": "Error background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.error.background",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(251, 113, 133, 0.14)"
+    },
+    {
+      "aliasOf": "color.alpha.errorLine",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-error-line)",
+      "cssVariable": "--color-status-error-border",
+      "description": "Error border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.error.border",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(251, 113, 133, 0.42)"
+    },
+    {
+      "aliasOf": "color.signal.error",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-signal-error)",
+      "cssVariable": "--color-error",
+      "description": "Error foreground signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.error.signal",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#fb7185"
+    },
+    {
+      "aliasOf": "color.alpha.infoSoft",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-info-soft)",
+      "cssVariable": "--color-status-info-background",
+      "description": "Informational background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.info.background",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(56, 189, 248, 0.14)"
+    },
+    {
+      "aliasOf": "color.alpha.infoLine",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-info-line)",
+      "cssVariable": "--color-status-info-border",
+      "description": "Informational border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.info.border",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(56, 189, 248, 0.42)"
+    },
+    {
+      "aliasOf": "color.signal.info",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-signal-info)",
+      "cssVariable": "--color-info",
+      "description": "Informational foreground signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.info.signal",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#38bdf8"
+    },
+    {
+      "aliasOf": "color.alpha.successSoft",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-success-soft)",
+      "cssVariable": "--color-status-success-background",
+      "description": "Success background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.success.background",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(52, 211, 153, 0.14)"
+    },
+    {
+      "aliasOf": "color.alpha.successLine",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-success-line)",
+      "cssVariable": "--color-status-success-border",
+      "description": "Success border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.success.border",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(52, 211, 153, 0.42)"
+    },
+    {
+      "aliasOf": "color.signal.success",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-signal-success)",
+      "cssVariable": "--color-success",
+      "description": "Success foreground signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.success.signal",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#34d399"
+    },
+    {
+      "aliasOf": "color.alpha.warningSoft",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-warning-soft)",
+      "cssVariable": "--color-status-warning-background",
+      "description": "Warning background.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.warning.background",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(251, 191, 36, 0.14)"
+    },
+    {
+      "aliasOf": "color.alpha.warningLine",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-alpha-warning-line)",
+      "cssVariable": "--color-status-warning-border",
+      "description": "Warning border.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.warning.border",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "rgba(251, 191, 36, 0.42)"
+    },
+    {
+      "aliasOf": "color.signal.warning",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-signal-warning)",
+      "cssVariable": "--color-warning",
+      "description": "Warning foreground signal.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.status.warning.signal",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#fbbf24"
+    },
+    {
+      "aliasOf": "color.neutral.zinc950",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc950)",
+      "cssVariable": "--color-surface",
+      "description": "Low-elevation surface.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.surface.default",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#18181b"
+    },
+    {
+      "aliasOf": "color.neutral.zinc850",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc850)",
+      "cssVariable": "--color-surface-hover",
+      "description": "Interactive surface hover.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.surface.hover",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#303036"
+    },
+    {
+      "aliasOf": "color.neutral.zinc900",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc900)",
+      "cssVariable": "--color-surface-raised",
+      "description": "Raised panel and menu surface.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.surface.raised",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#27272a"
+    },
+    {
+      "aliasOf": "color.neutral.zinc500",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc500)",
+      "cssVariable": "--color-text-disabled",
+      "description": "Disabled text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.text.disabled",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#71717a"
+    },
+    {
+      "aliasOf": "color.neutral.zinc400",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc400)",
+      "cssVariable": "--color-text-muted",
+      "description": "Muted supporting text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.text.muted",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#a1a1aa"
+    },
+    {
+      "aliasOf": "color.neutral.black",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-black)",
+      "cssVariable": "--color-text-on-action",
+      "description": "Text on rose action surfaces.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.text.onAction",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#000000"
+    },
+    {
+      "aliasOf": "color.neutral.white",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-white)",
+      "cssVariable": "--color-text-primary",
+      "description": "Primary reading and heading text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.text.primary",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#ffffff"
+    },
+    {
+      "aliasOf": "color.neutral.zinc300",
+      "collection": "Semantic Color",
+      "cssValue": "var(--primitive-color-neutral-zinc300)",
+      "cssVariable": "--color-text-secondary",
+      "description": "Secondary body text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.text.secondary",
+      "mode": "Dark",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "semantic.json",
+      "type": "color",
+      "value": "#d4d4d8"
+    },
+    {
+      "aliasOf": "dimension.control.primaryHeight",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-control-primary-height)",
+      "cssVariable": "--component-button-height",
+      "description": "Primary and secondary button height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.button.height",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 48
+    },
+    {
+      "aliasOf": "dimension.motion.buttonLift",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-motion-button-lift)",
+      "cssVariable": "--component-button-hover-lift",
+      "description": "Button hover translation.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.button.hoverLift",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 1
+    },
+    {
+      "aliasOf": "dimension.space.5",
+      "collection": "Primitives",
+      "cssValue": "var(--space-5)",
+      "cssVariable": "--component-button-padding-inline-maximum",
+      "description": "Maximum button inline padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.button.paddingInlineMaximum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": "dimension.control.buttonPaddingMinimum",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-control-button-padding-minimum)",
+      "cssVariable": "--component-button-padding-inline-minimum",
+      "description": "Minimum button inline padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.button.paddingInlineMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": "dimension.radius.control",
+      "collection": "Primitives",
+      "cssValue": "var(--radius-control)",
+      "cssVariable": "--component-control-radius",
+      "description": "Shared control radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.control.radius",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": "dimension.control.targetMinimum",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-control-target-minimum)",
+      "cssVariable": "--component-control-target-minimum",
+      "description": "Minimum interactive target.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.control.targetMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 44
+    },
+    {
+      "aliasOf": "dimension.control.fieldHeight",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-control-field-height)",
+      "cssVariable": "--component-field-height",
+      "description": "Minimum single-line field height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.field.height",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 52
+    },
+    {
+      "aliasOf": "dimension.radius.control",
+      "collection": "Primitives",
+      "cssValue": "var(--radius-control)",
+      "cssVariable": "--component-field-radius",
+      "description": "Form-field radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.field.radius",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": "dimension.control.textareaMinimum",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-control-textarea-minimum)",
+      "cssVariable": "--component-field-textarea-minimum",
+      "description": "Minimum textarea height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.field.textareaMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 140
+    },
+    {
+      "aliasOf": "dimension.border.focus",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-border-focus)",
+      "cssVariable": "--component-focus-ring-inner-width",
+      "description": "Rose inner focus-ring width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.focusRing.innerWidth",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 2
+    },
+    {
+      "aliasOf": "dimension.border.focus",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-border-focus)",
+      "cssVariable": "--component-focus-ring-outer-width",
+      "description": "White outer focus-ring width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.focusRing.outerWidth",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 2
+    },
+    {
+      "aliasOf": "dimension.motion.cardLift",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-motion-card-lift)",
+      "cssVariable": "--component-panel-hover-lift",
+      "description": "Maximum interactive-panel lift.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.panel.hoverLift",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 4
+    },
+    {
+      "aliasOf": "dimension.space.6",
+      "collection": "Primitives",
+      "cssValue": "var(--space-6)",
+      "cssVariable": "--component-panel-padding-desktop",
+      "description": "Desktop panel padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.panel.paddingDesktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 32
+    },
+    {
+      "aliasOf": "dimension.space.5",
+      "collection": "Primitives",
+      "cssValue": "var(--space-5)",
+      "cssVariable": "--component-panel-padding-mobile",
+      "description": "Mobile panel padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.panel.paddingMobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": "dimension.radius.card",
+      "collection": "Primitives",
+      "cssValue": "var(--radius-card)",
+      "cssVariable": "--component-panel-radius",
+      "description": "Panel radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.panel.radius",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": "dimension.control.workshopRowMinimum",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-dimension-control-workshop-row-minimum)",
+      "cssVariable": "--component-workshop-row-minimum-height",
+      "description": "Minimum desktop workshop-row height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "component.workshopRow.minimumHeight",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "component.json",
+      "type": "dimension",
+      "value": 112
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1px",
+      "cssVariable": "--primitive-dimension-border-default",
+      "description": "Default border width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.border.default",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "2px",
+      "cssVariable": "--primitive-dimension-border-focus",
+      "description": "Each focus-ring stage width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.border.focus",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 2
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "20px",
+      "cssVariable": "--primitive-dimension-control-button-padding-minimum",
+      "description": "Minimum button inline padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.control.buttonPaddingMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "52px",
+      "cssVariable": "--primitive-dimension-control-field-height",
+      "description": "Minimum form-field height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.control.fieldHeight",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 52
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "48px",
+      "cssVariable": "--primitive-dimension-control-primary-height",
+      "description": "Primary button height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.control.primaryHeight",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 48
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "44px",
+      "cssVariable": "--primitive-dimension-control-target-minimum",
+      "description": "Minimum pointer target.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.control.targetMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 44
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "140px",
+      "cssVariable": "--primitive-dimension-control-textarea-minimum",
+      "description": "Minimum textarea height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.control.textareaMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 140
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "112px",
+      "cssVariable": "--primitive-dimension-control-workshop-row-minimum",
+      "description": "Minimum desktop workshop-row height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.control.workshopRowMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 112
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "24px",
+      "cssVariable": "--primitive-dimension-icon-large",
+      "description": "Large icon size.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.icon.large",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "20px",
+      "cssVariable": "--primitive-dimension-icon-medium",
+      "description": "Medium icon size.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.icon.medium",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "16px",
+      "cssVariable": "--primitive-dimension-icon-small",
+      "description": "Small icon size.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.icon.small",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1440px",
+      "cssVariable": "--primitive-dimension-layout-breakpoint-canvas",
+      "description": "Atmospheric canvas breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.breakpointCanvas",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1440
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "900px",
+      "cssVariable": "--primitive-dimension-layout-breakpoint-comparison",
+      "description": "Course-comparison transformation breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.breakpointComparison",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 900
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1024px",
+      "cssVariable": "--primitive-dimension-layout-breakpoint-desktop",
+      "description": "Desktop and sticky-layout breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.breakpointDesktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1024
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "375px",
+      "cssVariable": "--primitive-dimension-layout-breakpoint-mobile",
+      "description": "Default mobile breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.breakpointMobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 375
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "768px",
+      "cssVariable": "--primitive-dimension-layout-breakpoint-tablet",
+      "description": "Tablet breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.breakpointTablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 768
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1280px",
+      "cssVariable": "--primitive-dimension-layout-breakpoint-wide",
+      "description": "Wide desktop breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.breakpointWide",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1280
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1440px",
+      "cssVariable": "--primitive-dimension-layout-container-atmospheric",
+      "description": "Maximum atmospheric composition width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.containerAtmospheric",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1440
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1280px",
+      "cssVariable": "--primitive-dimension-layout-container-content",
+      "description": "Maximum content container width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.containerContent",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1280
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "24px",
+      "cssVariable": "--primitive-dimension-layout-gutter-desktop",
+      "description": "Twelve-column desktop gutter.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.gutterDesktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "16px",
+      "cssVariable": "--primitive-dimension-layout-gutter-mobile",
+      "description": "Four-column mobile gutter.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.gutterMobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "20px",
+      "cssVariable": "--primitive-dimension-layout-gutter-tablet",
+      "description": "Eight-column tablet gutter.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.gutterTablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "40px",
+      "cssVariable": "--primitive-dimension-layout-page-padding-desktop",
+      "description": "Small-desktop page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.pagePaddingDesktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 40
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "64px",
+      "cssVariable": "--primitive-dimension-layout-page-padding-large",
+      "description": "Large-desktop page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.pagePaddingLarge",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 64
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "20px",
+      "cssVariable": "--primitive-dimension-layout-page-padding-mobile",
+      "description": "Default mobile page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.pagePaddingMobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "16px",
+      "cssVariable": "--primitive-dimension-layout-page-padding-small-fallback",
+      "description": "Page padding for constrained 320px viewports.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.pagePaddingSmallFallback",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "32px",
+      "cssVariable": "--primitive-dimension-layout-page-padding-tablet",
+      "description": "Tablet page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.pagePaddingTablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 32
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1728px",
+      "cssVariable": "--primitive-dimension-layout-qa-wide",
+      "description": "Wide QA viewport, not a responsive breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.qaWide",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1728
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "680px",
+      "cssVariable": "--primitive-dimension-layout-reading-article",
+      "description": "Long-form article width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.readingArticle",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 680
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "720px",
+      "cssVariable": "--primitive-dimension-layout-reading-course",
+      "description": "Course introduction width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.readingCourse",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 720
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "620px",
+      "cssVariable": "--primitive-dimension-layout-reading-hero",
+      "description": "Hero supporting-copy width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.readingHero",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 620
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "600px",
+      "cssVariable": "--primitive-dimension-layout-reading-standard",
+      "description": "Standard supporting-copy width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.readingStandard",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 600
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "64px",
+      "cssVariable": "--primitive-dimension-layout-section-compact-maximum",
+      "description": "Maximum compact-band spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.sectionCompactMaximum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 64
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "48px",
+      "cssVariable": "--primitive-dimension-layout-section-compact-minimum",
+      "description": "Minimum compact-band spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.sectionCompactMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 48
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "128px",
+      "cssVariable": "--primitive-dimension-layout-section-desktop",
+      "description": "Primary desktop section spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.sectionDesktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 128
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "72px",
+      "cssVariable": "--primitive-dimension-layout-section-mobile",
+      "description": "Primary mobile section spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.sectionMobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 72
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "96px",
+      "cssVariable": "--primitive-dimension-layout-section-tablet",
+      "description": "Primary tablet section spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.layout.sectionTablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 96
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "3px",
+      "cssVariable": "--primitive-dimension-motion-arrow-shift",
+      "description": "Text-action arrow movement.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.arrowShift",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 3
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "1px",
+      "cssVariable": "--primitive-dimension-motion-button-lift",
+      "description": "Primary button hover lift.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.buttonLift",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 1
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "4px",
+      "cssVariable": "--primitive-dimension-motion-card-lift",
+      "description": "Maximum interactive panel lift.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.cardLift",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 4
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0px",
+      "cssVariable": "--primitive-dimension-motion-none",
+      "description": "No transform distance.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.none",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "8px",
+      "cssVariable": "--primitive-dimension-motion-parallax-maximum",
+      "description": "Maximum pointer-parallax range.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.parallaxMaximum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 8
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "4px",
+      "cssVariable": "--primitive-dimension-motion-parallax-minimum",
+      "description": "Minimum pointer-parallax range.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.parallaxMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 4
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "20px",
+      "cssVariable": "--primitive-dimension-motion-reveal-maximum",
+      "description": "Maximum scroll-reveal translation.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.revealMaximum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "12px",
+      "cssVariable": "--primitive-dimension-motion-reveal-minimum",
+      "description": "Minimum scroll-reveal translation.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.motion.revealMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 12
+    },
+    {
+      "aliasOf": null,
+      "collection": "Radius",
+      "cssValue": "14px",
+      "cssVariable": "--radius-card",
+      "description": "Standard card radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.radius.card",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": null,
+      "collection": "Radius",
+      "cssValue": "14px",
+      "cssVariable": "--radius-control",
+      "description": "Standard control radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.radius.control",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": null,
+      "collection": "Radius",
+      "cssValue": "9999px",
+      "cssVariable": "--radius-pill",
+      "description": "Compact pill radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.radius.pill",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 9999
+    },
+    {
+      "aliasOf": null,
+      "collection": "Radius",
+      "cssValue": "8px",
+      "cssVariable": "--radius-small",
+      "description": "Nested-panel radius.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.radius.small",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 8
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "0.25rem",
+      "cssVariable": "--space-1",
+      "description": "4px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.1",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 4
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "6rem",
+      "cssVariable": "--space-10",
+      "description": "96px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.10",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 96
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "8rem",
+      "cssVariable": "--space-11",
+      "description": "128px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.11",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 128
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "0.5rem",
+      "cssVariable": "--space-2",
+      "description": "8px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.2",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 8
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "0.75rem",
+      "cssVariable": "--space-3",
+      "description": "12px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.3",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 12
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "1rem",
+      "cssVariable": "--space-4",
+      "description": "16px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.4",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "1.5rem",
+      "cssVariable": "--space-5",
+      "description": "24px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.5",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "2rem",
+      "cssVariable": "--space-6",
+      "description": "32px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.6",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 32
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "3rem",
+      "cssVariable": "--space-7",
+      "description": "48px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.7",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 48
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "4rem",
+      "cssVariable": "--space-8",
+      "description": "64px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.8",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 64
+    },
+    {
+      "aliasOf": null,
+      "collection": "Spacing",
+      "cssValue": "5rem",
+      "cssVariable": "--space-9",
+      "description": "80px spacing step.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "dimension.space.9",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "primitives.json",
+      "type": "dimension",
+      "value": 80
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "8000ms",
+      "cssVariable": "--primitive-duration-ambient",
+      "description": "Ambient path movement.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.ambient",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 8000
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "420ms",
+      "cssVariable": "--primitive-duration-emphasis",
+      "description": "Emphasised reveal transition.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.emphasis",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 420
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "700ms",
+      "cssVariable": "--primitive-duration-entrance",
+      "description": "Maximum hero-copy entrance sequence.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.entrance",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 700
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "120ms",
+      "cssVariable": "--primitive-duration-fast",
+      "description": "Fast state feedback.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.fast",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 120
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "0ms",
+      "cssVariable": "--primitive-duration-instant",
+      "description": "Immediate reduced-motion state change.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.instant",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "240ms",
+      "cssVariable": "--primitive-duration-menu",
+      "description": "Mobile navigation reveal within the approved range.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.menu",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 240
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "200ms",
+      "cssVariable": "--primitive-duration-standard",
+      "description": "Standard interaction transition.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "duration.standard",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "duration",
+      "value": 200
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "cssVariable": "--primitive-easing-emphasis",
+      "description": "Emphasised reveal easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "easing.emphasis",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "cubicBezier",
+      "value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "cubic-bezier(0, 0, 1, 1)",
+      "cssVariable": "--primitive-easing-linear",
+      "description": "Linear ambient progression.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "easing.linear",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "cubicBezier",
+      "value": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "aliasOf": null,
+      "collection": "Motion",
+      "cssValue": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "cssVariable": "--primitive-easing-standard",
+      "description": "Standard interface easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "easing.standard",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "cubicBezier",
+      "value": [
+        0.2,
+        0.8,
+        0.2,
+        1
+      ]
+    },
+    {
+      "aliasOf": "shadow.focusRing",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-shadow-focus-ring)",
+      "cssVariable": "--focus-ring",
+      "description": "Two-stage rose inner and white outer focus treatment.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "effect.focusRing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "EFFECT"
+      ],
+      "source": "semantic.json",
+      "type": "shadow",
+      "value": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff"
+    },
+    {
+      "aliasOf": "shadow.accent",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-shadow-accent)",
+      "cssVariable": "--shadow-accent",
+      "description": "Accent glow shadow.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "effect.shadow.accent",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "EFFECT"
+      ],
+      "source": "semantic.json",
+      "type": "shadow",
+      "value": "0 0 64px rgba(244, 63, 94, 0.18)"
+    },
+    {
+      "aliasOf": "shadow.raised",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-shadow-raised)",
+      "cssVariable": "--shadow-raised",
+      "description": "Raised-surface shadow.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "effect.shadow.raised",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "EFFECT"
+      ],
+      "source": "semantic.json",
+      "type": "shadow",
+      "value": "0 24px 80px rgba(0, 0, 0, 0.42)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace",
+      "cssVariable": "--font-family-mono",
+      "description": "Technical label and notation family.",
+      "extensions": {
+        "cssValue": "var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace"
+      },
+      "figmaType": "STRING",
+      "id": "font.family.mono",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "JetBrains Mono"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "var(--font-inter), ui-sans-serif, system-ui, sans-serif",
+      "cssVariable": "--font-family-sans",
+      "description": "Editorial and interface family.",
+      "extensions": {
+        "cssValue": "var(--font-inter), ui-sans-serif, system-ui, sans-serif"
+      },
+      "figmaType": "STRING",
+      "id": "font.family.sans",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "500",
+      "cssVariable": "--font-weight-medium",
+      "description": "Medium display and interface weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "font.weight.medium",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "400",
+      "cssVariable": "--font-weight-regular",
+      "description": "Regular text weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "font.weight.regular",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 400
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "600",
+      "cssVariable": "--font-weight-semibold",
+      "description": "Semibold label weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "font.weight.semibold",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 600
+    },
+    {
+      "aliasOf": "number.layer.base",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-number-layer-base)",
+      "cssVariable": "--layer-base",
+      "description": "Base layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layer.base",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "aliasOf": "number.layer.content",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-number-layer-content)",
+      "cssVariable": "--layer-content",
+      "description": "Content layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layer.content",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "aliasOf": "number.layer.modal",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-number-layer-modal)",
+      "cssVariable": "--layer-modal",
+      "description": "Modal layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layer.modal",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "aliasOf": "number.layer.overlay",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-number-layer-overlay)",
+      "cssVariable": "--layer-overlay",
+      "description": "Overlay layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layer.overlay",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 40
+    },
+    {
+      "aliasOf": "number.layer.sticky",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-number-layer-sticky)",
+      "cssVariable": "--layer-sticky",
+      "description": "Sticky layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layer.sticky",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "aliasOf": "number.layer.toast",
+      "collection": "Primitives",
+      "cssValue": "var(--primitive-number-layer-toast)",
+      "cssVariable": "--layer-toast",
+      "description": "Toast layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layer.toast",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 60
+    },
+    {
+      "aliasOf": "dimension.layout.breakpointCanvas",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-breakpoint-canvas)",
+      "cssVariable": "--layout-breakpoint-canvas",
+      "description": "Canvas breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.breakpoint.canvas",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 1440
+    },
+    {
+      "aliasOf": "dimension.layout.breakpointComparison",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-breakpoint-comparison)",
+      "cssVariable": "--layout-breakpoint-comparison",
+      "description": "Comparison breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.breakpoint.comparison",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 900
+    },
+    {
+      "aliasOf": "dimension.layout.breakpointDesktop",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-breakpoint-desktop)",
+      "cssVariable": "--layout-breakpoint-desktop",
+      "description": "Desktop breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.breakpoint.desktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 1024
+    },
+    {
+      "aliasOf": "dimension.layout.breakpointMobile",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-breakpoint-mobile)",
+      "cssVariable": "--layout-breakpoint-mobile",
+      "description": "Mobile breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.breakpoint.mobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 375
+    },
+    {
+      "aliasOf": "dimension.layout.breakpointTablet",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-breakpoint-tablet)",
+      "cssVariable": "--layout-breakpoint-tablet",
+      "description": "Tablet breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.breakpoint.tablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 768
+    },
+    {
+      "aliasOf": "dimension.layout.breakpointWide",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-breakpoint-wide)",
+      "cssVariable": "--layout-breakpoint-wide",
+      "description": "Wide breakpoint.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.breakpoint.wide",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 1280
+    },
+    {
+      "aliasOf": "number.grid.desktopColumns",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-number-grid-desktop-columns)",
+      "cssVariable": "--layout-columns-desktop",
+      "description": "Desktop grid columns.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.columns.desktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 12
+    },
+    {
+      "aliasOf": "number.grid.mobileColumns",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-number-grid-mobile-columns)",
+      "cssVariable": "--layout-columns-mobile",
+      "description": "Mobile grid columns.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.columns.mobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 4
+    },
+    {
+      "aliasOf": "number.grid.tabletColumns",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-number-grid-tablet-columns)",
+      "cssVariable": "--layout-columns-tablet",
+      "description": "Tablet grid columns.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.columns.tablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "semantic.json",
+      "type": "number",
+      "value": 8
+    },
+    {
+      "aliasOf": "dimension.layout.containerAtmospheric",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-container-atmospheric)",
+      "cssVariable": "--layout-container-atmospheric",
+      "description": "Atmospheric container maximum.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.container.atmospheric",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 1440
+    },
+    {
+      "aliasOf": "dimension.layout.containerContent",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-container-content)",
+      "cssVariable": "--layout-container-content",
+      "description": "Content container maximum.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.container.content",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 1280
+    },
+    {
+      "aliasOf": "dimension.layout.gutterDesktop",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-gutter-desktop)",
+      "cssVariable": "--layout-gutter-desktop",
+      "description": "Desktop grid gutter.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.gutter.desktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": "dimension.layout.gutterMobile",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-gutter-mobile)",
+      "cssVariable": "--layout-gutter-mobile",
+      "description": "Mobile grid gutter.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.gutter.mobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": "dimension.layout.gutterTablet",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-gutter-tablet)",
+      "cssVariable": "--layout-gutter-tablet",
+      "description": "Tablet grid gutter.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.gutter.tablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": "dimension.layout.pagePaddingDesktop",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-page-padding-desktop)",
+      "cssVariable": "--layout-page-padding-desktop",
+      "description": "Desktop page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.pagePadding.desktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 40
+    },
+    {
+      "aliasOf": "dimension.layout.pagePaddingLarge",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-page-padding-large)",
+      "cssVariable": "--layout-page-padding-large",
+      "description": "Large desktop page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.pagePadding.large",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 64
+    },
+    {
+      "aliasOf": "dimension.layout.pagePaddingMobile",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-page-padding-mobile)",
+      "cssVariable": "--layout-page-padding-mobile",
+      "description": "Mobile page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.pagePadding.mobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": "dimension.layout.pagePaddingSmallFallback",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-page-padding-small-fallback)",
+      "cssVariable": "--layout-page-padding-small-fallback",
+      "description": "Constrained mobile padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.pagePadding.smallFallback",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": "dimension.layout.pagePaddingTablet",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-page-padding-tablet)",
+      "cssVariable": "--layout-page-padding-tablet",
+      "description": "Tablet page padding.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.pagePadding.tablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 32
+    },
+    {
+      "aliasOf": "dimension.layout.qaWide",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-qa-wide)",
+      "cssVariable": "--layout-qa-viewport-wide",
+      "description": "Additional wide QA viewport.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.qaViewport.wide",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 1728
+    },
+    {
+      "aliasOf": "dimension.layout.readingArticle",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-reading-article)",
+      "cssVariable": "--layout-reading-article",
+      "description": "Article copy width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.reading.article",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 680
+    },
+    {
+      "aliasOf": "dimension.layout.readingCourse",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-reading-course)",
+      "cssVariable": "--layout-reading-course",
+      "description": "Course introduction width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.reading.course",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 720
+    },
+    {
+      "aliasOf": "dimension.layout.readingHero",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-reading-hero)",
+      "cssVariable": "--layout-reading-hero",
+      "description": "Hero copy width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.reading.hero",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 620
+    },
+    {
+      "aliasOf": "dimension.layout.readingStandard",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-reading-standard)",
+      "cssVariable": "--layout-reading-standard",
+      "description": "Standard copy width.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.reading.standard",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 600
+    },
+    {
+      "aliasOf": "dimension.layout.sectionCompactMaximum",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-section-compact-maximum)",
+      "cssVariable": "--layout-section-compact-maximum",
+      "description": "Compact section maximum.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.section.compactMaximum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 64
+    },
+    {
+      "aliasOf": "dimension.layout.sectionCompactMinimum",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-section-compact-minimum)",
+      "cssVariable": "--layout-section-compact-minimum",
+      "description": "Compact section minimum.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.section.compactMinimum",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 48
+    },
+    {
+      "aliasOf": "dimension.layout.sectionDesktop",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-section-desktop)",
+      "cssVariable": "--layout-section-desktop",
+      "description": "Desktop primary section spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.section.desktop",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 128
+    },
+    {
+      "aliasOf": "dimension.layout.sectionMobile",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-section-mobile)",
+      "cssVariable": "--layout-section-mobile",
+      "description": "Mobile primary section spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.section.mobile",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 72
+    },
+    {
+      "aliasOf": "dimension.layout.sectionTablet",
+      "collection": "Spacing",
+      "cssValue": "var(--primitive-dimension-layout-section-tablet)",
+      "cssVariable": "--layout-section-tablet",
+      "description": "Tablet primary section spacing.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "layout.section.tablet",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "semantic.json",
+      "type": "dimension",
+      "value": 96
+    },
+    {
+      "aliasOf": "duration.standard",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-standard)",
+      "cssVariable": "--motion-accordion-duration",
+      "description": "Accordion transition duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.accordion.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 200
+    },
+    {
+      "aliasOf": "easing.standard",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-standard)",
+      "cssVariable": "--motion-accordion-easing",
+      "description": "Accordion easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.accordion.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0.2,
+        0.8,
+        0.2,
+        1
+      ]
+    },
+    {
+      "aliasOf": "duration.ambient",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-ambient)",
+      "cssVariable": "--motion-ambient-path-duration",
+      "description": "Ambient path duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.ambientPath.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 8000
+    },
+    {
+      "aliasOf": "easing.linear",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-linear)",
+      "cssVariable": "--motion-ambient-path-easing",
+      "description": "Ambient path easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.ambientPath.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "aliasOf": "duration.standard",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-standard)",
+      "cssVariable": "--motion-hover-focus-duration",
+      "description": "Hover and focus transition duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.hoverFocus.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 200
+    },
+    {
+      "aliasOf": "easing.standard",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-standard)",
+      "cssVariable": "--motion-hover-focus-easing",
+      "description": "Hover and focus easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.hoverFocus.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0.2,
+        0.8,
+        0.2,
+        1
+      ]
+    },
+    {
+      "aliasOf": "duration.fast",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-fast)",
+      "cssVariable": "--motion-instant-feedback-duration",
+      "description": "Immediate state-feedback duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.instantFeedback.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 120
+    },
+    {
+      "aliasOf": "easing.standard",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-standard)",
+      "cssVariable": "--motion-instant-feedback-easing",
+      "description": "Immediate state-feedback easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.instantFeedback.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0.2,
+        0.8,
+        0.2,
+        1
+      ]
+    },
+    {
+      "aliasOf": "duration.emphasis",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-emphasis)",
+      "cssVariable": "--motion-masked-reveal-duration",
+      "description": "Masked reveal duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.maskedReveal.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 420
+    },
+    {
+      "aliasOf": "easing.emphasis",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-emphasis)",
+      "cssVariable": "--motion-masked-reveal-easing",
+      "description": "Masked reveal easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.maskedReveal.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    {
+      "aliasOf": "duration.menu",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-menu)",
+      "cssVariable": "--motion-mobile-menu-duration",
+      "description": "Mobile-navigation reveal duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.mobileMenu.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 240
+    },
+    {
+      "aliasOf": "easing.standard",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-standard)",
+      "cssVariable": "--motion-mobile-menu-easing",
+      "description": "Mobile-navigation reveal easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.mobileMenu.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0.2,
+        0.8,
+        0.2,
+        1
+      ]
+    },
+    {
+      "aliasOf": "duration.entrance",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-entrance)",
+      "cssVariable": "--motion-page-entrance-duration",
+      "description": "Maximum page-entrance sequence duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.pageEntrance.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 700
+    },
+    {
+      "aliasOf": "easing.emphasis",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-easing-emphasis)",
+      "cssVariable": "--motion-page-entrance-easing",
+      "description": "Page-entrance easing.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "motion.pageEntrance.easing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "cubicBezier",
+      "value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    {
+      "aliasOf": "dimension.motion.none",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-dimension-motion-none)",
+      "cssVariable": "--motion-reduced-distance",
+      "description": "Reduced-motion transform distance.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.reduced.distance",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "motion.json",
+      "type": "dimension",
+      "value": 0
+    },
+    {
+      "aliasOf": "duration.instant",
+      "collection": "Motion",
+      "cssValue": "var(--primitive-duration-instant)",
+      "cssVariable": "--motion-reduced-duration",
+      "description": "Reduced-motion duration.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "motion.reduced.duration",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "motion.json",
+      "type": "duration",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "12",
+      "cssVariable": "--primitive-number-grid-desktop-columns",
+      "description": "Desktop grid columns.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.grid.desktopColumns",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 12
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "4",
+      "cssVariable": "--primitive-number-grid-mobile-columns",
+      "description": "Mobile grid columns.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.grid.mobileColumns",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 4
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "8",
+      "cssVariable": "--primitive-number-grid-tablet-columns",
+      "description": "Tablet grid columns.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.grid.tabletColumns",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 8
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0",
+      "cssVariable": "--primitive-number-layer-base",
+      "description": "Base document layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.layer.base",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "10",
+      "cssVariable": "--primitive-number-layer-content",
+      "description": "Raised content layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.layer.content",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "50",
+      "cssVariable": "--primitive-number-layer-modal",
+      "description": "Dialog and modal layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.layer.modal",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "40",
+      "cssVariable": "--primitive-number-layer-overlay",
+      "description": "Overlay backdrop layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.layer.overlay",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 40
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "20",
+      "cssVariable": "--primitive-number-layer-sticky",
+      "description": "Sticky interface layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.layer.sticky",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "60",
+      "cssVariable": "--primitive-number-layer-toast",
+      "description": "Transient notification layer.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.layer.toast",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 60
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0.6",
+      "cssVariable": "--primitive-number-opacity-decorative",
+      "description": "Decorative atmosphere ceiling.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.opacity.decorative",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 0.6
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0.58",
+      "cssVariable": "--primitive-number-opacity-disabled",
+      "description": "Disabled-content opacity when opacity is unavoidable.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "number.opacity.disabled",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "primitives.json",
+      "type": "number",
+      "value": 0.58
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0 0 64px rgba(244, 63, 94, 0.18)",
+      "cssVariable": "--primitive-shadow-accent",
+      "description": "Rose atmospheric shadow.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "shadow.accent",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "EFFECT"
+      ],
+      "source": "primitives.json",
+      "type": "shadow",
+      "value": "0 0 64px rgba(244, 63, 94, 0.18)"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff",
+      "cssVariable": "--primitive-shadow-focus-ring",
+      "description": "Two-stage rose inner and white outer focus treatment.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "shadow.focusRing",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "EFFECT"
+      ],
+      "source": "primitives.json",
+      "type": "shadow",
+      "value": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "0 24px 80px rgba(0, 0, 0, 0.42)",
+      "cssVariable": "--primitive-shadow-raised",
+      "description": "Raised panel shadow.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "shadow.raised",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "EFFECT"
+      ],
+      "source": "primitives.json",
+      "type": "shadow",
+      "value": "0 24px 80px rgba(0, 0, 0, 0.42)"
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-body-lg-font-family",
+      "description": "Body family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.body.lg.fontFamily",
+      "mode": "Value",
+      "role": "Body/LG",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "clamp(1.0625rem, 1.4vw, 1.25rem)",
+      "cssVariable": "--text-body-lg",
+      "description": "Responsive 17-20px body size.",
+      "extensions": {
+        "figmaValue": 20
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.body.lg.fontSize",
+      "mode": "Value",
+      "role": "Body/LG",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 20
+    },
+    {
+      "aliasOf": "font.weight.regular",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-regular)",
+      "cssVariable": "--text-body-lg-font-weight",
+      "description": "Body weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.body.lg.fontWeight",
+      "mode": "Value",
+      "role": "Body/LG",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 400
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.01em",
+      "cssVariable": "--text-body-lg-letter-spacing",
+      "description": "Body tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -1
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.body.lg.letterSpacing",
+      "mode": "Value",
+      "role": "Body/LG",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -1
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.55",
+      "cssVariable": "--text-body-lg-line-height",
+      "description": "Body line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.body.lg.lineHeight",
+      "mode": "Value",
+      "role": "Body/LG",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.55
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-body-md-font-family",
+      "description": "Body family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.body.md.fontFamily",
+      "mode": "Value",
+      "role": "Body/MD",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1rem",
+      "cssVariable": "--text-body-md",
+      "description": "16px body size.",
+      "extensions": {
+        "figmaValue": 16
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.body.md.fontSize",
+      "mode": "Value",
+      "role": "Body/MD",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 16
+    },
+    {
+      "aliasOf": "font.weight.regular",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-regular)",
+      "cssVariable": "--text-body-md-font-weight",
+      "description": "Body weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.body.md.fontWeight",
+      "mode": "Value",
+      "role": "Body/MD",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 400
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0em",
+      "cssVariable": "--text-body-md-letter-spacing",
+      "description": "Neutral body tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": 0
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.body.md.letterSpacing",
+      "mode": "Value",
+      "role": "Body/MD",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.65",
+      "cssVariable": "--text-body-md-line-height",
+      "description": "Body line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.body.md.lineHeight",
+      "mode": "Value",
+      "role": "Body/MD",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.65
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-body-sm-font-family",
+      "description": "Body family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.body.sm.fontFamily",
+      "mode": "Value",
+      "role": "Body/SM",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0.875rem",
+      "cssVariable": "--text-body-sm",
+      "description": "14px body size.",
+      "extensions": {
+        "figmaValue": 14
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.body.sm.fontSize",
+      "mode": "Value",
+      "role": "Body/SM",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": "font.weight.regular",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-regular)",
+      "cssVariable": "--text-body-sm-font-weight",
+      "description": "Body weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.body.sm.fontWeight",
+      "mode": "Value",
+      "role": "Body/SM",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 400
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0em",
+      "cssVariable": "--text-body-sm-letter-spacing",
+      "description": "Neutral body tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": 0
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.body.sm.letterSpacing",
+      "mode": "Value",
+      "role": "Body/SM",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.55",
+      "cssVariable": "--text-body-sm-line-height",
+      "description": "Body line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.body.sm.lineHeight",
+      "mode": "Value",
+      "role": "Body/SM",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.55
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-display-2xl-font-family",
+      "description": "Display family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.display.2xl.fontFamily",
+      "mode": "Value",
+      "role": "Display/2XL",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "clamp(3rem, 7.2vw, 5.5rem)",
+      "cssVariable": "--text-display-2xl",
+      "description": "Responsive 48-88px display size.",
+      "extensions": {
+        "figmaValue": 88
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.display.2xl.fontSize",
+      "mode": "Value",
+      "role": "Display/2XL",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 88
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-display-2xl-font-weight",
+      "description": "Display weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.display.2xl.fontWeight",
+      "mode": "Value",
+      "role": "Display/2XL",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.045em",
+      "cssVariable": "--text-display-2xl-letter-spacing",
+      "description": "Display tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -4.5
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.display.2xl.letterSpacing",
+      "mode": "Value",
+      "role": "Display/2XL",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -4.5
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0.98",
+      "cssVariable": "--text-display-2xl-line-height",
+      "description": "Display line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.display.2xl.lineHeight",
+      "mode": "Value",
+      "role": "Display/2XL",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 0.98
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-display-lg-font-family",
+      "description": "Display family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.display.lg.fontFamily",
+      "mode": "Value",
+      "role": "Display/LG",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "clamp(2.25rem, 4.2vw, 3.25rem)",
+      "cssVariable": "--text-display-lg",
+      "description": "Responsive 36-52px display size.",
+      "extensions": {
+        "figmaValue": 52
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.display.lg.fontSize",
+      "mode": "Value",
+      "role": "Display/LG",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 52
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-display-lg-font-weight",
+      "description": "Display weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.display.lg.fontWeight",
+      "mode": "Value",
+      "role": "Display/LG",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.035em",
+      "cssVariable": "--text-display-lg-letter-spacing",
+      "description": "Display tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -3.5
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.display.lg.letterSpacing",
+      "mode": "Value",
+      "role": "Display/LG",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -3.5
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.05",
+      "cssVariable": "--text-display-lg-line-height",
+      "description": "Display line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.display.lg.lineHeight",
+      "mode": "Value",
+      "role": "Display/LG",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.05
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-display-xl-font-family",
+      "description": "Display family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.display.xl.fontFamily",
+      "mode": "Value",
+      "role": "Display/XL",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "clamp(2.75rem, 5.4vw, 4rem)",
+      "cssVariable": "--text-display-xl",
+      "description": "Responsive 44-64px display size.",
+      "extensions": {
+        "figmaValue": 64
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.display.xl.fontSize",
+      "mode": "Value",
+      "role": "Display/XL",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 64
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-display-xl-font-weight",
+      "description": "Display weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.display.xl.fontWeight",
+      "mode": "Value",
+      "role": "Display/XL",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.04em",
+      "cssVariable": "--text-display-xl-letter-spacing",
+      "description": "Display tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -4
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.display.xl.letterSpacing",
+      "mode": "Value",
+      "role": "Display/XL",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -4
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.02",
+      "cssVariable": "--text-display-xl-line-height",
+      "description": "Display line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.display.xl.lineHeight",
+      "mode": "Value",
+      "role": "Display/XL",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.02
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-heading-lg-font-family",
+      "description": "Heading family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.heading.lg.fontFamily",
+      "mode": "Value",
+      "role": "Heading/LG",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "clamp(1.625rem, 2.4vw, 2.125rem)",
+      "cssVariable": "--text-heading-lg",
+      "description": "Responsive 26-34px heading size.",
+      "extensions": {
+        "figmaValue": 34
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.heading.lg.fontSize",
+      "mode": "Value",
+      "role": "Heading/LG",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 34
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-heading-lg-font-weight",
+      "description": "Heading weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.heading.lg.fontWeight",
+      "mode": "Value",
+      "role": "Heading/LG",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.02em",
+      "cssVariable": "--text-heading-lg-letter-spacing",
+      "description": "Heading tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -2
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.heading.lg.letterSpacing",
+      "mode": "Value",
+      "role": "Heading/LG",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -2
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.15",
+      "cssVariable": "--text-heading-lg-line-height",
+      "description": "Heading line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.heading.lg.lineHeight",
+      "mode": "Value",
+      "role": "Heading/LG",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.15
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-heading-md-font-family",
+      "description": "Heading family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.heading.md.fontFamily",
+      "mode": "Value",
+      "role": "Heading/MD",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.5rem",
+      "cssVariable": "--text-heading-md",
+      "description": "24px heading size.",
+      "extensions": {
+        "figmaValue": 24
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.heading.md.fontSize",
+      "mode": "Value",
+      "role": "Heading/MD",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 24
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-heading-md-font-weight",
+      "description": "Heading weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.heading.md.fontWeight",
+      "mode": "Value",
+      "role": "Heading/MD",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.015em",
+      "cssVariable": "--text-heading-md-letter-spacing",
+      "description": "Heading tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -1.5
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.heading.md.letterSpacing",
+      "mode": "Value",
+      "role": "Heading/MD",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -1.5
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.25",
+      "cssVariable": "--text-heading-md-line-height",
+      "description": "Heading line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.heading.md.lineHeight",
+      "mode": "Value",
+      "role": "Heading/MD",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.25
+    },
+    {
+      "aliasOf": "font.family.sans",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-sans)",
+      "cssVariable": "--text-heading-xl-font-family",
+      "description": "Heading family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.heading.xl.fontFamily",
+      "mode": "Value",
+      "role": "Heading/XL",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "Inter"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "clamp(2rem, 3vw, 2.75rem)",
+      "cssVariable": "--text-heading-xl",
+      "description": "Responsive 32-44px heading size.",
+      "extensions": {
+        "figmaValue": 44
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.heading.xl.fontSize",
+      "mode": "Value",
+      "role": "Heading/XL",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 44
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-heading-xl-font-weight",
+      "description": "Heading weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.heading.xl.fontWeight",
+      "mode": "Value",
+      "role": "Heading/XL",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "-0.025em",
+      "cssVariable": "--text-heading-xl-letter-spacing",
+      "description": "Heading tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": -2.5
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.heading.xl.letterSpacing",
+      "mode": "Value",
+      "role": "Heading/XL",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": -2.5
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.1",
+      "cssVariable": "--text-heading-xl-line-height",
+      "description": "Heading line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.heading.xl.lineHeight",
+      "mode": "Value",
+      "role": "Heading/XL",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.1
+    },
+    {
+      "aliasOf": "font.family.mono",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-mono)",
+      "cssVariable": "--text-label-mono-font-family",
+      "description": "Label family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.label.mono.fontFamily",
+      "mode": "Value",
+      "role": "Label/Mono",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "JetBrains Mono"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0.75rem",
+      "cssVariable": "--text-label-mono",
+      "description": "12px label size.",
+      "extensions": {
+        "figmaValue": 12
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.label.mono.fontSize",
+      "mode": "Value",
+      "role": "Label/Mono",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 12
+    },
+    {
+      "aliasOf": "font.weight.semibold",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-semibold)",
+      "cssVariable": "--text-label-mono-font-weight",
+      "description": "Label weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.label.mono.fontWeight",
+      "mode": "Value",
+      "role": "Label/Mono",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 600
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0.1em",
+      "cssVariable": "--text-label-mono-letter-spacing",
+      "description": "Uppercase label tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": 10
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.label.mono.letterSpacing",
+      "mode": "Value",
+      "role": "Label/Mono",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 10
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.2",
+      "cssVariable": "--text-label-mono-line-height",
+      "description": "Label line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.label.mono.lineHeight",
+      "mode": "Value",
+      "role": "Label/Mono",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.2
+    },
+    {
+      "aliasOf": "font.family.mono",
+      "collection": "Typography",
+      "cssValue": "var(--font-family-mono)",
+      "cssVariable": "--text-technical-mono-font-family",
+      "description": "Technical family.",
+      "extensions": {},
+      "figmaType": "STRING",
+      "id": "typography.technical.mono.fontFamily",
+      "mode": "Value",
+      "role": "Technical/Mono",
+      "scope": [
+        "FONT_FAMILY"
+      ],
+      "source": "typography.json",
+      "type": "fontFamily",
+      "value": "JetBrains Mono"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0.875rem",
+      "cssVariable": "--text-technical-mono",
+      "description": "14px technical size.",
+      "extensions": {
+        "figmaValue": 14
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.technical.mono.fontSize",
+      "mode": "Value",
+      "role": "Technical/Mono",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 14
+    },
+    {
+      "aliasOf": "font.weight.medium",
+      "collection": "Typography",
+      "cssValue": "var(--font-weight-medium)",
+      "cssVariable": "--text-technical-mono-font-weight",
+      "description": "Technical weight.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.technical.mono.fontWeight",
+      "mode": "Value",
+      "role": "Technical/Mono",
+      "scope": [
+        "FONT_WEIGHT"
+      ],
+      "source": "typography.json",
+      "type": "fontWeight",
+      "value": 500
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "0em",
+      "cssVariable": "--text-technical-mono-letter-spacing",
+      "description": "Neutral technical tracking.",
+      "extensions": {
+        "figmaUnit": "PERCENT",
+        "figmaValue": 0
+      },
+      "figmaType": "FLOAT",
+      "id": "typography.technical.mono.letterSpacing",
+      "mode": "Value",
+      "role": "Technical/Mono",
+      "scope": [
+        "WIDTH_HEIGHT",
+        "GAP",
+        "CORNER_RADIUS"
+      ],
+      "source": "typography.json",
+      "type": "dimension",
+      "value": 0
+    },
+    {
+      "aliasOf": null,
+      "collection": "Typography",
+      "cssValue": "1.5",
+      "cssVariable": "--text-technical-mono-line-height",
+      "description": "Technical line height.",
+      "extensions": {},
+      "figmaType": "FLOAT",
+      "id": "typography.technical.mono.lineHeight",
+      "mode": "Value",
+      "role": "Technical/Mono",
+      "scope": [
+        "ALL_SCOPES"
+      ],
+      "source": "typography.json",
+      "type": "number",
+      "value": 1.5
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sourceHash": "3000bcaf1d60a1d70aa76d3273e64d0b771182087ef5972f8635bc945114b4d2"
+}

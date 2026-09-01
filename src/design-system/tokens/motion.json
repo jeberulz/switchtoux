@@ -1,0 +1,37 @@
+{
+  "$description": "Semantic motion roles and reduced-motion outcomes.",
+  "motion": {
+    "instantFeedback": {
+      "duration": { "$type": "duration", "$value": "{duration.fast}", "$description": "Immediate state-feedback duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.standard}", "$description": "Immediate state-feedback easing." }
+    },
+    "hoverFocus": {
+      "duration": { "$type": "duration", "$value": "{duration.standard}", "$description": "Hover and focus transition duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.standard}", "$description": "Hover and focus easing." }
+    },
+    "accordion": {
+      "duration": { "$type": "duration", "$value": "{duration.standard}", "$description": "Accordion transition duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.standard}", "$description": "Accordion easing." }
+    },
+    "maskedReveal": {
+      "duration": { "$type": "duration", "$value": "{duration.emphasis}", "$description": "Masked reveal duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.emphasis}", "$description": "Masked reveal easing." }
+    },
+    "pageEntrance": {
+      "duration": { "$type": "duration", "$value": "{duration.entrance}", "$description": "Maximum page-entrance sequence duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.emphasis}", "$description": "Page-entrance easing." }
+    },
+    "mobileMenu": {
+      "duration": { "$type": "duration", "$value": "{duration.menu}", "$description": "Mobile-navigation reveal duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.standard}", "$description": "Mobile-navigation reveal easing." }
+    },
+    "ambientPath": {
+      "duration": { "$type": "duration", "$value": "{duration.ambient}", "$description": "Ambient path duration." },
+      "easing": { "$type": "cubicBezier", "$value": "{easing.linear}", "$description": "Ambient path easing." }
+    },
+    "reduced": {
+      "duration": { "$type": "duration", "$value": "{duration.instant}", "$description": "Reduced-motion duration." },
+      "distance": { "$type": "dimension", "$value": "{dimension.motion.none}", "$description": "Reduced-motion transform distance." }
+    }
+  }
+}

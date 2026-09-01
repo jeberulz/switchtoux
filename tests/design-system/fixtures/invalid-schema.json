@@ -1,0 +1,6 @@
+{
+  "fixture": {
+    "badType": { "$type": "unknown", "$value": "#000000", "$description": "Unsupported fixture type." },
+    "missingDescription": { "$type": "color", "$value": "#ffffff" }
+  }
+}

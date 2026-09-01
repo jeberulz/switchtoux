@@ -1,0 +1,135 @@
+{
+  "$description": "Complete font and text-role definitions for Switch to UX.",
+  "font": {
+    "family": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": "Inter",
+        "$description": "Editorial and interface family.",
+        "$extensions": { "switchtoux": { "cssValue": "var(--font-inter), ui-sans-serif, system-ui, sans-serif" } }
+      },
+      "mono": {
+        "$type": "fontFamily",
+        "$value": "JetBrains Mono",
+        "$description": "Technical label and notation family.",
+        "$extensions": { "switchtoux": { "cssValue": "var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace" } }
+      }
+    },
+    "weight": {
+      "regular": { "$type": "fontWeight", "$value": 400, "$description": "Regular text weight." },
+      "medium": { "$type": "fontWeight", "$value": 500, "$description": "Medium display and interface weight." },
+      "semibold": { "$type": "fontWeight", "$value": 600, "$description": "Semibold label weight." }
+    }
+  },
+  "typography": {
+    "display": {
+      "2xl": {
+        "$description": "Homepage hero display style.",
+        "$extensions": { "switchtoux": { "role": "Display/2XL" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Display family." },
+        "fontSize": { "$type": "dimension", "$value": "clamp(3rem, 7.2vw, 5.5rem)", "$description": "Responsive 48-88px display size.", "$extensions": { "switchtoux": { "figmaValue": 88 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Display weight." },
+        "lineHeight": { "$type": "number", "$value": 0.98, "$description": "Display line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.045em", "$description": "Display tracking.", "$extensions": { "switchtoux": { "figmaValue": -4.5, "figmaUnit": "PERCENT" } } }
+      },
+      "xl": {
+        "$description": "Interior-page hero display style.",
+        "$extensions": { "switchtoux": { "role": "Display/XL" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Display family." },
+        "fontSize": { "$type": "dimension", "$value": "clamp(2.75rem, 5.4vw, 4rem)", "$description": "Responsive 44-64px display size.", "$extensions": { "switchtoux": { "figmaValue": 64 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Display weight." },
+        "lineHeight": { "$type": "number", "$value": 1.02, "$description": "Display line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.04em", "$description": "Display tracking.", "$extensions": { "switchtoux": { "figmaValue": -4, "figmaUnit": "PERCENT" } } }
+      },
+      "lg": {
+        "$description": "Major-section display style.",
+        "$extensions": { "switchtoux": { "role": "Display/LG" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Display family." },
+        "fontSize": { "$type": "dimension", "$value": "clamp(2.25rem, 4.2vw, 3.25rem)", "$description": "Responsive 36-52px display size.", "$extensions": { "switchtoux": { "figmaValue": 52 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Display weight." },
+        "lineHeight": { "$type": "number", "$value": 1.05, "$description": "Display line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.035em", "$description": "Display tracking.", "$extensions": { "switchtoux": { "figmaValue": -3.5, "figmaUnit": "PERCENT" } } }
+      }
+    },
+    "heading": {
+      "xl": {
+        "$description": "Course and resource heading style.",
+        "$extensions": { "switchtoux": { "role": "Heading/XL" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Heading family." },
+        "fontSize": { "$type": "dimension", "$value": "clamp(2rem, 3vw, 2.75rem)", "$description": "Responsive 32-44px heading size.", "$extensions": { "switchtoux": { "figmaValue": 44 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Heading weight." },
+        "lineHeight": { "$type": "number", "$value": 1.1, "$description": "Heading line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.025em", "$description": "Heading tracking.", "$extensions": { "switchtoux": { "figmaValue": -2.5, "figmaUnit": "PERCENT" } } }
+      },
+      "lg": {
+        "$description": "Component-group heading style.",
+        "$extensions": { "switchtoux": { "role": "Heading/LG" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Heading family." },
+        "fontSize": { "$type": "dimension", "$value": "clamp(1.625rem, 2.4vw, 2.125rem)", "$description": "Responsive 26-34px heading size.", "$extensions": { "switchtoux": { "figmaValue": 34 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Heading weight." },
+        "lineHeight": { "$type": "number", "$value": 1.15, "$description": "Heading line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.02em", "$description": "Heading tracking.", "$extensions": { "switchtoux": { "figmaValue": -2, "figmaUnit": "PERCENT" } } }
+      },
+      "md": {
+        "$description": "Card and module heading style.",
+        "$extensions": { "switchtoux": { "role": "Heading/MD" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Heading family." },
+        "fontSize": { "$type": "dimension", "$value": "1.5rem", "$description": "24px heading size.", "$extensions": { "switchtoux": { "figmaValue": 24 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Heading weight." },
+        "lineHeight": { "$type": "number", "$value": 1.25, "$description": "Heading line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.015em", "$description": "Heading tracking.", "$extensions": { "switchtoux": { "figmaValue": -1.5, "figmaUnit": "PERCENT" } } }
+      }
+    },
+    "body": {
+      "lg": {
+        "$description": "Hero and section-introduction body style.",
+        "$extensions": { "switchtoux": { "role": "Body/LG" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Body family." },
+        "fontSize": { "$type": "dimension", "$value": "clamp(1.0625rem, 1.4vw, 1.25rem)", "$description": "Responsive 17-20px body size.", "$extensions": { "switchtoux": { "figmaValue": 20 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.regular}", "$description": "Body weight." },
+        "lineHeight": { "$type": "number", "$value": 1.55, "$description": "Body line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "-0.01em", "$description": "Body tracking.", "$extensions": { "switchtoux": { "figmaValue": -1, "figmaUnit": "PERCENT" } } }
+      },
+      "md": {
+        "$description": "Standard body style.",
+        "$extensions": { "switchtoux": { "role": "Body/MD" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Body family." },
+        "fontSize": { "$type": "dimension", "$value": "1rem", "$description": "16px body size.", "$extensions": { "switchtoux": { "figmaValue": 16 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.regular}", "$description": "Body weight." },
+        "lineHeight": { "$type": "number", "$value": 1.65, "$description": "Body line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "0em", "$description": "Neutral body tracking.", "$extensions": { "switchtoux": { "figmaValue": 0, "figmaUnit": "PERCENT" } } }
+      },
+      "sm": {
+        "$description": "Supporting-detail body style.",
+        "$extensions": { "switchtoux": { "role": "Body/SM" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.sans}", "$description": "Body family." },
+        "fontSize": { "$type": "dimension", "$value": "0.875rem", "$description": "14px body size.", "$extensions": { "switchtoux": { "figmaValue": 14 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.regular}", "$description": "Body weight." },
+        "lineHeight": { "$type": "number", "$value": 1.55, "$description": "Body line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "0em", "$description": "Neutral body tracking.", "$extensions": { "switchtoux": { "figmaValue": 0, "figmaUnit": "PERCENT" } } }
+      }
+    },
+    "label": {
+      "mono": {
+        "$description": "Eyebrow and metadata label style.",
+        "$extensions": { "switchtoux": { "role": "Label/Mono" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.mono}", "$description": "Label family." },
+        "fontSize": { "$type": "dimension", "$value": "0.75rem", "$description": "12px label size.", "$extensions": { "switchtoux": { "figmaValue": 12 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.semibold}", "$description": "Label weight." },
+        "lineHeight": { "$type": "number", "$value": 1.2, "$description": "Label line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "0.1em", "$description": "Uppercase label tracking.", "$extensions": { "switchtoux": { "figmaValue": 10, "figmaUnit": "PERCENT" } } }
+      }
+    },
+    "technical": {
+      "mono": {
+        "$description": "Evidence notation and technical-body style.",
+        "$extensions": { "switchtoux": { "role": "Technical/Mono" } },
+        "fontFamily": { "$type": "fontFamily", "$value": "{font.family.mono}", "$description": "Technical family." },
+        "fontSize": { "$type": "dimension", "$value": "0.875rem", "$description": "14px technical size.", "$extensions": { "switchtoux": { "figmaValue": 14 } } },
+        "fontWeight": { "$type": "fontWeight", "$value": "{font.weight.medium}", "$description": "Technical weight." },
+        "lineHeight": { "$type": "number", "$value": 1.5, "$description": "Technical line height." },
+        "letterSpacing": { "$type": "dimension", "$value": "0em", "$description": "Neutral technical tracking.", "$extensions": { "switchtoux": { "figmaValue": 0, "figmaUnit": "PERCENT" } } }
+      }
+    }
+  }
+}

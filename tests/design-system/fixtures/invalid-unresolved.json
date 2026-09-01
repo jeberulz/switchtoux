@@ -1,0 +1,5 @@
+{
+  "fixture": {
+    "missing": { "$type": "color", "$value": "{fixture.doesNotExist}", "$description": "Unresolved reference fixture." }
+  }
+}

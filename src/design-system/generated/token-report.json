@@ -1,0 +1,289 @@
+{
+  "contrastChecks": [
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.text.primary",
+        "value": "#ffffff"
+      },
+      "minimum": 4.5,
+      "name": "primary text on canvas",
+      "passes": true,
+      "ratio": 21
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.text.secondary",
+        "value": "#d4d4d8"
+      },
+      "minimum": 4.5,
+      "name": "secondary text on canvas",
+      "passes": true,
+      "ratio": 14.208
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.text.muted",
+        "value": "#a1a1aa"
+      },
+      "minimum": 4.5,
+      "name": "muted text on canvas",
+      "passes": true,
+      "ratio": 8.194
+    },
+    {
+      "background": {
+        "id": "color.surface.default",
+        "value": "#18181b"
+      },
+      "foreground": {
+        "id": "color.text.muted",
+        "value": "#a1a1aa"
+      },
+      "minimum": 4.5,
+      "name": "muted text on surface",
+      "passes": true,
+      "ratio": 6.913
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.action.primary",
+        "value": "#f43f5e"
+      },
+      "minimum": 4.5,
+      "name": "rose text on canvas",
+      "passes": true,
+      "ratio": 5.719
+    },
+    {
+      "background": {
+        "id": "color.surface.default",
+        "value": "#18181b"
+      },
+      "foreground": {
+        "id": "color.action.primary",
+        "value": "#f43f5e"
+      },
+      "minimum": 4.5,
+      "name": "rose text on surface",
+      "passes": true,
+      "ratio": 4.825
+    },
+    {
+      "background": {
+        "id": "color.action.primary",
+        "value": "#f43f5e"
+      },
+      "foreground": {
+        "id": "color.text.onAction",
+        "value": "#000000"
+      },
+      "minimum": 4.5,
+      "name": "action text on primary",
+      "passes": true,
+      "ratio": 5.719
+    },
+    {
+      "background": {
+        "id": "color.action.hover",
+        "value": "#fb7185"
+      },
+      "foreground": {
+        "id": "color.text.onAction",
+        "value": "#000000"
+      },
+      "minimum": 4.5,
+      "name": "action text on hover",
+      "passes": true,
+      "ratio": 7.803
+    },
+    {
+      "background": {
+        "id": "color.action.pressed",
+        "value": "#e21e49"
+      },
+      "foreground": {
+        "id": "color.text.onAction",
+        "value": "#000000"
+      },
+      "minimum": 4.5,
+      "name": "action text on pressed",
+      "passes": true,
+      "ratio": 4.516
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.border.control",
+        "value": "#71717a"
+      },
+      "minimum": 3,
+      "name": "control border on canvas",
+      "passes": true,
+      "ratio": 4.345
+    },
+    {
+      "background": {
+        "id": "color.surface.default",
+        "value": "#18181b"
+      },
+      "foreground": {
+        "id": "color.border.control",
+        "value": "#71717a"
+      },
+      "minimum": 3,
+      "name": "control border on surface",
+      "passes": true,
+      "ratio": 3.666
+    },
+    {
+      "background": {
+        "id": "color.surface.default",
+        "value": "#18181b"
+      },
+      "foreground": {
+        "id": "color.focus.inner",
+        "value": "#f43f5e"
+      },
+      "minimum": 3,
+      "name": "inner focus on surface",
+      "passes": true,
+      "ratio": 4.825
+    },
+    {
+      "background": {
+        "id": "color.surface.default",
+        "value": "#18181b"
+      },
+      "foreground": {
+        "id": "color.focus.outer",
+        "value": "#ffffff"
+      },
+      "minimum": 3,
+      "name": "outer focus on surface",
+      "passes": true,
+      "ratio": 17.717
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.status.success.signal",
+        "value": "#34d399"
+      },
+      "minimum": 4.5,
+      "name": "success signal on canvas",
+      "passes": true,
+      "ratio": 10.924
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.status.warning.signal",
+        "value": "#fbbf24"
+      },
+      "minimum": 4.5,
+      "name": "warning signal on canvas",
+      "passes": true,
+      "ratio": 12.58
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.status.info.signal",
+        "value": "#38bdf8"
+      },
+      "minimum": 4.5,
+      "name": "info signal on canvas",
+      "passes": true,
+      "ratio": 9.803
+    },
+    {
+      "background": {
+        "id": "color.background.canvas",
+        "value": "#000000"
+      },
+      "foreground": {
+        "id": "color.status.error.signal",
+        "value": "#fb7185"
+      },
+      "minimum": 4.5,
+      "name": "error signal on canvas",
+      "passes": true,
+      "ratio": 7.803
+    }
+  ],
+  "counts": {
+    "component": 16,
+    "cssVariables": 280,
+    "figmaEntries": 280,
+    "motion": 16,
+    "primitive": 114,
+    "semantic": 74,
+    "tokens": 280,
+    "typography": 60
+  },
+  "errors": [],
+  "inventories": {
+    "breakpointNames": [
+      "mobile",
+      "tablet",
+      "comparison",
+      "desktop",
+      "wide",
+      "canvas"
+    ],
+    "motionRoles": [
+      "accordion",
+      "ambientPath",
+      "hoverFocus",
+      "instantFeedback",
+      "maskedReveal",
+      "mobileMenu",
+      "pageEntrance",
+      "reduced"
+    ],
+    "typographyRoles": [
+      "Body/LG",
+      "Body/MD",
+      "Body/SM",
+      "Display/2XL",
+      "Display/LG",
+      "Display/XL",
+      "Heading/LG",
+      "Heading/MD",
+      "Heading/XL",
+      "Label/Mono",
+      "Technical/Mono"
+    ]
+  },
+  "schemaVersion": "1.0.0",
+  "sourceHash": "3000bcaf1d60a1d70aa76d3273e64d0b771182087ef5972f8635bc945114b4d2",
+  "status": "pass"
+}
