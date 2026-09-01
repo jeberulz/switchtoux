@@ -1,7 +1,7 @@
 # WP04 progress: Controls and brand primitives
 
 **Branch:** `feat/wp04-controls-brand-primitives`
-**Status:** Ready for owner review
+**Status:** Approved by owner
 
 ## Story status
 
@@ -36,3 +36,7 @@
 - Reduced motion: loading bars and connection traces resolve to static output.
 - Region labels, progress ranges, status text and relationship names are programmatically exposed.
 - Token validation, generated-output freshness, token-usage enforcement, lint, type checking, 31 tests and an isolated production build pass.
+
+## Approval
+
+The owner approved the Controls and Brand workbenches on 1 September 2026. WP05 may explore signature compositions using the approved primitives. No public page assembly or programme component work is authorised by this approval.
