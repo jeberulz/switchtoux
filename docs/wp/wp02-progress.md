@@ -1,7 +1,7 @@
 # WP02 progress: Design Lab foundations
 
 **Branch:** `feat/wp02-design-lab-foundations`
-**Status:** Ready for owner approval
+**Status:** Approved
 
 ## Story status
 
@@ -30,5 +30,5 @@
 
 - The approved token source remains unchanged.
 - The starter page remains user-owned and untouched.
-- Figma discovery, components, public pages and production integrations remain out of scope.
-- Work stops for owner review before any Figma operation or component phase begins.
+- Figma discovery, components, public pages and production integrations were out of scope for WP02.
+- The owner approved the route and moved Figma work to the final design-system batch.

@@ -42,13 +42,18 @@ export default function DesignLabOverview() {
       <section aria-labelledby="scope-heading" className="lab-scope">
         <h2 id="scope-heading">What is available now</h2>
         <p>
-          Colour, type, spacing, radius, grid, elevation, motion and focus are
-          rendered from generated values. Components and public pages remain
+          Foundations are approved. Layout primitives now define responsive
+          width, rhythm, alignment, surfaces and overflow. Public pages remain
           intentionally absent.
         </p>
-        <Link className="lab-primary-link" href="/design-lab/foundations">
-          Inspect foundations
-        </Link>
+        <div className="lab-overview-actions">
+          <Link className="lab-primary-link" href="/design-lab/layout">
+            Inspect layout
+          </Link>
+          <Link className="lab-secondary-link" href="/design-lab/foundations">
+            Review foundations
+          </Link>
+        </div>
       </section>
     </div>
   );

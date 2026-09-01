@@ -43,3 +43,10 @@ WP01 ends at the code-token approval gate. It does not create Design Lab routes,
 **Date:** 1 September 2026
 
 WP02 is limited to the internal Design Lab shell and foundation specimens. The lab consumes generated tokens, is excluded from indexing, can be disabled with `DESIGN_LAB_ENABLED=false`, and does not introduce public pages, product components, Figma mutations or integrations.
+
+## R-007: Figma sequencing
+
+**Status:** Accepted
+**Date:** 1 September 2026
+
+The owner has moved Figma discovery, native variable creation and parity work to the final design-system batch. Code component work may proceed against the approved canonical tokens and Design Lab foundations. Public page assembly still requires explicit approval after the final code/Figma parity gate.

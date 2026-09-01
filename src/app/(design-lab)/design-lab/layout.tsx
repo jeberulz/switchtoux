@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 const labNavigation = [
   { href: "/design-lab", label: "Overview" },
   { href: "/design-lab/foundations", label: "Foundations" },
+  { href: "/design-lab/layout", label: "Layout" },
 ] as const;
 
 function LabNavigation() {
@@ -52,8 +53,8 @@ export default function DesignLabLayout({ children }: { children: ReactNode }) {
         <LabNavigation />
         <div className="lab-sidebar-meta">
           <span>Current gate</span>
-          <strong>Foundation review</strong>
-          <span>Figma parity pending</span>
+          <strong>Layout review</strong>
+          <span>Figma parity deferred</span>
         </div>
       </aside>
 
