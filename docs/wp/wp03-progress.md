@@ -1,7 +1,7 @@
 # WP03 progress: Layout primitives
 
 **Branch:** `feat/wp03-layout-primitives`
-**Status:** Ready for owner review
+**Status:** Approved
 
 ## Story status
 

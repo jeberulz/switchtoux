@@ -11,17 +11,17 @@ export default function DesignLabOverview() {
     <div className="lab-overview">
       <header className="lab-hero">
         <p className="lab-kicker">Internal system workspace</p>
-        <h1>Foundations before components.</h1>
+        <h1>The system is becoming usable.</h1>
         <p>
-          This lab is the first visual consumer of the approved token source. It
-          exists to test the system before any product interface is composed.
+          Foundations and layout are approved. Controls and signature primitives
+          now define how intent, evidence and connected systems behave.
         </p>
       </header>
 
       <section aria-labelledby="gate-heading" className="lab-gate">
         <div>
           <p className="lab-kicker">Current gate</p>
-          <h2 id="gate-heading">Ready for foundation review</h2>
+          <h2 id="gate-heading">Controls and brand review</h2>
         </div>
         <dl className="lab-metrics">
           <div>
@@ -33,8 +33,8 @@ export default function DesignLabOverview() {
             <dd>{tokenReport.contrastChecks.length} passed</dd>
           </div>
           <div>
-            <dt>Figma status</dt>
-            <dd>Pending file</dd>
+            <dt>Component scope</dt>
+            <dd>25 primitives</dd>
           </div>
         </dl>
       </section>
@@ -42,16 +42,18 @@ export default function DesignLabOverview() {
       <section aria-labelledby="scope-heading" className="lab-scope">
         <h2 id="scope-heading">What is available now</h2>
         <p>
-          Foundations are approved. Layout primitives now define responsive
-          width, rhythm, alignment, surfaces and overflow. Public pages remain
-          intentionally absent.
+          Review controls for interaction quality and brand primitives for visual
+          recognition. Public pages and signature compositions remain absent.
         </p>
         <div className="lab-overview-actions">
-          <Link className="lab-primary-link" href="/design-lab/layout">
-            Inspect layout
+          <Link className="lab-primary-link" href="/design-lab/controls">
+            Inspect controls
           </Link>
-          <Link className="lab-secondary-link" href="/design-lab/foundations">
-            Review foundations
+          <Link className="lab-secondary-link" href="/design-lab/brand">
+            Inspect brand
+          </Link>
+          <Link className="lab-secondary-link" href="/design-lab/layout">
+            Review layout
           </Link>
         </div>
       </section>

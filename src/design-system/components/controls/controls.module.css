@@ -1,0 +1,476 @@
+.button,
+.iconButton,
+.textLink,
+.accordionTrigger,
+.disclosureTrigger {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button {
+  min-height: var(--component-button-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  padding-inline: var(--component-button-padding-inline-maximum);
+  border: var(--primitive-dimension-border-default) solid transparent;
+  border-radius: var(--component-control-radius);
+  font-family: var(--font-family-sans);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--text-body-sm-line-height);
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    color var(--motion-hover-focus-duration) var(--motion-hover-focus-easing),
+    background var(--motion-hover-focus-duration) var(--motion-hover-focus-easing),
+    border-color var(--motion-hover-focus-duration) var(--motion-hover-focus-easing),
+    transform var(--motion-instant-feedback-duration) var(--motion-instant-feedback-easing);
+}
+
+.buttonPrimary {
+  background: var(--color-accent);
+  color: var(--color-text-on-action);
+}
+
+.buttonPrimary:hover:not(:disabled) {
+  background: var(--color-accent-hover);
+  transform: translateY(calc(var(--component-button-hover-lift) * -1));
+}
+
+.buttonPrimary:active:not(:disabled) {
+  background: var(--color-accent-pressed);
+  transform: none;
+}
+
+.buttonSecondary {
+  border-color: var(--color-border-control);
+  background: transparent;
+  color: var(--color-text-primary);
+}
+
+.buttonSecondary:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  background: var(--color-surface-hover);
+  transform: translateY(calc(var(--component-button-hover-lift) * -1));
+}
+
+.buttonSecondary:active:not(:disabled) {
+  border-color: var(--color-accent-pressed);
+  background: var(--color-surface);
+  transform: none;
+}
+
+.buttonText {
+  min-height: var(--component-control-target-minimum);
+  padding-inline: var(--space-2);
+  background: transparent;
+  color: var(--color-text-secondary);
+}
+
+.buttonText:hover:not(:disabled) {
+  color: var(--color-accent-hover);
+}
+
+.button:focus-visible,
+.iconButton:focus-visible,
+.textLink:focus-visible,
+.accordionTrigger:focus-visible,
+.disclosureTrigger:focus-visible {
+  outline: 0;
+  box-shadow: var(--focus-ring);
+}
+
+.button:disabled,
+.iconButton:disabled {
+  border-color: var(--color-border-subtle);
+  background: var(--color-surface);
+  color: var(--color-text-disabled);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.buttonContent {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.iconButton {
+  min-width: var(--component-control-target-minimum);
+  min-height: var(--component-control-target-minimum);
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  border: var(--primitive-dimension-border-default) solid var(--color-border-control);
+  border-radius: var(--component-control-radius);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  font: inherit;
+  cursor: pointer;
+  transition:
+    color var(--motion-hover-focus-duration) var(--motion-hover-focus-easing),
+    background var(--motion-hover-focus-duration) var(--motion-hover-focus-easing),
+    border-color var(--motion-hover-focus-duration) var(--motion-hover-focus-easing);
+}
+
+.iconButton:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  background: var(--color-surface-hover);
+  color: var(--color-accent-hover);
+}
+
+.iconButtonGhost {
+  border-color: transparent;
+  background: transparent;
+}
+
+.textLink {
+  min-height: var(--component-control-target-minimum);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  border-radius: var(--radius-small);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  text-decoration-thickness: var(--primitive-dimension-border-default);
+  text-underline-offset: var(--space-1);
+  transition: color var(--motion-hover-focus-duration) var(--motion-hover-focus-easing);
+}
+
+.textLink:hover {
+  color: var(--color-accent-hover);
+}
+
+.textLinkInline {
+  min-height: auto;
+  text-decoration-line: underline;
+}
+
+.textLinkArrow {
+  display: inline-block;
+  transition: transform var(--motion-hover-focus-duration) var(--motion-hover-focus-easing);
+}
+
+.textLink:hover .textLinkArrow {
+  transform: translateX(var(--space-1));
+}
+
+.textLinkBackward:hover .textLinkArrow {
+  transform: translateX(calc(var(--space-1) * -1));
+}
+
+.statusBadge,
+.categoryLabel,
+.tag,
+.proofMetadata {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.statusBadge,
+.tag {
+  min-height: var(--space-7);
+  padding-inline: var(--space-3);
+  border: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.statusBadge {
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+  font-weight: var(--text-label-mono-font-weight);
+  line-height: var(--text-label-mono-line-height);
+  letter-spacing: var(--text-label-mono-letter-spacing);
+  text-transform: uppercase;
+}
+
+.statusComingSoon {
+  border-color: var(--color-accent-line);
+  background: var(--color-accent-soft);
+  color: var(--color-text-primary);
+}
+
+.statusEnrolling {
+  border-color: var(--color-status-success-border);
+  background: var(--color-status-success-background);
+  color: var(--color-status-success-signal);
+}
+
+.statusInProgress {
+  border-color: var(--color-status-info-border);
+  background: var(--color-status-info-background);
+  color: var(--color-status-info-signal);
+}
+
+.statusClosed {
+  border-color: var(--color-status-closed-border);
+  background: var(--color-status-closed-background);
+  color: var(--color-status-closed-signal);
+}
+
+.statusSignal {
+  width: var(--space-2);
+  height: var(--space-2);
+  flex: none;
+  border-radius: var(--radius-pill);
+  background: currentColor;
+}
+
+.categoryLabel {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+  font-weight: var(--text-label-mono-font-weight);
+  line-height: var(--text-label-mono-line-height);
+  letter-spacing: var(--text-label-mono-letter-spacing);
+  text-transform: uppercase;
+}
+
+.metadataItem {
+  display: inline-grid;
+  gap: var(--space-1);
+}
+
+.metadataItemInline {
+  grid-auto-flow: column;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.metadataLabel {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+  font-weight: var(--text-label-mono-font-weight);
+  line-height: var(--text-label-mono-line-height);
+  letter-spacing: var(--text-label-mono-letter-spacing);
+  text-transform: uppercase;
+}
+
+.metadataValue {
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.tag {
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+}
+
+.tagSelected {
+  border-color: var(--color-accent-line);
+  background: var(--color-accent-soft);
+  color: var(--color-text-primary);
+}
+
+.accordion,
+.disclosure {
+  border: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+  border-radius: var(--component-panel-radius);
+  background: var(--color-surface);
+}
+
+.accordionHeading {
+  margin: 0;
+}
+
+.accordionTrigger,
+.disclosureTrigger {
+  width: 100%;
+  min-height: var(--component-field-height);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-5);
+  padding: var(--space-5);
+  border: 0;
+  border-radius: var(--component-panel-radius);
+  background: transparent;
+  color: var(--color-text-primary);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordionTrigger:hover,
+.disclosureTrigger:hover {
+  background: var(--color-surface-hover);
+}
+
+.accordionTrigger:disabled,
+.disclosureTrigger:disabled {
+  color: var(--color-text-disabled);
+  cursor: not-allowed;
+}
+
+.disclosureTrigger {
+  min-height: var(--component-control-target-minimum);
+  padding-block: var(--space-4);
+}
+
+.disclosureSummary {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.disclosureDescription {
+  color: var(--color-text-muted);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.disclosureIcon {
+  color: var(--color-accent-hover);
+  font-family: var(--font-family-mono);
+  transition: transform var(--motion-accordion-duration) var(--motion-accordion-easing);
+}
+
+[data-open="true"] > .accordionHeading .disclosureIcon,
+[data-open="true"] > .disclosureTrigger .disclosureIcon {
+  transform: rotate(45deg);
+}
+
+.accordionPanel,
+.disclosurePanel {
+  padding: 0 var(--space-5) var(--space-5);
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-md);
+  line-height: var(--text-body-md-line-height);
+}
+
+.progress {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.progressHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+}
+
+.progressValue {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+}
+
+.progressSegments {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  gap: var(--space-2);
+}
+
+.progressSegment {
+  height: var(--primitive-dimension-border-focus);
+  background: var(--color-border-strong);
+}
+
+.progressSegmentComplete {
+  background: var(--color-accent);
+}
+
+.tooltipRoot {
+  position: relative;
+  display: inline-flex;
+}
+
+.tooltipContent {
+  position: absolute;
+  z-index: var(--layer-overlay);
+  inset-block-end: calc(100% + var(--space-3));
+  inset-inline-start: 50%;
+  width: max-content;
+  max-width: var(--layout-reading-standard);
+  padding: var(--space-3) var(--space-4);
+  border: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  border-radius: var(--radius-small);
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, var(--space-2));
+  transition:
+    opacity var(--motion-hover-focus-duration) var(--motion-hover-focus-easing),
+    transform var(--motion-hover-focus-duration) var(--motion-hover-focus-easing);
+}
+
+.tooltipRoot:hover .tooltipContent,
+.tooltipRoot:focus-within .tooltipContent {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.loading {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: currentColor;
+}
+
+.loadingBar {
+  width: var(--space-1);
+  height: var(--space-3);
+  border-radius: var(--radius-pill);
+  background: currentColor;
+  transform-origin: center;
+  animation: control-loading var(--motion-page-entrance-duration) var(--motion-page-entrance-easing) infinite alternate;
+}
+
+.loadingBar:nth-child(2) {
+  animation-delay: var(--motion-instant-feedback-duration);
+}
+
+.loadingBar:nth-child(3) {
+  animation-delay: var(--motion-hover-focus-duration);
+}
+
+@keyframes control-loading {
+  from {
+    opacity: 0.35;
+    transform: scaleY(0.55);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button,
+  .iconButton,
+  .textLink,
+  .textLinkArrow,
+  .disclosureIcon,
+  .tooltipContent {
+    transition-duration: var(--motion-reduced-duration);
+  }
+
+  .loadingBar {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .button:focus-visible,
+  .iconButton:focus-visible,
+  .textLink:focus-visible,
+  .accordionTrigger:focus-visible,
+  .disclosureTrigger:focus-visible {
+    outline: var(--primitive-dimension-border-focus) solid CanvasText;
+    outline-offset: var(--component-focus-ring-inner-width);
+  }
+}

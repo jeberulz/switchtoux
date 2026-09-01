@@ -24,6 +24,8 @@ const labNavigation = [
   { href: "/design-lab", label: "Overview" },
   { href: "/design-lab/foundations", label: "Foundations" },
   { href: "/design-lab/layout", label: "Layout" },
+  { href: "/design-lab/controls", label: "Controls" },
+  { href: "/design-lab/brand", label: "Brand" },
 ] as const;
 
 function LabNavigation() {
@@ -53,7 +55,7 @@ export default function DesignLabLayout({ children }: { children: ReactNode }) {
         <LabNavigation />
         <div className="lab-sidebar-meta">
           <span>Current gate</span>
-          <strong>Layout review</strong>
+          <strong>Controls and brand review</strong>
           <span>Figma parity deferred</span>
         </div>
       </aside>
