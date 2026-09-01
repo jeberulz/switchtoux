@@ -10,6 +10,7 @@
 
 # Testing
 /coverage
+/output/playwright/
 
 # Next.js
 /.next/

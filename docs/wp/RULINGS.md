@@ -36,3 +36,10 @@ Use npm and preserve `package-lock.json`. Translate pnpm command examples in the
 **Date:** 1 September 2026
 
 WP01 ends at the code-token approval gate. It does not create Design Lab routes, product components, Figma objects or production integrations.
+
+## R-006: First token consumer
+
+**Status:** Accepted
+**Date:** 1 September 2026
+
+WP02 is limited to the internal Design Lab shell and foundation specimens. The lab consumes generated tokens, is excluded from indexing, can be disabled with `DESIGN_LAB_ENABLED=false`, and does not introduce public pages, product components, Figma mutations or integrations.

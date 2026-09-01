@@ -4,7 +4,7 @@ The JSON documents in `src/design-system/tokens/` are the only editable source o
 
 ## Scope
 
-WP01 contains only the token foundation. It does not contain Design Lab routes, product components, public page assembly, Figma mutations or production integrations.
+WP01 contains the token foundation. WP02 adds the internal Design Lab shell and foundation specimens as the first token consumer. Product components, public page assembly, Figma mutations and production integrations remain excluded.
 
 ## Token layers
 
@@ -49,6 +49,13 @@ Semantic or component tokens must alias earlier layers rather than copy raw valu
 - Tailwind uses the generated `canvas`, `panel`, `panel-raised`, `ink`, `ink-secondary`, `ink-muted`, `brand`, `brand-hover` and `brand-pressed` aliases.
 - TypeScript consumers import from `@/design-system/generated/tokens`.
 - Future files under `src/design-system/components/` may not contain raw colour, dimension, duration or easing literals. `npm run design:tokens:usage` enforces this boundary.
+
+## Design Lab
+
+- `/design-lab` provides the internal gate overview.
+- `/design-lab/foundations` renders colour, typography, spacing, radius, layout, grid, elevation, motion, focus and contrast evidence.
+- Both routes emit `noindex, nofollow` metadata.
+- Set `DESIGN_LAB_ENABLED=false` at build time to render the route group as not found in production.
 
 ## Figma boundary
 

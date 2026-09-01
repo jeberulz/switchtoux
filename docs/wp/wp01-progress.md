@@ -1,7 +1,7 @@
 # WP01 progress: Design token foundation
 
 **Branch:** `feat/wp01-design-token-foundation`
-**Status:** Ready for owner approval
+**Status:** Approved
 
 ## Story status
 
@@ -25,6 +25,6 @@
 
 - Current-site audit and migration work are excluded.
 - Existing untracked discovery documents and the Design Lab prompt are preserved.
-- Work stops at the code-token approval gate.
+- The owner approved progression to the foundations-only Design Lab phase.
 - The starter page remains user-owned and unchanged; its temporary utility classes are not design-system components.
 - No Design Lab route or Figma object has been created.
