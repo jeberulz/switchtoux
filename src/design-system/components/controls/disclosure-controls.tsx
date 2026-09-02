@@ -7,6 +7,7 @@ import {
   type HTMLAttributes,
   type ReactNode,
 } from "react";
+import { Icon } from "../icons";
 import styles from "./controls.module.css";
 
 function classes(...values: Array<string | false | null | undefined>) {
@@ -67,8 +68,8 @@ export const Accordion = forwardRef<HTMLDivElement, AccordionProps>(
             type="button"
           >
             <span>{title}</span>
-            <span aria-hidden="true" className={styles.disclosureIcon}>
-              +
+            <span className={styles.disclosureIcon}>
+              <Icon alt="minus" name="add" showAlt={open} size="small" />
             </span>
           </button>
         </Heading>
@@ -143,8 +144,8 @@ export const DisclosureRow = forwardRef<HTMLDivElement, DisclosureRowProps>(
               <span className={styles.disclosureDescription}>{description}</span>
             ) : null}
           </span>
-          <span aria-hidden="true" className={styles.disclosureIcon}>
-            +
+          <span className={styles.disclosureIcon}>
+            <Icon alt="minus" name="add" showAlt={open} size="small" />
           </span>
         </button>
         <div

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
+import { Icon } from "@/design-system/components/icons";
 
 const labNavigation = [
   { href: "/design-lab", label: "Overview" },
@@ -11,6 +12,7 @@ const labNavigation = [
   { href: "/design-lab/controls", label: "Controls" },
   { href: "/design-lab/brand", label: "Brand" },
   { href: "/design-lab/explorations", label: "Explorations" },
+  { href: "/design-lab/programmes", label: "Programmes" },
 ] as const;
 
 function LabNavigation({ id, onNavigate }: { id: string; onNavigate?: () => void }) {
@@ -61,7 +63,7 @@ export function DesignLabChrome({ children }: { children: ReactNode }) {
           onClick={() => setSidebarCollapsed((collapsed) => !collapsed)}
           type="button"
         >
-          <span aria-hidden="true">{sidebarCollapsed ? "→" : "←"}</span>
+          <Icon name={sidebarCollapsed ? "arrowRight" : "arrowLeft"} />
         </button>
 
         <Link
@@ -81,7 +83,7 @@ export function DesignLabChrome({ children }: { children: ReactNode }) {
           <LabNavigation id="lab-sidebar-navigation" />
           <div className="lab-sidebar-meta">
             <span>Current gate</span>
-            <strong>Programme identity next</strong>
+            <strong>Programme identity</strong>
             <span>Figma parity deferred</span>
           </div>
         </div>
@@ -99,8 +101,8 @@ export function DesignLabChrome({ children }: { children: ReactNode }) {
           onClick={() => setMobileOpen((open) => !open)}
           type="button"
         >
-          <span aria-hidden="true" className="lab-menu-glyph">
-            ☰
+          <span className="lab-menu-glyph">
+            <Icon name={mobileOpen ? "cancel" : "menu"} />
           </span>
           <span>Menu</span>
         </button>

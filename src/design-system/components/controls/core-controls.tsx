@@ -8,6 +8,7 @@ import {
   type ReactElement,
   type ReactNode,
 } from "react";
+import { Icon } from "../icons";
 import styles from "./controls.module.css";
 
 function classes(...values: Array<string | false | null | undefined>) {
@@ -111,14 +112,14 @@ export const TextLink = forwardRef<HTMLAnchorElement, TextLinkProps>(
         {...props}
       >
         {arrow === "back" ? (
-          <span aria-hidden="true" className={styles.textLinkArrow}>
-            ←
+          <span className={styles.textLinkArrow}>
+            <Icon name="arrowLeft" size="small" />
           </span>
         ) : null}
         <span>{children}</span>
         {arrow === "forward" ? (
-          <span aria-hidden="true" className={styles.textLinkArrow}>
-            →
+          <span className={styles.textLinkArrow}>
+            <Icon name="arrowRight" size="small" />
           </span>
         ) : null}
       </a>

@@ -148,7 +148,7 @@
 }
 
 .textLinkArrow {
-  display: inline-block;
+  display: inline-flex;
   transition: transform var(--motion-hover-focus-duration) var(--motion-hover-focus-easing);
 }
 
@@ -325,14 +325,8 @@
 }
 
 .disclosureIcon {
+  display: inline-flex;
   color: var(--color-accent-hover);
-  font-family: var(--font-family-mono);
-  transition: transform var(--motion-accordion-duration) var(--motion-accordion-easing);
-}
-
-[data-open="true"] > .accordionHeading .disclosureIcon,
-[data-open="true"] > .disclosureTrigger .disclosureIcon {
-  transform: rotate(45deg);
 }
 
 .accordionPanel,

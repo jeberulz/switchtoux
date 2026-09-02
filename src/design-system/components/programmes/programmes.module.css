@@ -1,0 +1,603 @@
+.programmeHeading,
+.featuredWorkshop > div:first-child,
+.featuredWorkshopFooter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.programmeDescription,
+.statusBlock p,
+.featuredWorkshop > p,
+.teamTraining > p,
+.artefactDetail > p,
+.artefactMobileBoard p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  line-height: var(--text-body-md-line-height);
+}
+
+.waitlistCta {
+  width: fit-content;
+}
+
+.waitlistCta a {
+  min-height: var(--component-control-target-minimum);
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.statusBlock {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-left: var(--component-focus-ring-inner-width) solid var(--color-accent);
+  background: var(--color-surface);
+}
+
+.statusBlock p {
+  font-size: var(--text-body-sm);
+}
+
+.metadataPanel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.metadataPanel div {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+}
+
+.metadataPanel dt,
+.flagshipOutputs > span,
+.capabilityGroup > header,
+.artefactDetail dt {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--text-label-mono-letter-spacing);
+  line-height: var(--text-label-mono-line-height);
+  text-transform: uppercase;
+}
+
+.metadataPanel dd {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.outcomeStatement {
+  display: grid;
+  gap: var(--space-3);
+  padding-top: var(--space-5);
+  border-top: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+}
+
+.outcomeStatement p {
+  max-width: var(--layout-reading-standard);
+  margin: 0;
+  color: var(--color-text-primary);
+  font-size: var(--text-body-lg);
+  line-height: var(--text-body-lg-line-height);
+}
+
+.progressionMap {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.progressionMap li {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto minmax(var(--space-3), 1fr);
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+  text-transform: uppercase;
+}
+
+.progressionMap li:last-child {
+  grid-template-columns: auto;
+  color: var(--color-accent);
+}
+
+.outputsList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.outputsList li {
+  padding-left: var(--space-3);
+  border-left: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.flagshipFeature {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: var(--layout-gutter-desktop);
+  padding: var(--component-panel-padding-desktop);
+  border: var(--primitive-dimension-border-default) solid var(--color-accent-line);
+  border-radius: var(--radius-card);
+  background: var(--color-surface-raised);
+  box-shadow: var(--shadow-accent);
+}
+
+.flagshipLead,
+.flagshipSystem,
+.flagshipOutputs,
+.specialistCard,
+.featuredWorkshop {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+  gap: var(--space-5);
+}
+
+.flagshipLead h2,
+.foundationEntry h2,
+.featuredWorkshop h2,
+.teamTraining h2 {
+  margin: 0;
+  font-size: var(--text-heading-xl);
+  font-weight: var(--text-heading-xl-font-weight);
+  letter-spacing: var(--text-heading-xl-letter-spacing);
+  line-height: var(--text-heading-xl-line-height);
+}
+
+.flagshipSystem {
+  padding: var(--space-5);
+  border: var(--primitive-dimension-border-default) solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-bg);
+}
+
+.flagshipOutputs {
+  padding-top: var(--space-5);
+  border-top: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+}
+
+.constellation {
+  display: grid;
+  gap: var(--space-7);
+}
+
+.capabilityField {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 4fr) minmax(0, 5fr);
+  gap: var(--layout-gutter-desktop);
+  align-items: start;
+}
+
+.capabilityGroup {
+  min-width: 0;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.capabilityGroup[data-capability="making"] {
+  margin-top: var(--space-6);
+}
+
+.capabilityGroup[data-capability="trust"] {
+  margin-top: var(--space-10);
+}
+
+.capabilityGroup > header {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+}
+
+.capabilityGroup > header span {
+  color: var(--color-text-primary);
+}
+
+.capabilityGroup > div {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.specialistCard {
+  padding: var(--space-5);
+  border: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  transition:
+    border-color var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.specialistCard:hover,
+.specialistCard:focus-within {
+  border-color: var(--color-border-control);
+  transform: translateY(calc(var(--space-1) * -1));
+}
+
+.specialistCard h3,
+.workshopTitle h3 {
+  margin: 0;
+  font-size: var(--text-heading-md);
+  font-weight: var(--text-heading-md-font-weight);
+  letter-spacing: var(--text-heading-md-letter-spacing);
+  line-height: var(--text-heading-md-line-height);
+}
+
+.specialistCard .metadataPanel {
+  grid-template-columns: 1fr;
+}
+
+.foundationEntry {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 5fr) minmax(0, 3fr);
+  align-items: center;
+  gap: var(--layout-gutter-desktop);
+  padding: var(--space-6);
+  border-top: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  border-bottom: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+}
+
+.foundationEntry > div {
+  min-width: 0;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.foundationEntry > div:last-child {
+  justify-items: end;
+}
+
+.featuredWorkshop {
+  padding: var(--space-7);
+  border: var(--primitive-dimension-border-default) solid var(--color-accent-line);
+  border-radius: var(--radius-card);
+  background: var(--color-surface-raised);
+}
+
+.featuredWorkshop > p {
+  max-width: var(--layout-reading-hero);
+  font-size: var(--text-body-lg);
+}
+
+.featuredWorkshopFooter {
+  align-items: end;
+  padding-top: var(--space-5);
+  border-top: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+}
+
+.workshopBoard {
+  margin: 0;
+  padding: 0;
+  border-top: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  list-style: none;
+}
+
+.workshopRow {
+  min-height: calc(var(--space-11) - var(--space-2));
+  display: grid;
+  grid-template-columns: auto minmax(0, 4fr) minmax(0, 5fr) minmax(0, 2fr);
+  align-items: center;
+  gap: var(--layout-gutter-desktop);
+  padding-block: var(--space-5);
+  border-bottom: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+}
+
+.workshopNumber {
+  color: var(--color-accent);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+}
+
+.workshopTitle,
+.workshopAction {
+  min-width: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.workshopTitle p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.workshopMeta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.workshopAction {
+  justify-items: end;
+}
+
+.teamTraining {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr);
+  align-items: end;
+  gap: var(--layout-gutter-desktop);
+  padding: var(--space-7);
+  border-left: var(--component-focus-ring-inner-width) solid var(--color-accent);
+  background: var(--color-surface);
+}
+
+.teamTraining > div {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.teamTraining > a {
+  justify-self: end;
+}
+
+.artefactDesktopBoard {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  min-height: calc(var(--space-11) * 4);
+  border: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.artefactIndex {
+  margin: 0;
+  padding: 0;
+  border-right: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  background: var(--color-surface);
+  list-style: none;
+}
+
+.artefactIndex button {
+  width: 100%;
+  min-height: var(--component-control-target-minimum);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 0;
+  border-bottom: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+  background: transparent;
+  color: var(--color-text-secondary);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.artefactIndex button:hover,
+.artefactIndex button[aria-pressed="true"] {
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+}
+
+.artefactIndex button[aria-pressed="true"] {
+  box-shadow: inset var(--component-focus-ring-inner-width) 0 0 var(--color-accent);
+}
+
+.artefactIndex button:focus-visible {
+  position: relative;
+  outline: 0;
+  box-shadow: var(--focus-ring);
+}
+
+.artefactIndex button span,
+.artefactIndex button small {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-label-mono);
+}
+
+.artefactPlane {
+  display: grid;
+  align-items: stretch;
+  padding: var(--space-7);
+  background: var(--color-bg);
+}
+
+.artefactDetail {
+  display: grid;
+  align-content: space-between;
+  gap: var(--space-5);
+  padding: var(--space-6);
+  border: var(--primitive-dimension-border-default) solid var(--color-accent-line);
+  border-radius: var(--radius-small);
+  background: var(--color-surface-raised);
+}
+
+.artefactDetail > strong {
+  max-width: var(--layout-reading-standard);
+  font-size: var(--text-heading-xl);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--text-heading-xl-letter-spacing);
+  line-height: var(--text-heading-xl-line-height);
+}
+
+.artefactDetail dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.artefactDetail dl div {
+  display: grid;
+  gap: var(--space-2);
+  padding-top: var(--space-3);
+  border-top: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+}
+
+.artefactDetail dd {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+}
+
+.artefactMobileBoard {
+  display: none;
+}
+
+@media (max-width: 1023px) { /* token-literal-allow: media queries cannot resolve CSS custom properties */
+  .flagshipFeature,
+  .foundationEntry,
+  .teamTraining {
+    grid-template-columns: 1fr;
+  }
+
+  .foundationEntry > div:last-child,
+  .teamTraining > a {
+    justify-items: start;
+    justify-self: start;
+  }
+
+  .capabilityField {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .capabilityGroup[data-capability="making"],
+  .capabilityGroup[data-capability="trust"] {
+    margin-top: 0;
+  }
+
+  .capabilityGroup[data-capability="trust"] {
+    grid-column: 1 / -1;
+  }
+
+  .capabilityGroup[data-capability="trust"] > div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .workshopRow {
+    grid-template-columns: auto minmax(0, 5fr) minmax(0, 3fr);
+  }
+
+  .workshopMeta {
+    grid-column: 2;
+  }
+
+  .workshopAction {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+@media (max-width: 767px) { /* token-literal-allow: media queries cannot resolve CSS custom properties */
+  .flagshipFeature,
+  .featuredWorkshop,
+  .teamTraining {
+    padding: var(--component-panel-padding-mobile);
+  }
+
+  .metadataPanel,
+  .outputsList,
+  .capabilityField,
+  .capabilityGroup[data-capability="trust"] > div,
+  .artefactDetail dl {
+    grid-template-columns: 1fr;
+  }
+
+  .progressionMap {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+
+  .progressionMap li {
+    grid-template-columns: auto;
+    gap: 0;
+    padding-left: var(--space-4);
+    border-left: var(--primitive-dimension-border-default) solid var(--color-border-strong);
+  }
+
+  .progressionMap li:last-child {
+    border-left-color: var(--color-accent);
+  }
+
+  .progressionMap li > :last-child:not(:first-child) {
+    display: none;
+  }
+
+  .capabilityGroup[data-capability="trust"] {
+    grid-column: auto;
+  }
+
+  .foundationEntry {
+    padding: var(--space-5) 0;
+  }
+
+  .featuredWorkshopFooter {
+    display: grid;
+    justify-content: stretch;
+  }
+
+  .workshopRow {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    gap: var(--space-3);
+  }
+
+  .workshopTitle,
+  .workshopMeta,
+  .workshopAction {
+    grid-column: 2;
+  }
+
+  .workshopMeta {
+    grid-template-columns: 1fr;
+  }
+
+  .workshopAction {
+    grid-row: auto;
+    justify-items: start;
+  }
+
+  .artefactDesktopBoard {
+    display: none;
+  }
+
+  .artefactMobileBoard {
+    display: grid;
+    gap: var(--space-4);
+  }
+
+  .artefactMobileBoard article {
+    display: grid;
+    gap: var(--space-3);
+    padding-bottom: var(--space-4);
+    border-bottom: var(--primitive-dimension-border-default) solid var(--color-border-subtle);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .specialistCard {
+    transition: none;
+  }
+
+  .specialistCard:hover,
+  .specialistCard:focus-within {
+    transform: none;
+  }
+}

@@ -203,9 +203,7 @@
 }
 
 .lab-menu-glyph {
-  font-family: var(--font-family-mono);
-  font-size: var(--text-body-lg);
-  line-height: 1;
+  display: inline-flex;
 }
 
 .lab-mobile-menu-panel {

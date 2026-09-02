@@ -1,6 +1,7 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import * as controls from "../../src/design-system/components/controls";
+import { Icon } from "../../src/design-system/components/icons";
 import {
   Accordion,
   Button,
@@ -52,7 +53,9 @@ describe("core controls", () => {
   it("requires names for icon buttons and keeps link semantics", () => {
     const markup = renderToStaticMarkup(
       <>
-        <IconButton label="Close panel">×</IconButton>
+        <IconButton label="Close panel">
+          <Icon name="cancel" />
+        </IconButton>
         <TextLink href="/courses">Courses</TextLink>
       </>,
     );
@@ -60,6 +63,10 @@ describe("core controls", () => {
     expect(markup).toContain('aria-label="Close panel"');
     expect(markup).toContain('href="/courses"');
     expect(markup).toContain('aria-hidden="true"');
+    expect(markup).toContain('data-icon="cancel"');
+    expect(markup).toContain('data-icon="arrowRight"');
+    expect(markup).not.toContain("→");
+    expect(markup).not.toContain("×");
   });
 
   it("writes every programme status in full", () => {
@@ -92,7 +99,9 @@ describe("core controls", () => {
   it("connects supplementary tooltip content to a named control", () => {
     const markup = renderToStaticMarkup(
       <Tooltip content="Supplementary explanation">
-        <IconButton label="Explain notation">?</IconButton>
+        <IconButton label="Explain notation">
+          <Icon name="helpCircle" />
+        </IconButton>
       </Tooltip>,
     );
 
@@ -116,6 +125,9 @@ describe("core controls", () => {
     expect(markup).toContain('aria-expanded="false"');
     expect(markup).toContain('role="region"');
     expect(markup).toContain("hidden");
+    expect(markup).toContain('data-icon="minus"');
+    expect(markup).toContain('data-icon="add"');
+    expect(markup).not.toContain(">+</span>");
   });
 
   it("announces loading status without exposing its visual bars", () => {

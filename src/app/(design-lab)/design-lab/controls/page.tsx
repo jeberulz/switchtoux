@@ -13,6 +13,7 @@ import {
   TextLink,
   Tooltip,
 } from "@/design-system/components/controls";
+import { Icon } from "@/design-system/components/icons";
 import {
   ContentStack,
   Divider,
@@ -117,10 +118,16 @@ export default function ControlsLabPage() {
           </InlineCluster>
           <InlineCluster>
             <Tooltip content="Explains a control whose symbol may be unfamiliar.">
-              <IconButton label="Explain this control">?</IconButton>
+              <IconButton label="Explain this control">
+                <Icon name="helpCircle" />
+              </IconButton>
             </Tooltip>
-            <IconButton label="Close panel" tone="ghost">×</IconButton>
-            <IconButton disabled label="Unavailable action">×</IconButton>
+            <IconButton label="Close panel" tone="ghost">
+              <Icon name="cancel" />
+            </IconButton>
+            <IconButton disabled label="Unavailable action">
+              <Icon name="cancel" />
+            </IconButton>
           </InlineCluster>
         </ContentStack>
       </Specimen>
