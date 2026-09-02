@@ -32,6 +32,7 @@ export interface SignatureDirection {
   recommendation: string;
   tradeoffs: string;
   recommended?: boolean;
+  selected?: boolean;
 }
 
 export interface SignatureFamily {
@@ -71,6 +72,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         complexity: "Low rendering cost and the smallest DOM of the hero options.",
         recommendation: "Strong when the brand message should dominate and the system can be introduced one beat later.",
         tradeoffs: "The ecosystem feels secondary and the first viewport communicates less product depth.",
+        selected: true,
       },
       {
         id: "HERO-C",
@@ -103,6 +105,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         recommendation: "Recommended because it is the most ownable visual expression of the notation system.",
         tradeoffs: "Needs a purpose-built mobile transformation rather than a literal scaled diagram.",
         recommended: true,
+        selected: true,
       },
       {
         id: "GROUND-B",
@@ -159,6 +162,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         complexity: "Highest responsive layout cost because placements shift at tablet and mobile.",
         recommendation: "Choose when capability navigation is more important than a simple learning sequence.",
         tradeoffs: "Distinctive and exploratory, but harder to compare courses quickly.",
+        selected: true,
       },
       {
         id: "COURSE-C",
@@ -203,6 +207,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         complexity: "Medium client cost if selection is added later; static version is inexpensive.",
         recommendation: "Best for deep inspection on course detail pages.",
         tradeoffs: "Only one artefact receives strong visual emphasis at a time on desktop.",
+        selected: true,
       },
       {
         id: "ARTEFACT-C",
@@ -235,6 +240,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         recommendation: "Recommended because it explains the shift quickly before the curriculum goes deeper.",
         tradeoffs: "The comparison can feel reductive if the former role copy is not carefully framed.",
         recommended: true,
+        selected: true,
       },
       {
         id: "ROLE-B",
@@ -291,6 +297,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         recommendation: "Recommended because it matches the specified vertical learning sequence and ties every stage to proof.",
         tradeoffs: "Uses more vertical space and feels less like a signature homepage moment.",
         recommended: true,
+        selected: true,
       },
       {
         id: "LEARN-C",
@@ -323,6 +330,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         recommendation: "Recommended because it balances human presence with verifiable experience.",
         tradeoffs: "Depends on obtaining a strong real portrait before public launch.",
         recommended: true,
+        selected: true,
       },
       {
         id: "INSTRUCTOR-B",
@@ -367,6 +375,7 @@ export const signatureFamilies: readonly SignatureFamily[] = [
         recommendation: "Recommended because it completes the system story without competing with the action.",
         tradeoffs: "Requires enough preceding system language for the convergence to feel earned.",
         recommended: true,
+        selected: true,
       },
       {
         id: "CTA-B",
@@ -675,8 +684,18 @@ export function DirectionEvidence({ direction }: { direction: SignatureDirection
         <div><dt>Motion</dt><dd>{direction.motion}</dd></div>
         <div><dt>Complexity</dt><dd>{direction.complexity}</dd></div>
       </dl>
-      <div className={styles.recommendation} data-recommended={direction.recommended || undefined}>
-        <span>{direction.recommended ? "Recommended direction" : "Selection guidance"}</span>
+      <div
+        className={styles.recommendation}
+        data-recommended={direction.recommended || undefined}
+        data-selected={direction.selected || undefined}
+      >
+        <span>
+          {direction.selected
+            ? "Approved direction"
+            : direction.recommended
+              ? "Recommended direction"
+              : "Selection guidance"}
+        </span>
         <p>{direction.recommendation}</p>
         <small>{direction.tradeoffs}</small>
       </div>

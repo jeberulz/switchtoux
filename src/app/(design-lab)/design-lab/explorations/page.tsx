@@ -16,17 +16,16 @@ export default function SignatureExplorationsPage() {
   return (
     <PageContainer className="explorations-page" width="atmospheric">
       <header className="explorations-hero">
-        <p className="explorations-kicker">Selection gate</p>
-        <h1>Choose the signature language.</h1>
+        <p className="explorations-kicker">Approved signature set</p>
+        <h1>The signature language is selected.</h1>
         <p>
-          Eight composition families test how the system explains judgment,
-          learning and proof. Each direction is static first, responsive and
-          intentionally unapproved.
+          One direction is approved for each composition family. The original
+          recommendations and alternatives remain visible as decision history.
         </p>
         <dl className="explorations-summary">
           <div><dt>Families</dt><dd>{signatureFamilies.length}</dd></div>
           <div><dt>Directions</dt><dd>{signatureFamilies.length * 3}</dd></div>
-          <div><dt>Preview modes</dt><dd>Desktop + mobile</dd></div>
+          <div><dt>Selected</dt><dd>{signatureFamilies.length}</dd></div>
         </dl>
       </header>
 
@@ -40,10 +39,10 @@ export default function SignatureExplorationsPage() {
       </nav>
 
       <aside className="exploration-instructions">
-        <strong>How to review</strong>
+        <strong>Decision record</strong>
         <p>
-          Select A, B, C or a named hybrid for every family. Recommendation marks
-          show the current design judgment, not an automatic decision.
+          Selected marks identify the approved direction. Recommendation marks
+          preserve the original design guidance where it differs from the decision.
         </p>
       </aside>
 
@@ -56,13 +55,23 @@ export default function SignatureExplorationsPage() {
 
           <div className="exploration-directions">
             {family.directions.map((direction) => (
-              <article className="exploration-direction" data-recommended={direction.recommended || undefined} id={direction.id.toLowerCase()} key={direction.id}>
+              <article
+                className="exploration-direction"
+                data-recommended={direction.recommended || undefined}
+                data-selected={direction.selected || undefined}
+                id={direction.id.toLowerCase()}
+                key={direction.id}
+              >
                 <header className="exploration-direction-header">
                   <div>
                     <span>{direction.id}</span>
                     <h3>{direction.name}</h3>
                   </div>
-                  {direction.recommended ? <strong>Recommended</strong> : null}
+                  {direction.selected ? (
+                    <strong data-status="selected">Selected</strong>
+                  ) : direction.recommended ? (
+                    <strong data-status="recommended">Recommended</strong>
+                  ) : null}
                 </header>
 
                 <div className="exploration-previews">
@@ -79,11 +88,11 @@ export default function SignatureExplorationsPage() {
 
       <section aria-labelledby="selection-heading" className="exploration-selection">
         <div>
-          <p className="explorations-kicker">Approval boundary</p>
-          <h2 id="selection-heading">The next move is a selection.</h2>
+          <p className="explorations-kicker">Gate approved</p>
+          <h2 id="selection-heading">The signature language is approved.</h2>
           <p>
-            Programme components remain blocked until every family has an approved
-            direction or hybrid. Rejected directions stay here as decision history.
+            Programme identity is the next work package. No programme component,
+            Figma object or public page has been started here.
           </p>
         </div>
         <Link href="#hero">Return to the first family</Link>

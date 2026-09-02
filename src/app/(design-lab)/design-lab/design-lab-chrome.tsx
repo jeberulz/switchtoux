@@ -81,7 +81,7 @@ export function DesignLabChrome({ children }: { children: ReactNode }) {
           <LabNavigation id="lab-sidebar-navigation" />
           <div className="lab-sidebar-meta">
             <span>Current gate</span>
-            <strong>Signature selection</strong>
+            <strong>Programme identity next</strong>
             <span>Figma parity deferred</span>
           </div>
         </div>

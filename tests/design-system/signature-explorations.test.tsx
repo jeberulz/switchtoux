@@ -72,6 +72,24 @@ describe("signature composition explorations", () => {
     expect(new Set(recommendations.map(({ id }) => id))).toContain("LEARN-B");
   });
 
+  it("records one approved direction for every signature family", () => {
+    const selections = signatureFamilies.flatMap((family) =>
+      family.directions.filter(({ selected }) => selected),
+    );
+
+    expect(selections).toHaveLength(8);
+    expect(selections.map(({ id }) => id)).toEqual([
+      "HERO-B",
+      "GROUND-A",
+      "COURSE-B",
+      "ARTEFACT-B",
+      "ROLE-A",
+      "LEARN-B",
+      "INSTRUCTOR-A",
+      "CTA-A",
+    ]);
+  });
+
   it("contains no forbidden dash characters in visible exploration copy", () => {
     const copy = JSON.stringify(signatureFamilies);
     expect(copy).not.toMatch(/[—–]/);

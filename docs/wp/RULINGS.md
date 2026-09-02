@@ -50,3 +50,10 @@ WP02 is limited to the internal Design Lab shell and foundation specimens. The l
 **Date:** 1 September 2026
 
 The owner has moved Figma discovery, native variable creation and parity work to the final design-system batch. Code component work may proceed against the approved canonical tokens and Design Lab foundations. Public page assembly still requires explicit approval after the final code/Figma parity gate.
+
+## R-008: Signature composition selection
+
+**Status:** Accepted
+**Date:** 2 September 2026
+
+The owner approved `HERO-B`, `GROUND-A`, `COURSE-B`, `ARTEFACT-B`, `ROLE-A`, `LEARN-B`, `INSTRUCTOR-A` and `CTA-A` as the signature composition set. The owner's `ROLA-A` entry is recorded as `ROLE-A`, the matching stable direction ID. Original recommendations and rejected alternatives remain available in the Design Lab as decision history. WP05 is closed; programme identity is the next planned work package.

@@ -11,17 +11,17 @@ export default function DesignLabOverview() {
     <div className="lab-overview">
       <header className="lab-hero">
         <p className="lab-kicker">Internal system workspace</p>
-        <h1>The system is ready to choose a voice.</h1>
+        <h1>The signature language is approved.</h1>
         <p>
-          Foundations, layout, controls and brand primitives are approved. The
-          current gate compares the signature compositions they can create.
+          Eight composition decisions now define how the system explains judgment,
+          learning and proof. Programme identity is the next work package.
         </p>
       </header>
 
       <section aria-labelledby="gate-heading" className="lab-gate">
         <div>
           <p className="lab-kicker">Current gate</p>
-          <h2 id="gate-heading">Signature composition selection</h2>
+          <h2 id="gate-heading">Programme identity next</h2>
         </div>
         <dl className="lab-metrics">
           <div>
@@ -33,8 +33,8 @@ export default function DesignLabOverview() {
             <dd>{tokenReport.contrastChecks.length} passed</dd>
           </div>
           <div>
-            <dt>Directions</dt>
-            <dd>24</dd>
+            <dt>Selected directions</dt>
+            <dd>8</dd>
           </div>
         </dl>
       </section>
@@ -42,12 +42,12 @@ export default function DesignLabOverview() {
       <section aria-labelledby="scope-heading" className="lab-scope">
         <h2 id="scope-heading">What is available now</h2>
         <p>
-          Compare three static-first directions for each signature family at
-          desktop and mobile. Public pages remain absent.
+          Review the approved set alongside the original recommendations and
+          alternatives. Public pages remain absent.
         </p>
         <div className="lab-overview-actions">
           <Link className="lab-primary-link" href="/design-lab/explorations">
-            Compare directions
+            Review selections
           </Link>
           <Link className="lab-secondary-link" href="/design-lab/brand">
             Inspect brand

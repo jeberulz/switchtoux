@@ -1,7 +1,7 @@
 # WP05 progress: Signature composition exploration
 
 **Branch:** `feat/wp05-signature-exploration`
-**Status:** Ready for owner selection
+**Status:** Approved by owner
 
 ## Story status
 
@@ -16,7 +16,7 @@
 - Figma discovery and parity remain deferred to the final design-system batch.
 - All previews use the approved dark-only token system and component primitives.
 - The page is an internal comparison workbench, not a public homepage draft.
-- Programme components and page assembly remain blocked until owner selection.
+- Programme components and page assembly were blocked until owner selection and remain outside WP05.
 
 ## Design read
 
@@ -33,6 +33,20 @@
 - A no-index decision board at `/design-lab/explorations` with stable family and direction anchors.
 - Keyboard-scrollable desktop canvases on narrow screens so no comparison is clipped or removed.
 - One advisory recommendation per family while preserving all alternatives for owner selection.
+- One approved direction per family, recorded separately from the original advisory recommendations.
+
+## Owner-approved signature set
+
+- Ecosystem Hero: `HERO-B`
+- Grounded Design System: `GROUND-A`
+- Course Ecosystem: `COURSE-B`
+- Artefact Evidence Board: `ARTEFACT-B`
+- Changing Role Timeline: `ROLE-A`
+- Learning Model: `LEARN-B`
+- Instructor Split: `INSTRUCTOR-A`
+- Final Convergence CTA and Footer: `CTA-A`
+
+The owner's `ROLA-A` entry is recorded as `ROLE-A`, the matching stable direction ID.
 
 ## Verification
 
@@ -43,8 +57,8 @@
 - Keyboard: the mobile Design Lab menu opens with Space.
 - Reduced motion: the page contains no active animation and all compositions remain complete.
 - Copy: no forbidden dash characters, fabricated testimonials, fake student work or unsupported metrics are present.
-- Token validation, generated-output freshness, lint, type checking, 36 tests and an isolated production build pass.
+- Token validation, generated-output freshness, lint, type checking, 38 tests and a production build pass.
 
-## Approval boundary
+## Approval outcome
 
-The work package stops here for an owner choice of A, B, C or a named hybrid for every family. No programme component, Figma object or public page has been created.
+The owner approved the eight-direction set on 2 September 2026. WP05 is closed. Programme identity is next; no programme component, Figma object or public page has been created in this approval update.

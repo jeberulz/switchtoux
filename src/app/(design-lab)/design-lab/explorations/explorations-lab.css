@@ -158,6 +158,10 @@
 }
 
 .exploration-direction[data-recommended] {
+  border-top-color: var(--color-border-strong);
+}
+
+.exploration-direction[data-selected] {
   border-top-color: var(--color-accent);
 }
 
@@ -187,6 +191,10 @@
   font-size: var(--text-label-mono);
   letter-spacing: var(--text-label-mono-letter-spacing);
   text-transform: uppercase;
+}
+
+.exploration-direction-header > strong[data-status="recommended"] {
+  color: var(--color-text-muted);
 }
 
 .exploration-previews {
