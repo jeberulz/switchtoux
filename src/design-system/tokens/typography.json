@@ -4,9 +4,9 @@
     "family": {
       "sans": {
         "$type": "fontFamily",
-        "$value": "Inter",
+        "$value": "Instrument Sans",
         "$description": "Editorial and interface family.",
-        "$extensions": { "switchtoux": { "cssValue": "var(--font-inter), ui-sans-serif, system-ui, sans-serif" } }
+        "$extensions": { "switchtoux": { "cssValue": "var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif" } }
       },
       "mono": {
         "$type": "fontFamily",

@@ -3,7 +3,7 @@
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.text.primary",
@@ -12,12 +12,12 @@
       "minimum": 4.5,
       "name": "primary text on canvas",
       "passes": true,
-      "ratio": 21
+      "ratio": 19.895
     },
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.text.secondary",
@@ -26,12 +26,12 @@
       "minimum": 4.5,
       "name": "secondary text on canvas",
       "passes": true,
-      "ratio": 14.208
+      "ratio": 13.461
     },
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.text.muted",
@@ -40,7 +40,7 @@
       "minimum": 4.5,
       "name": "muted text on canvas",
       "passes": true,
-      "ratio": 8.194
+      "ratio": 7.763
     },
     {
       "background": {
@@ -59,16 +59,16 @@
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.action.primary",
-        "value": "#f43f5e"
+        "value": "#db586f"
       },
       "minimum": 4.5,
       "name": "rose text on canvas",
       "passes": true,
-      "ratio": 5.719
+      "ratio": 5.341
     },
     {
       "background": {
@@ -77,59 +77,59 @@
       },
       "foreground": {
         "id": "color.action.primary",
-        "value": "#f43f5e"
+        "value": "#db586f"
       },
       "minimum": 4.5,
       "name": "rose text on surface",
       "passes": true,
-      "ratio": 4.825
+      "ratio": 4.756
     },
     {
       "background": {
         "id": "color.action.primary",
-        "value": "#f43f5e"
+        "value": "#db586f"
       },
       "foreground": {
         "id": "color.text.onAction",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "minimum": 4.5,
       "name": "action text on primary",
       "passes": true,
-      "ratio": 5.719
+      "ratio": 5.341
     },
     {
       "background": {
         "id": "color.action.hover",
-        "value": "#fb7185"
+        "value": "#e88493"
       },
       "foreground": {
         "id": "color.text.onAction",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "minimum": 4.5,
       "name": "action text on hover",
       "passes": true,
-      "ratio": 7.803
+      "ratio": 7.724
     },
     {
       "background": {
         "id": "color.action.pressed",
-        "value": "#e21e49"
+        "value": "#cc4b67"
       },
       "foreground": {
         "id": "color.text.onAction",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "minimum": 4.5,
       "name": "action text on pressed",
       "passes": true,
-      "ratio": 4.516
+      "ratio": 4.519
     },
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.border.control",
@@ -138,7 +138,7 @@
       "minimum": 3,
       "name": "control border on canvas",
       "passes": true,
-      "ratio": 4.345
+      "ratio": 4.117
     },
     {
       "background": {
@@ -161,12 +161,12 @@
       },
       "foreground": {
         "id": "color.focus.inner",
-        "value": "#f43f5e"
+        "value": "#db586f"
       },
       "minimum": 3,
       "name": "inner focus on surface",
       "passes": true,
-      "ratio": 4.825
+      "ratio": 4.756
     },
     {
       "background": {
@@ -185,7 +185,7 @@
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.status.success.signal",
@@ -194,12 +194,12 @@
       "minimum": 4.5,
       "name": "success signal on canvas",
       "passes": true,
-      "ratio": 10.924
+      "ratio": 10.349
     },
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.status.warning.signal",
@@ -208,12 +208,12 @@
       "minimum": 4.5,
       "name": "warning signal on canvas",
       "passes": true,
-      "ratio": 12.58
+      "ratio": 11.918
     },
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.status.info.signal",
@@ -222,12 +222,12 @@
       "minimum": 4.5,
       "name": "info signal on canvas",
       "passes": true,
-      "ratio": 9.803
+      "ratio": 9.287
     },
     {
       "background": {
         "id": "color.background.canvas",
-        "value": "#000000"
+        "value": "#09090b"
       },
       "foreground": {
         "id": "color.status.error.signal",
@@ -236,7 +236,7 @@
       "minimum": 4.5,
       "name": "error signal on canvas",
       "passes": true,
-      "ratio": 7.803
+      "ratio": 7.392
     }
   ],
   "counts": {
@@ -284,6 +284,6 @@
     ]
   },
   "schemaVersion": "1.0.0",
-  "sourceHash": "3000bcaf1d60a1d70aa76d3273e64d0b771182087ef5972f8635bc945114b4d2",
+  "sourceHash": "311ccd1101ff9b201903129b5e11aedad4041a1d342014916a0839e992d37cf2",
   "status": "pass"
 }

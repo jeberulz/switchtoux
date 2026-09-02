@@ -39,17 +39,24 @@ describe("canonical design tokens", () => {
 
   it("preserves the approved palette and accessibility corrections", async () => {
     const result = await buildTokenArtifacts();
+    const canvas = result.resolvedValues.get("color.background.canvas");
+    const onAction = result.resolvedValues.get("color.text.onAction");
 
-    expect(result.resolvedValues.get("color.background.canvas")).toBe("#000000");
-    expect(result.resolvedValues.get("color.action.primary")).toBe("#f43f5e");
-    expect(result.resolvedValues.get("color.action.pressed")).toBe("#e21e49");
+    expect(canvas).toBe("#09090b");
+    expect(canvas).not.toBe("#000000");
+    expect(result.resolvedValues.get("color.action.primary")).toBe("#db586f");
+    expect(result.resolvedValues.get("color.action.hover")).toBe("#e88493");
+    expect(result.resolvedValues.get("color.action.pressed")).toBe("#cc4b67");
     expect(result.resolvedValues.get("color.border.control")).toBe("#71717a");
-    expect(
-      contrastRatio(
-        result.resolvedValues.get("color.text.onAction"),
-        result.resolvedValues.get("color.action.pressed"),
-      ),
-    ).toBeGreaterThanOrEqual(4.5);
+
+    for (const state of ["default", "hover", "pressed"]) {
+      expect(
+        contrastRatio(
+          result.resolvedValues.get(`color.rose.${state}`),
+          onAction,
+        ),
+      ).toBeGreaterThanOrEqual(4.5);
+    }
   });
 
   it("includes the complete typography, breakpoint and motion inventories", async () => {
@@ -92,13 +99,28 @@ describe("canonical design tokens", () => {
     );
   });
 
+  it("keeps the sans token aligned with the runtime font variable", async () => {
+    const result = await buildTokenArtifacts();
+    const layout = await readFile(
+      path.join(PROJECT_ROOT, "src/app/layout.tsx"),
+      "utf8",
+    );
+    const sansToken = result.tokens.find(({ id }) => id === "font.family.sans");
+    const layoutVariable = layout.match(/variable: "(--font-[a-z-]+)"/)?.[1];
+
+    expect(layoutVariable).toBe("--font-instrument-sans");
+    expect(sansToken.extensions.switchtoux.cssValue).toContain(
+      `var(${layoutVariable})`,
+    );
+  });
+
   it("generates stable public CSS and Tailwind aliases", async () => {
     const first = await buildTokenArtifacts();
     const second = await buildTokenArtifacts();
     const css = first.outputs.get("tokens.css");
 
     expect([...first.outputs]).toEqual([...second.outputs]);
-    expect(css).toContain("--color-bg: var(--primitive-color-neutral-black);");
+    expect(css).toContain("--color-bg: var(--primitive-color-neutral-zinc975);");
     expect(css).toContain("--text-display-2xl: clamp(3rem, 7.2vw, 5.5rem);");
     expect(css).toContain("--color-brand: var(--color-accent);");
     expect(css).toContain("--breakpoint-comparison: 900px;");

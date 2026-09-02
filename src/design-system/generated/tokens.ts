@@ -3,12 +3,12 @@
 export const tokens = {
   "color": {
     "action": {
-      "glow": "rgba(244, 63, 94, 0.22)",
-      "hover": "#fb7185",
-      "line": "rgba(244, 63, 94, 0.42)",
-      "pressed": "#e21e49",
-      "primary": "#f43f5e",
-      "soft": "rgba(244, 63, 94, 0.14)"
+      "glow": "rgba(219, 88, 111, 0.22)",
+      "hover": "#e88493",
+      "line": "rgba(219, 88, 111, 0.42)",
+      "pressed": "#cc4b67",
+      "primary": "#db586f",
+      "soft": "rgba(219, 88, 111, 0.14)"
     },
     "alpha": {
       "blackRaised": "rgba(0, 0, 0, 0.42)",
@@ -16,17 +16,17 @@ export const tokens = {
       "errorSoft": "rgba(251, 113, 133, 0.14)",
       "infoLine": "rgba(56, 189, 248, 0.42)",
       "infoSoft": "rgba(56, 189, 248, 0.14)",
-      "roseGlow": "rgba(244, 63, 94, 0.22)",
-      "roseLine": "rgba(244, 63, 94, 0.42)",
-      "roseShadow": "rgba(244, 63, 94, 0.18)",
-      "roseSoft": "rgba(244, 63, 94, 0.14)",
+      "roseGlow": "rgba(219, 88, 111, 0.22)",
+      "roseLine": "rgba(219, 88, 111, 0.42)",
+      "roseShadow": "rgba(219, 88, 111, 0.18)",
+      "roseSoft": "rgba(219, 88, 111, 0.14)",
       "successLine": "rgba(52, 211, 153, 0.42)",
       "successSoft": "rgba(52, 211, 153, 0.14)",
       "warningLine": "rgba(251, 191, 36, 0.42)",
       "warningSoft": "rgba(251, 191, 36, 0.14)"
     },
     "background": {
-      "canvas": "#000000"
+      "canvas": "#09090b"
     },
     "border": {
       "control": "#71717a",
@@ -35,11 +35,10 @@ export const tokens = {
       "subtle": "#27272a"
     },
     "focus": {
-      "inner": "#f43f5e",
+      "inner": "#db586f",
       "outer": "#ffffff"
     },
     "neutral": {
-      "black": "#000000",
       "white": "#ffffff",
       "zinc300": "#d4d4d8",
       "zinc400": "#a1a1aa",
@@ -48,12 +47,13 @@ export const tokens = {
       "zinc700": "#3f3f46",
       "zinc850": "#303036",
       "zinc900": "#27272a",
-      "zinc950": "#18181b"
+      "zinc950": "#18181b",
+      "zinc975": "#09090b"
     },
     "rose": {
-      "default": "#f43f5e",
-      "hover": "#fb7185",
-      "pressed": "#e21e49"
+      "default": "#db586f",
+      "hover": "#e88493",
+      "pressed": "#cc4b67"
     },
     "signal": {
       "error": "#fb7185",
@@ -96,7 +96,7 @@ export const tokens = {
     "text": {
       "disabled": "#71717a",
       "muted": "#a1a1aa",
-      "onAction": "#000000",
+      "onAction": "#09090b",
       "primary": "#ffffff",
       "secondary": "#d4d4d8"
     }
@@ -237,16 +237,16 @@ export const tokens = {
     ]
   },
   "effect": {
-    "focusRing": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff",
+    "focusRing": "0 0 0 2px #db586f, 0 0 0 4px #ffffff",
     "shadow": {
-      "accent": "0 0 64px rgba(244, 63, 94, 0.18)",
+      "accent": "0 0 64px rgba(219, 88, 111, 0.18)",
       "raised": "0 24px 80px rgba(0, 0, 0, 0.42)"
     }
   },
   "font": {
     "family": {
       "mono": "JetBrains Mono",
-      "sans": "Inter"
+      "sans": "Instrument Sans"
     },
     "weight": {
       "medium": 500,
@@ -398,28 +398,28 @@ export const tokens = {
     }
   },
   "shadow": {
-    "accent": "0 0 64px rgba(244, 63, 94, 0.18)",
-    "focusRing": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff",
+    "accent": "0 0 64px rgba(219, 88, 111, 0.18)",
+    "focusRing": "0 0 0 2px #db586f, 0 0 0 4px #ffffff",
     "raised": "0 24px 80px rgba(0, 0, 0, 0.42)"
   },
   "typography": {
     "body": {
       "lg": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "clamp(1.0625rem, 1.4vw, 1.25rem)",
         "fontWeight": 400,
         "letterSpacing": "-0.01em",
         "lineHeight": 1.55
       },
       "md": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "1rem",
         "fontWeight": 400,
         "letterSpacing": "0em",
         "lineHeight": 1.65
       },
       "sm": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "0.875rem",
         "fontWeight": 400,
         "letterSpacing": "0em",
@@ -428,21 +428,21 @@ export const tokens = {
     },
     "display": {
       "2xl": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "clamp(3rem, 7.2vw, 5.5rem)",
         "fontWeight": 500,
         "letterSpacing": "-0.045em",
         "lineHeight": 0.98
       },
       "lg": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "clamp(2.25rem, 4.2vw, 3.25rem)",
         "fontWeight": 500,
         "letterSpacing": "-0.035em",
         "lineHeight": 1.05
       },
       "xl": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "clamp(2.75rem, 5.4vw, 4rem)",
         "fontWeight": 500,
         "letterSpacing": "-0.04em",
@@ -451,21 +451,21 @@ export const tokens = {
     },
     "heading": {
       "lg": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "clamp(1.625rem, 2.4vw, 2.125rem)",
         "fontWeight": 500,
         "letterSpacing": "-0.02em",
         "lineHeight": 1.15
       },
       "md": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "1.5rem",
         "fontWeight": 500,
         "letterSpacing": "-0.015em",
         "lineHeight": 1.25
       },
       "xl": {
-        "fontFamily": "Inter",
+        "fontFamily": "Instrument Sans",
         "fontSize": "clamp(2rem, 3vw, 2.75rem)",
         "fontWeight": 500,
         "letterSpacing": "-0.025em",
@@ -520,7 +520,6 @@ export const cssVariables = {
   "color.border.subtle": "--color-border-subtle",
   "color.focus.inner": "--color-focus-inner",
   "color.focus.outer": "--color-focus-outer",
-  "color.neutral.black": "--primitive-color-neutral-black",
   "color.neutral.white": "--primitive-color-neutral-white",
   "color.neutral.zinc300": "--primitive-color-neutral-zinc300",
   "color.neutral.zinc400": "--primitive-color-neutral-zinc400",
@@ -530,6 +529,7 @@ export const cssVariables = {
   "color.neutral.zinc850": "--primitive-color-neutral-zinc850",
   "color.neutral.zinc900": "--primitive-color-neutral-zinc900",
   "color.neutral.zinc950": "--primitive-color-neutral-zinc950",
+  "color.neutral.zinc975": "--primitive-color-neutral-zinc975",
   "color.rose.default": "--primitive-color-rose-default",
   "color.rose.hover": "--primitive-color-rose-hover",
   "color.rose.pressed": "--primitive-color-rose-pressed",
@@ -803,7 +803,6 @@ export const tokenIds = [
   "color.border.subtle",
   "color.focus.inner",
   "color.focus.outer",
-  "color.neutral.black",
   "color.neutral.white",
   "color.neutral.zinc300",
   "color.neutral.zinc400",
@@ -813,6 +812,7 @@ export const tokenIds = [
   "color.neutral.zinc850",
   "color.neutral.zinc900",
   "color.neutral.zinc950",
+  "color.neutral.zinc975",
   "color.rose.default",
   "color.rose.hover",
   "color.rose.pressed",

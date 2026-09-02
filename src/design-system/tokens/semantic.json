@@ -2,7 +2,7 @@
   "$description": "Contextual Switch to UX design roles.",
   "color": {
     "background": {
-      "canvas": { "$type": "color", "$value": "{color.neutral.black}", "$description": "Page canvas." }
+      "canvas": { "$type": "color", "$value": "{color.neutral.zinc975}", "$description": "Page canvas." }
     },
     "surface": {
       "default": { "$type": "color", "$value": "{color.neutral.zinc950}", "$description": "Low-elevation surface." },
@@ -20,7 +20,7 @@
       "secondary": { "$type": "color", "$value": "{color.neutral.zinc300}", "$description": "Secondary body text." },
       "muted": { "$type": "color", "$value": "{color.neutral.zinc400}", "$description": "Muted supporting text." },
       "disabled": { "$type": "color", "$value": "{color.neutral.zinc500}", "$description": "Disabled text." },
-      "onAction": { "$type": "color", "$value": "{color.neutral.black}", "$description": "Text on rose action surfaces." }
+      "onAction": { "$type": "color", "$value": "{color.neutral.zinc975}", "$description": "Text on rose action surfaces." }
     },
     "action": {
       "primary": { "$type": "color", "$value": "{color.rose.default}", "$description": "Primary action background and signal." },

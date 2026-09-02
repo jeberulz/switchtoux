@@ -2,7 +2,7 @@
   "$description": "Raw, context-free Switch to UX design values.",
   "color": {
     "neutral": {
-      "black": { "$type": "color", "$value": "#000000", "$description": "Absolute black canvas." },
+      "zinc975": { "$type": "color", "$value": "#09090b", "$description": "Near-black canvas and on-action text." },
       "zinc950": { "$type": "color", "$value": "#18181b", "$description": "Lowest zinc surface." },
       "zinc900": { "$type": "color", "$value": "#27272a", "$description": "Raised zinc surface and subtle border." },
       "zinc850": { "$type": "color", "$value": "#303036", "$description": "Interactive zinc hover surface." },
@@ -14,9 +14,9 @@
       "white": { "$type": "color", "$value": "#ffffff", "$description": "Primary white text and focus ring." }
     },
     "rose": {
-      "default": { "$type": "color", "$value": "#f43f5e", "$description": "Primary rose signal." },
-      "hover": { "$type": "color", "$value": "#fb7185", "$description": "Rose hover and error signal." },
-      "pressed": { "$type": "color", "$value": "#e21e49", "$description": "Accessibility-corrected pressed rose." }
+      "default": { "$type": "color", "$value": "#db586f", "$description": "Desaturated primary rose signal." },
+      "hover": { "$type": "color", "$value": "#e88493", "$description": "Desaturated rose hover signal." },
+      "pressed": { "$type": "color", "$value": "#cc4b67", "$description": "Pressed rose meeting AA contrast against near-black on-action text." }
     },
     "signal": {
       "success": { "$type": "color", "$value": "#34d399", "$description": "Success signal." },
@@ -25,9 +25,9 @@
       "error": { "$type": "color", "$value": "#fb7185", "$description": "Error signal." }
     },
     "alpha": {
-      "roseSoft": { "$type": "color", "$value": "rgba(244, 63, 94, 0.14)", "$description": "Soft rose background." },
-      "roseLine": { "$type": "color", "$value": "rgba(244, 63, 94, 0.42)", "$description": "Rose connection and border line." },
-      "roseGlow": { "$type": "color", "$value": "rgba(244, 63, 94, 0.22)", "$description": "Rose atmospheric glow." },
+      "roseSoft": { "$type": "color", "$value": "rgba(219, 88, 111, 0.14)", "$description": "Soft rose background." },
+      "roseLine": { "$type": "color", "$value": "rgba(219, 88, 111, 0.42)", "$description": "Rose connection and border line." },
+      "roseGlow": { "$type": "color", "$value": "rgba(219, 88, 111, 0.22)", "$description": "Rose atmospheric glow." },
       "successSoft": { "$type": "color", "$value": "rgba(52, 211, 153, 0.14)", "$description": "Soft success background." },
       "successLine": { "$type": "color", "$value": "rgba(52, 211, 153, 0.42)", "$description": "Success border line." },
       "warningSoft": { "$type": "color", "$value": "rgba(251, 191, 36, 0.14)", "$description": "Soft warning background." },
@@ -37,7 +37,7 @@
       "errorSoft": { "$type": "color", "$value": "rgba(251, 113, 133, 0.14)", "$description": "Soft error background." },
       "errorLine": { "$type": "color", "$value": "rgba(251, 113, 133, 0.42)", "$description": "Error border line." },
       "blackRaised": { "$type": "color", "$value": "rgba(0, 0, 0, 0.42)", "$description": "Raised shadow colour." },
-      "roseShadow": { "$type": "color", "$value": "rgba(244, 63, 94, 0.18)", "$description": "Rose shadow colour." }
+      "roseShadow": { "$type": "color", "$value": "rgba(219, 88, 111, 0.18)", "$description": "Rose shadow colour." }
     }
   },
   "dimension": {
@@ -151,7 +151,7 @@
   },
   "shadow": {
     "raised": { "$type": "shadow", "$value": "0 24px 80px rgba(0, 0, 0, 0.42)", "$description": "Raised panel shadow." },
-    "accent": { "$type": "shadow", "$value": "0 0 64px rgba(244, 63, 94, 0.18)", "$description": "Rose atmospheric shadow." },
-    "focusRing": { "$type": "shadow", "$value": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff", "$description": "Two-stage rose inner and white outer focus treatment." }
+    "accent": { "$type": "shadow", "$value": "0 0 64px rgba(219, 88, 111, 0.18)", "$description": "Rose atmospheric shadow." },
+    "focusRing": { "$type": "shadow", "$value": "0 0 0 2px #db586f, 0 0 0 4px #ffffff", "$description": "Two-stage rose inner and white outer focus treatment." }
   }
 }

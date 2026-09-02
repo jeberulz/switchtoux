@@ -17,7 +17,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.22)"
+      "value": "rgba(219, 88, 111, 0.22)"
     },
     {
       "aliasOf": "color.rose.hover",
@@ -36,7 +36,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "#fb7185"
+      "value": "#e88493"
     },
     {
       "aliasOf": "color.alpha.roseLine",
@@ -55,7 +55,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.42)"
+      "value": "rgba(219, 88, 111, 0.42)"
     },
     {
       "aliasOf": "color.rose.pressed",
@@ -74,7 +74,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "#e21e49"
+      "value": "#cc4b67"
     },
     {
       "aliasOf": "color.rose.default",
@@ -93,7 +93,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "#f43f5e"
+      "value": "#db586f"
     },
     {
       "aliasOf": "color.alpha.roseSoft",
@@ -112,7 +112,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.14)"
+      "value": "rgba(219, 88, 111, 0.14)"
     },
     {
       "aliasOf": null,
@@ -212,7 +212,7 @@
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "rgba(244, 63, 94, 0.22)",
+      "cssValue": "rgba(219, 88, 111, 0.22)",
       "cssVariable": "--primitive-color-alpha-rose-glow",
       "description": "Rose atmospheric glow.",
       "extensions": {},
@@ -226,12 +226,12 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.22)"
+      "value": "rgba(219, 88, 111, 0.22)"
     },
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "rgba(244, 63, 94, 0.42)",
+      "cssValue": "rgba(219, 88, 111, 0.42)",
       "cssVariable": "--primitive-color-alpha-rose-line",
       "description": "Rose connection and border line.",
       "extensions": {},
@@ -245,12 +245,12 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.42)"
+      "value": "rgba(219, 88, 111, 0.42)"
     },
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "rgba(244, 63, 94, 0.18)",
+      "cssValue": "rgba(219, 88, 111, 0.18)",
       "cssVariable": "--primitive-color-alpha-rose-shadow",
       "description": "Rose shadow colour.",
       "extensions": {},
@@ -264,12 +264,12 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.18)"
+      "value": "rgba(219, 88, 111, 0.18)"
     },
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "rgba(244, 63, 94, 0.14)",
+      "cssValue": "rgba(219, 88, 111, 0.14)",
       "cssVariable": "--primitive-color-alpha-rose-soft",
       "description": "Soft rose background.",
       "extensions": {},
@@ -283,7 +283,7 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "rgba(244, 63, 94, 0.14)"
+      "value": "rgba(219, 88, 111, 0.14)"
     },
     {
       "aliasOf": null,
@@ -362,9 +362,9 @@
       "value": "rgba(251, 191, 36, 0.14)"
     },
     {
-      "aliasOf": "color.neutral.black",
+      "aliasOf": "color.neutral.zinc975",
       "collection": "Semantic Color",
-      "cssValue": "var(--primitive-color-neutral-black)",
+      "cssValue": "var(--primitive-color-neutral-zinc975)",
       "cssVariable": "--color-bg",
       "description": "Page canvas.",
       "extensions": {},
@@ -378,7 +378,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "#000000"
+      "value": "#09090b"
     },
     {
       "aliasOf": "color.neutral.zinc500",
@@ -473,7 +473,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "#f43f5e"
+      "value": "#db586f"
     },
     {
       "aliasOf": "color.neutral.white",
@@ -493,25 +493,6 @@
       "source": "semantic.json",
       "type": "color",
       "value": "#ffffff"
-    },
-    {
-      "aliasOf": null,
-      "collection": "Primitives",
-      "cssValue": "#000000",
-      "cssVariable": "--primitive-color-neutral-black",
-      "description": "Absolute black canvas.",
-      "extensions": {},
-      "figmaType": "COLOR",
-      "id": "color.neutral.black",
-      "mode": "Value",
-      "role": null,
-      "scope": [
-        "ALL_FILLS",
-        "STROKE_COLOR"
-      ],
-      "source": "primitives.json",
-      "type": "color",
-      "value": "#000000"
     },
     {
       "aliasOf": null,
@@ -687,9 +668,28 @@
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "#f43f5e",
+      "cssValue": "#09090b",
+      "cssVariable": "--primitive-color-neutral-zinc975",
+      "description": "Near-black canvas and on-action text.",
+      "extensions": {},
+      "figmaType": "COLOR",
+      "id": "color.neutral.zinc975",
+      "mode": "Value",
+      "role": null,
+      "scope": [
+        "ALL_FILLS",
+        "STROKE_COLOR"
+      ],
+      "source": "primitives.json",
+      "type": "color",
+      "value": "#09090b"
+    },
+    {
+      "aliasOf": null,
+      "collection": "Primitives",
+      "cssValue": "#db586f",
       "cssVariable": "--primitive-color-rose-default",
-      "description": "Primary rose signal.",
+      "description": "Desaturated primary rose signal.",
       "extensions": {},
       "figmaType": "COLOR",
       "id": "color.rose.default",
@@ -701,14 +701,14 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "#f43f5e"
+      "value": "#db586f"
     },
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "#fb7185",
+      "cssValue": "#e88493",
       "cssVariable": "--primitive-color-rose-hover",
-      "description": "Rose hover and error signal.",
+      "description": "Desaturated rose hover signal.",
       "extensions": {},
       "figmaType": "COLOR",
       "id": "color.rose.hover",
@@ -720,14 +720,14 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "#fb7185"
+      "value": "#e88493"
     },
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "#e21e49",
+      "cssValue": "#cc4b67",
       "cssVariable": "--primitive-color-rose-pressed",
-      "description": "Accessibility-corrected pressed rose.",
+      "description": "Pressed rose meeting AA contrast against near-black on-action text.",
       "extensions": {},
       "figmaType": "COLOR",
       "id": "color.rose.pressed",
@@ -739,7 +739,7 @@
       ],
       "source": "primitives.json",
       "type": "color",
-      "value": "#e21e49"
+      "value": "#cc4b67"
     },
     {
       "aliasOf": null,
@@ -1198,9 +1198,9 @@
       "value": "#a1a1aa"
     },
     {
-      "aliasOf": "color.neutral.black",
+      "aliasOf": "color.neutral.zinc975",
       "collection": "Semantic Color",
-      "cssValue": "var(--primitive-color-neutral-black)",
+      "cssValue": "var(--primitive-color-neutral-zinc975)",
       "cssVariable": "--color-text-on-action",
       "description": "Text on rose action surfaces.",
       "extensions": {},
@@ -1214,7 +1214,7 @@
       ],
       "source": "semantic.json",
       "type": "color",
-      "value": "#000000"
+      "value": "#09090b"
     },
     {
       "aliasOf": "color.neutral.white",
@@ -2985,7 +2985,7 @@
       ],
       "source": "semantic.json",
       "type": "shadow",
-      "value": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff"
+      "value": "0 0 0 2px #db586f, 0 0 0 4px #ffffff"
     },
     {
       "aliasOf": "shadow.accent",
@@ -3003,7 +3003,7 @@
       ],
       "source": "semantic.json",
       "type": "shadow",
-      "value": "0 0 64px rgba(244, 63, 94, 0.18)"
+      "value": "0 0 64px rgba(219, 88, 111, 0.18)"
     },
     {
       "aliasOf": "shadow.raised",
@@ -3046,11 +3046,11 @@
     {
       "aliasOf": null,
       "collection": "Typography",
-      "cssValue": "var(--font-inter), ui-sans-serif, system-ui, sans-serif",
+      "cssValue": "var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif",
       "cssVariable": "--font-family-sans",
       "description": "Editorial and interface family.",
       "extensions": {
-        "cssValue": "var(--font-inter), ui-sans-serif, system-ui, sans-serif"
+        "cssValue": "var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif"
       },
       "figmaType": "STRING",
       "id": "font.family.sans",
@@ -3061,7 +3061,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4325,7 +4325,7 @@
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "0 0 64px rgba(244, 63, 94, 0.18)",
+      "cssValue": "0 0 64px rgba(219, 88, 111, 0.18)",
       "cssVariable": "--primitive-shadow-accent",
       "description": "Rose atmospheric shadow.",
       "extensions": {},
@@ -4338,12 +4338,12 @@
       ],
       "source": "primitives.json",
       "type": "shadow",
-      "value": "0 0 64px rgba(244, 63, 94, 0.18)"
+      "value": "0 0 64px rgba(219, 88, 111, 0.18)"
     },
     {
       "aliasOf": null,
       "collection": "Primitives",
-      "cssValue": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff",
+      "cssValue": "0 0 0 2px #db586f, 0 0 0 4px #ffffff",
       "cssVariable": "--primitive-shadow-focus-ring",
       "description": "Two-stage rose inner and white outer focus treatment.",
       "extensions": {},
@@ -4356,7 +4356,7 @@
       ],
       "source": "primitives.json",
       "type": "shadow",
-      "value": "0 0 0 2px #f43f5e, 0 0 0 4px #ffffff"
+      "value": "0 0 0 2px #db586f, 0 0 0 4px #ffffff"
     },
     {
       "aliasOf": null,
@@ -4392,7 +4392,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4491,7 +4491,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4590,7 +4590,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4689,7 +4689,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4788,7 +4788,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4887,7 +4887,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -4986,7 +4986,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -5085,7 +5085,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -5184,7 +5184,7 @@
       ],
       "source": "typography.json",
       "type": "fontFamily",
-      "value": "Inter"
+      "value": "Instrument Sans"
     },
     {
       "aliasOf": null,
@@ -5467,5 +5467,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "sourceHash": "3000bcaf1d60a1d70aa76d3273e64d0b771182087ef5972f8635bc945114b4d2"
+  "sourceHash": "311ccd1101ff9b201903129b5e11aedad4041a1d342014916a0839e992d37cf2"
 }
