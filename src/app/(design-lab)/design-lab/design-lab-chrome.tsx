@@ -17,6 +17,7 @@ const labNavigation = [
   { href: "/design-lab/forms", label: "Forms" },
   { href: "/design-lab/learning", label: "Learning" },
   { href: "/design-lab/editorial", label: "Editorial" },
+  { href: "/design-lab/states", label: "States" },
 ] as const;
 
 function LabNavigation({ id, onNavigate }: { id: string; onNavigate?: () => void }) {
@@ -87,7 +88,7 @@ export function DesignLabChrome({ children }: { children: ReactNode }) {
           <LabNavigation id="lab-sidebar-navigation" />
           <div className="lab-sidebar-meta">
             <span>Current gate</span>
-            <strong>Course learning and editorial</strong>
+            <strong>System states and library QA</strong>
             <span>Figma parity deferred</span>
           </div>
         </div>

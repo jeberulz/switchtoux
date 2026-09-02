@@ -11,17 +11,17 @@ export default function DesignLabOverview() {
     <div className="lab-overview">
       <header className="lab-hero">
         <p className="lab-kicker">Internal system workspace</p>
-        <h1>Learning and publishing are in review.</h1>
+        <h1>Resilience and library coverage are in review.</h1>
         <p>
-          Course mechanics, resource states and long-form evidence patterns now
-          sit in Design Lab without public pages, CMS or providers.
+          Fourteen system states and a complete status-aware component manifest
+          now form the final code-side gate before Figma.
         </p>
       </header>
 
       <section aria-labelledby="gate-heading" className="lab-gate">
         <div>
           <p className="lab-kicker">Current gate</p>
-          <h2 id="gate-heading">Course learning and editorial</h2>
+          <h2 id="gate-heading">System states and full-library QA</h2>
         </div>
         <dl className="lab-metrics">
           <div>
@@ -33,8 +33,8 @@ export default function DesignLabOverview() {
             <dd>{tokenReport.contrastChecks.length} passed</dd>
           </div>
           <div>
-            <dt>Editorial fixtures</dt>
-            <dd>6</dd>
+            <dt>Catalogue IDs</dt>
+            <dd>166</dd>
           </div>
         </dl>
       </section>
@@ -42,18 +42,18 @@ export default function DesignLabOverview() {
       <section aria-labelledby="scope-heading" className="lab-scope">
         <h2 id="scope-heading">What is available now</h2>
         <p>
-          Inspect curriculum, comparison, resource and article specimens. Public
-          pages remain absent.
+          Inspect recovery, fallback and loading states alongside the honest
+          implementation manifest. Public pages remain absent.
         </p>
         <div className="lab-overview-actions">
-          <Link className="lab-primary-link" href="/design-lab/learning">
-            Review learning
+          <Link className="lab-primary-link" href="/design-lab/states">
+            Review system states
           </Link>
-          <Link className="lab-primary-link" href="/design-lab/editorial">
+          <Link className="lab-primary-link" href="/design-lab/foundations">
+            Review foundations
+          </Link>
+          <Link className="lab-secondary-link" href="/design-lab/editorial">
             Review editorial
-          </Link>
-          <Link className="lab-secondary-link" href="/design-lab/forms">
-            Review forms
           </Link>
         </div>
       </section>

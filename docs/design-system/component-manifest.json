@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "codeStatuses": ["implemented", "composed", "deferred-public", "needs-revision"],
+  "figmaStatuses": ["deferred", "blocked-revision"],
+  "families": [
+    {
+      "family": "Foundations",
+      "prefix": "FND",
+      "expectedCount": 10,
+      "codeStatus": "implemented",
+      "codeReference": "src/app/(design-lab)/design-lab/foundations/page.tsx",
+      "figmaStatus": "deferred",
+      "components": [
+        ["FND-01", "Colour token board"],
+        ["FND-02", "Typography scale and specimen board"],
+        ["FND-03", "Spacing scale"],
+        ["FND-04", "Border and radius board"],
+        ["FND-05", "Twelve-column responsive grid"],
+        ["FND-06", "Surface and elevation board"],
+        ["FND-07", "Icon style board"],
+        ["FND-08", "Motion and easing board"],
+        ["FND-09", "Focus and accessibility board"],
+        ["FND-10", "Atmospheric background and rose-signal board"]
+      ]
+    },
+    {
+      "family": "Layout primitives",
+      "prefix": "LYT",
+      "expectedCount": 12,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/layout/layout-primitives.tsx",
+      "figmaStatus": "deferred",
+      "components": [
+        ["LYT-01", "PageContainer"], ["LYT-02", "Section"], ["LYT-03", "Grid"],
+        ["LYT-04", "SplitLayout"], ["LYT-05", "ContentStack"], ["LYT-06", "InlineCluster"],
+        ["LYT-07", "SurfacePanel"], ["LYT-08", "FeaturePanel"], ["LYT-09", "StickyRail"],
+        ["LYT-10", "HorizontalRail"], ["LYT-11", "Divider"], ["LYT-12", "SectionHeader"]
+      ]
+    },
+    {
+      "family": "Core controls",
+      "prefix": "CTL",
+      "expectedCount": 12,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/controls/index.ts",
+      "figmaStatus": "deferred",
+      "components": [
+        ["CTL-01", "Button"], ["CTL-02", "IconButton"], ["CTL-03", "TextLink"],
+        ["CTL-04", "StatusBadge"], ["CTL-05", "CategoryLabel"], ["CTL-06", "MetadataItem"],
+        ["CTL-07", "Tag"], ["CTL-08", "Accordion"], ["CTL-09", "DisclosureRow"],
+        ["CTL-10", "ProgressIndicator"], ["CTL-11", "Tooltip"], ["CTL-12", "LoadingIndicator"]
+      ]
+    },
+    {
+      "family": "Brand primitives",
+      "prefix": "BRD",
+      "expectedCount": 13,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/brand/brand-primitives.tsx",
+      "figmaStatus": "deferred",
+      "components": [
+        ["BRD-01", "Wordmark"], ["BRD-02", "MonoEyebrow"], ["BRD-03", "EvidenceLabel"],
+        ["BRD-04", "EvidenceLegend"], ["BRD-05", "SystemNode"], ["BRD-06", "SignalNode"],
+        ["BRD-07", "ConnectionPath"], ["BRD-08", "NodeCluster"], ["BRD-09", "ProofLabel"],
+        ["BRD-10", "ArtefactStamp"], ["BRD-11", "AtmosphericField"], ["BRD-12", "ConnectionTrace"],
+        ["BRD-13", "SystemFrame"]
+      ]
+    },
+    {
+      "family": "Navigation and global",
+      "prefix": "NAV",
+      "expectedCount": 13,
+      "codeStatus": "deferred-public",
+      "codeReference": "deferred:public-page-assembly",
+      "figmaStatus": "deferred",
+      "components": [
+        ["NAV-01", "SkipToContent"], ["NAV-02", "AnnouncementStrip"], ["NAV-03", "Header"],
+        ["NAV-04", "DesktopNavigation"], ["NAV-05", "NavigationItem"], ["NAV-06", "HeaderWaitlistCTA"],
+        ["NAV-07", "MobileMenuTrigger"], ["NAV-08", "MobileNavigationPanel"], ["NAV-09", "MobileProgrammeStatus"],
+        ["NAV-10", "Breadcrumbs"], ["NAV-11", "Footer"], ["NAV-12", "FooterNavigationGroup"],
+        ["NAV-13", "FooterEcosystemLine"]
+      ]
+    },
+    {
+      "family": "Forms",
+      "prefix": "FRM",
+      "expectedCount": 15,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/forms/index.ts",
+      "figmaStatus": "deferred",
+      "components": [
+        ["FRM-01", "FieldWrapper"], ["FRM-02", "TextInput"], ["FRM-03", "EmailInput"],
+        ["FRM-04", "Textarea"], ["FRM-05", "Select"], ["FRM-06", "Checkbox"],
+        ["FRM-07", "ProgrammeSelector"], ["FRM-08", "FormErrorSummary"], ["FRM-09", "SpamProtectionSlot"],
+        ["FRM-10", "FormSubmitButton"], ["FRM-11", "InlineNewsletterForm"], ["FRM-12", "WaitlistForm"],
+        ["FRM-13", "ContactForm"], ["FRM-14", "SuccessPanel"], ["FRM-15", "SubmissionErrorPanel"]
+      ]
+    },
+    {
+      "family": "Courses",
+      "prefix": "CRS",
+      "expectedCount": 20,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/learning/index.ts",
+      "figmaStatus": "deferred",
+      "components": [
+        {"id":"CRS-01","name":"FlagshipCourseFeature","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-02","name":"SpecialistCourseCard","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-03","name":"FoundationCourseEntry","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-04","name":"CourseProgressionMap","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-05","name":"CourseStatusBlock","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-06","name":"CourseMetadataPanel","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-07","name":"CourseOutcomeStatement","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-08","name":"CourseOutputsList","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        {"id":"CRS-09","name":"ArtefactPreview","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        ["CRS-10", "CurriculumModuleRow"], ["CRS-11", "CurriculumAccordion"], ["CRS-12", "ToolContextList"],
+        ["CRS-13", "InstructorCourseBlock"], ["CRS-14", "CourseFAQGroup"], ["CRS-15", "CourseComparisonTable"],
+        ["CRS-16", "CourseComparisonRows"], ["CRS-17", "CourseInPageNavigation"], ["CRS-18", "StickyWaitlistBar"],
+        {"id":"CRS-19","name":"ProgrammeWaitlistCTA","codeStatus":"needs-revision","codeReference":"src/design-system/components/programmes/programme-components.tsx","figmaStatus":"blocked-revision"},
+        ["CRS-20", "RelatedCourseRoute"]
+      ]
+    },
+    {
+      "family": "Workshops",
+      "prefix": "WRK",
+      "expectedCount": 12,
+      "codeStatus": "needs-revision",
+      "codeReference": "src/design-system/components/programmes/programme-components.tsx",
+      "figmaStatus": "blocked-revision",
+      "components": [
+        ["WRK-01", "FeaturedWorkshopPanel"], ["WRK-02", "WorkshopScheduleBoard"], ["WRK-03", "WorkshopRow"],
+        ["WRK-04", "WorkshopNumber"], ["WRK-05", "WorkshopMetadata"], ["WRK-06", "WorkshopOutcomeStatement"],
+        ["WRK-07", "WorkshopComingSoonAction"], ["WRK-08", "WorkshopWaitlistCTA"], ["WRK-09", "TeamTrainingPanel"],
+        ["WRK-10", "TeamEnquiryCTA"], ["WRK-11", "WorkshopAudienceLabel"], ["WRK-12", "WorkshopDeliverablePreview"]
+      ]
+    },
+    {
+      "family": "Editorial",
+      "prefix": "EDT",
+      "expectedCount": 16,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/editorial/index.ts",
+      "figmaStatus": "deferred",
+      "components": [
+        ["EDT-01", "FeaturedResource"], ["EDT-02", "ResourceListItem"], ["EDT-03", "ComingSoonResource"],
+        ["EDT-04", "ResourceCategoryLabel"], ["EDT-05", "ResourceMetadata"], ["EDT-06", "ArticleProse"],
+        ["EDT-07", "ArticleTableOfContents"], ["EDT-08", "PullQuote"], ["EDT-09", "PrincipleBlock"],
+        ["EDT-10", "EvidenceCallout"], ["EDT-11", "CodePromptBlock"], ["EDT-12", "MediaFigure"],
+        ["EDT-13", "DownloadableArtefact"], ["EDT-14", "AuthorByline"], ["EDT-15", "RelatedProgrammeCTA"],
+        ["EDT-16", "NewsletterIssuePreview"]
+      ]
+    },
+    {
+      "family": "Signature compositions",
+      "prefix": "CMP",
+      "expectedCount": 14,
+      "codeStatus": "needs-revision",
+      "codeReference": "src/design-system/explorations/signature-compositions.tsx",
+      "figmaStatus": "blocked-revision",
+      "components": [
+        ["CMP-01", "EcosystemHero"], ["CMP-02", "MobileHeroMap"],
+        {"id":"CMP-03","name":"CredibilityRail","codeStatus":"implemented","codeReference":"src/design-system/components/trust/trust-compositions.tsx","figmaStatus":"deferred"},
+        ["CMP-04", "ChangingRoleTimeline"], ["CMP-05", "GroundedDesignSystem"], ["CMP-06", "CourseEcosystem"],
+        ["CMP-07", "LearningModelScroller"],
+        {"id":"CMP-08","name":"ArtefactEvidenceBoard","codeReference":"src/design-system/components/programmes/artefact-evidence-board.tsx"},
+        {"id":"CMP-09","name":"AudienceRouteRows","codeStatus":"implemented","codeReference":"src/design-system/components/trust/trust-compositions.tsx","figmaStatus":"deferred"},
+        ["CMP-10", "WorkshopScheduleSection"],
+        {"id":"CMP-11","name":"InstructorSplit","codeStatus":"implemented","codeReference":"src/design-system/components/trust/trust-compositions.tsx","figmaStatus":"deferred"},
+        {"id":"CMP-12","name":"RoseNewsletterBlock","codeStatus":"implemented","codeReference":"src/design-system/components/trust/trust-compositions.tsx","figmaStatus":"deferred"},
+        {"id":"CMP-13","name":"FinalConvergenceCTA","codeStatus":"implemented","codeReference":"src/design-system/components/trust/trust-compositions.tsx","figmaStatus":"deferred"},
+        {"id":"CMP-14","name":"FooterEcosystemComposition","codeStatus":"deferred-public","codeReference":"deferred:public-page-assembly","figmaStatus":"deferred"}
+      ]
+    },
+    {
+      "family": "Interior sections",
+      "prefix": "INT",
+      "expectedCount": 15,
+      "codeStatus": "deferred-public",
+      "codeReference": "deferred:public-page-assembly",
+      "figmaStatus": "deferred",
+      "components": [
+        ["INT-01", "SubpageHero"], ["INT-02", "MetadataRail"], ["INT-03", "StickyInPageNavigation"],
+        ["INT-04", "CourseIntroductionSplit"], ["INT-05", "OutputsBeforeSyllabus"],
+        {"id":"INT-06","name":"CourseComparisonSection","codeStatus":"composed","codeReference":"src/app/(design-lab)/design-lab/learning/page.tsx"},
+        ["INT-07", "FeaturedWorkshopSection"], ["INT-08", "TeamTrainingSection"],
+        {"id":"INT-09","name":"ResourceIndexFeature","codeStatus":"composed","codeReference":"src/app/(design-lab)/design-lab/editorial/page.tsx"},
+        {"id":"INT-10","name":"ResourceArticleList","codeStatus":"composed","codeReference":"src/app/(design-lab)/design-lab/editorial/page.tsx"},
+        {"id":"INT-11","name":"FounderCareerTimeline","codeStatus":"implemented","codeReference":"src/design-system/components/editorial/editorial-components.tsx"},
+        {"id":"INT-12","name":"TeachingPrinciplesSection","codeStatus":"implemented","codeReference":"src/design-system/components/editorial/editorial-components.tsx"},
+        {"id":"INT-13","name":"NewsletterThemesMap","codeStatus":"implemented","codeReference":"src/design-system/components/editorial/editorial-components.tsx"},
+        ["INT-14", "FormPageIntroduction"], ["INT-15", "LegalContentLayout"]
+      ]
+    },
+    {
+      "family": "System states",
+      "prefix": "SYS",
+      "expectedCount": 14,
+      "codeStatus": "implemented",
+      "codeReference": "src/design-system/components/system/index.ts",
+      "figmaStatus": "deferred",
+      "components": [
+        ["SYS-01", "ComingSoonState"], ["SYS-02", "EmptyResourceCategory"], ["SYS-03", "FormSuccessState"],
+        ["SYS-04", "FormFailureState"], ["SYS-05", "ValidationErrorState"], ["SYS-06", "SpamCheckFailureState"],
+        ["SYS-07", "CMSContentFailureState"], ["SYS-08", "MissingImageState"], ["SYS-09", "ContentLoadingState"],
+        ["SYS-10", "NotFoundState"], ["SYS-11", "GeneralErrorState"], ["SYS-12", "NetworkErrorState"],
+        ["SYS-13", "ReducedMotionState"], ["SYS-14", "StaticAtmosphereFallback"]
+      ]
+    }
+  ]
+}

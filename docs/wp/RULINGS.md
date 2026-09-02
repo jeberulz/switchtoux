@@ -51,6 +51,8 @@ WP02 is limited to the internal Design Lab shell and foundation specimens. The l
 
 The owner has moved Figma discovery, native variable creation and parity work to the final design-system batch. Code component work may proceed against the approved canonical tokens and Design Lab foundations. Public page assembly still requires explicit approval after the final code/Figma parity gate.
 
+Superseded in part by R-012: do not push HERO, exploration cards or programmes into Figma until the owner redesigns them there.
+
 ## R-008: Signature composition selection
 
 **Status:** Accepted
@@ -78,3 +80,18 @@ The owner approved the WP07 trust and form system at `/design-lab/trust` and `/d
 **Date:** 2 September 2026
 
 The owner approved the WP08 course-learning and editorial systems at `/design-lab/learning` and `/design-lab/editorial` and directed the completed work to be committed and pushed. WP08 is closed. System states are the next code gate. Figma remains the final design-system batch, and CMS wiring, production providers and public pages remain excluded.
+
+## R-012: Figma-first visual revision for HERO, cards and programmes
+
+**Status:** Accepted
+**Date:** 2 September 2026
+
+The owner is taking visual rework of `HERO`, exploration card design, and the programmes family into Figma. Those looks are `needs-revision`. WP05/WP06 structure and data contracts remain; the current Design Lab chrome is not the look to freeze.
+
+Do not:
+
+- Push current HERO, card, or programmes compositions into the approved Figma library
+- Implement a visual restyle of those families in code until the owner hands back Figma
+- Treat R-008/R-009 as a locked visual
+
+When Figma work starts, park those families on an exploring/revision page. Tokens still write back to `src/design-system/tokens/*.json`. Everything else can still follow R-007 (code first, then Figma mirror) unless the owner expands this list.

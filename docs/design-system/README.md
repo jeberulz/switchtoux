@@ -4,7 +4,7 @@ The JSON documents in `src/design-system/tokens/` are the only editable source o
 
 ## Scope
 
-WP01 contains the token foundation. WP02 adds the internal Design Lab shell and foundation specimens as the first token consumer. WP03 adds the approved layout primitives. WP04 adds core controls and signature brand primitives for owner review. Public page assembly, Figma mutations and production integrations remain excluded.
+WP01 contains the token foundation. WP02 through WP08 establish the internal Design Lab, layout, controls, brand, programme, trust, form, course and editorial families. WP09 adds the fourteen system states and the complete code-side component manifest. Public page assembly, Figma mutations and production integrations remain excluded.
 
 ## Token layers
 
@@ -57,8 +57,23 @@ Semantic or component tokens must alias earlier layers rather than copy raw valu
 - `/design-lab/layout` renders the approved layout primitives and their responsive contracts.
 - `/design-lab/controls` renders control variants, states, feedback and interaction contracts.
 - `/design-lab/brand` renders evidence notation, system nodes, paths, proof marks and static atmospheric structure.
-- Both routes emit `noindex, nofollow` metadata.
+- `/design-lab/explorations` records signature-composition selections.
+- `/design-lab/programmes`, `/design-lab/trust`, `/design-lab/forms`, `/design-lab/learning` and `/design-lab/editorial` render their respective component families.
+- `/design-lab/states` renders all fourteen resilience and fallback states plus catalogue status evidence.
+- All Design Lab routes inherit `noindex, nofollow` metadata.
 - Set `DESIGN_LAB_ENABLED=false` at build time to render the route group as not found in production.
+
+## Component manifest
+
+`docs/design-system/component-manifest.json` accounts for every ID in the 166-item catalogue. It records whether each entry is implemented, composed in a Design Lab route, deferred until public-page assembly, or awaiting owner-led visual revision under R-012.
+
+Run:
+
+```bash
+npm run design:manifest:validate
+```
+
+The validator checks family ranges, duplicate IDs, allowed statuses, code references, deferred-public boundaries and the Figma revision block. Figma remains a final-batch activity, and R-012 entries may not be promoted until the owner-provided revision is available.
 
 ## Figma boundary
 

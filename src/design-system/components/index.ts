@@ -6,4 +6,5 @@ export * from "./layout";
 export * from "./learning";
 export * from "./editorial";
 export * from "./programmes";
+export * from "./system";
 export * from "./trust";

@@ -8,6 +8,7 @@
     "design:tokens:check": "node scripts/build-design-tokens.mjs --check",
     "design:tokens:validate": "node scripts/validate-design-tokens.mjs && node scripts/validate-design-token-usage.mjs",
     "design:tokens:usage": "node scripts/validate-design-token-usage.mjs",
+    "design:manifest:validate": "node scripts/validate-component-manifest.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

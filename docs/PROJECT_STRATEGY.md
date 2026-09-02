@@ -12,6 +12,7 @@
 | WP06: Programme identity | `feat/wp06-programme-identity` | Approved | The approved course-system direction becomes a coherent programme family without assembling a public page or starting production integrations. |
 | WP07: Trust, conversion and forms | `feat/wp07-trust-conversion-forms` | Approved | Credibility, audience, instructor, newsletter, waitlist and contact families work in Design Lab with typed form sessions, no fake success and no public pages. |
 | WP08: Course learning and editorial | `feat/wp08-course-learning-editorial` | Approved | Course-detail mechanics, comparison, resources, long-form editorial, founder and newsletter patterns work as responsive Design Lab specimens without public pages or integrations. |
+| WP09: System states and library QA | `feat/wp09-system-states-library-qa` | Ready for review | Fourteen resilient system states, a complete status-aware component manifest and final code-side quality gates are reviewable before Figma work begins. |
 
 ## Sequence
 
@@ -20,7 +21,7 @@
 3. Run the signature-composition exploration and approval gate.
 4. Build programme, trust, form and editorial component families.
 5. Complete the remaining Design Lab and system-state QA.
-6. Run Figma discovery, native token mirroring and code/Figma parity as the final design-system batch.
+6. Run Figma discovery, native token mirroring and code/Figma parity as the final design-system batch. Do not push HERO, exploration cards or programmes into the approved Figma library first — owner redesigns those in Figma (R-012), then code implements back.
 7. Obtain explicit approval before assembling any public website page.
 
 ## Scope ruling
