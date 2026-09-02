@@ -3,5 +3,7 @@ export * from "./controls";
 export * from "./forms";
 export * from "./icons";
 export * from "./layout";
+export * from "./learning";
+export * from "./editorial";
 export * from "./programmes";
 export * from "./trust";

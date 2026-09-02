@@ -71,3 +71,10 @@ The owner approved the WP06 programme identity system at `/design-lab/programmes
 **Date:** 2 September 2026
 
 The owner approved the WP07 trust and form system at `/design-lab/trust` and `/design-lab/forms` and directed work to continue to course-learning and editorial components. WP07 is closed. Production submit adapters, CMS wiring, Figma work and public pages remain excluded.
+
+## R-011: Course learning and editorial approval
+
+**Status:** Accepted
+**Date:** 2 September 2026
+
+The owner approved the WP08 course-learning and editorial systems at `/design-lab/learning` and `/design-lab/editorial` and directed the completed work to be committed and pushed. WP08 is closed. System states are the next code gate. Figma remains the final design-system batch, and CMS wiring, production providers and public pages remain excluded.
