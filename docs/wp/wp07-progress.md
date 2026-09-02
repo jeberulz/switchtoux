@@ -1,7 +1,7 @@
 # WP07 progress: Trust, conversion and forms
 
 **Branch:** `feat/wp07-trust-conversion-forms`
-**Status:** In progress
+**Status:** Approved by owner
 
 ## Story status
 
@@ -28,7 +28,7 @@ Lab routes `/design-lab/trust` and `/design-lab/forms` were exercised in a real 
 - Rose newsletter success inherits on-action text (`rgb(9, 9, 11)` on `rgb(219, 88, 111)`). 320px `scrollWidth === clientWidth`.
 - Console only reports missing `/favicon.ico`. No hydration overlay after dropping explicit `aria-live` on `SuccessPanel` (`role="status"` is the live region).
 
-Stopped for owner approval. Editorial, Figma and public pages are still out.
+The owner approved WP07 on 2 September 2026 and directed work to continue to the course-learning and editorial gate. Figma and public pages remain out.
 
 ## Design read
 

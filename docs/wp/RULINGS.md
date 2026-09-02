@@ -64,3 +64,10 @@ The owner approved `HERO-B`, `GROUND-A`, `COURSE-B`, `ARTEFACT-B`, `ROLE-A`, `LE
 **Date:** 2 September 2026
 
 The owner approved the WP06 programme identity system at `/design-lab/programmes`. The approved implementation uses the `COURSE-B` capability constellation and `ARTEFACT-B` evidence index, with all courses and workshops remaining explicitly `coming-soon`. WP06 is closed. Public-page assembly, Figma work and production integrations remain excluded.
+
+## R-010: Trust, conversion and forms approval
+
+**Status:** Accepted
+**Date:** 2 September 2026
+
+The owner approved the WP07 trust and form system at `/design-lab/trust` and `/design-lab/forms` and directed work to continue to course-learning and editorial components. WP07 is closed. Production submit adapters, CMS wiring, Figma work and public pages remain excluded.
