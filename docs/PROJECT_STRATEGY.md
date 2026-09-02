@@ -9,7 +9,7 @@
 | WP03: Layout primitives | `feat/wp03-layout-primitives` | Approved | Twelve token-only layout primitives expose stable composition APIs and are documented with responsive, accessible specimens at `/design-lab/layout`. |
 | WP04: Controls and brand primitives | `feat/wp04-controls-brand-primitives` | Approved | Twelve core controls and thirteen signature primitives expose complete states, accessible interaction and token-only styling in dedicated Design Lab routes. |
 | WP05: Signature composition exploration | `feat/wp05-signature-exploration` | Approved | Eight signature composition families each present three structurally distinct, static-first directions at desktop and mobile, with one owner-approved direction per family and retained decision history. |
-| WP06: Programme identity | `feat/wp06-programme-identity` | Ready for owner approval | The approved course-system direction becomes a coherent programme family without assembling a public page or starting production integrations. |
+| WP06: Programme identity | `feat/wp06-programme-identity` | Approved | The approved course-system direction becomes a coherent programme family without assembling a public page or starting production integrations. |
 
 ## Sequence
 

@@ -1,7 +1,7 @@
 # WP06 progress: Programme identity
 
 **Branch:** `feat/wp06-programme-identity`
-**Status:** Ready for owner approval
+**Status:** Approved by owner
 
 ## Story status
 
@@ -44,6 +44,6 @@
 - An interactive desktop and complete mobile implementation of the approved `ARTEFACT-B` evidence index.
 - A no-index `/design-lab/programmes` review route and updated Design Lab navigation.
 
-## Approval boundary
+## Approval outcome
 
-WP06 stops after the programme identity route and checks pass. Trust, conversion, forms, editorial, Figma and public-page work require their later gates.
+The owner approved the programme identity route on 2 September 2026. WP06 is closed. Trust, conversion, forms, editorial, Figma and public-page work remain assigned to their later gates.

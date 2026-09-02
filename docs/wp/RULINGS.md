@@ -57,3 +57,10 @@ The owner has moved Figma discovery, native variable creation and parity work to
 **Date:** 2 September 2026
 
 The owner approved `HERO-B`, `GROUND-A`, `COURSE-B`, `ARTEFACT-B`, `ROLE-A`, `LEARN-B`, `INSTRUCTOR-A` and `CTA-A` as the signature composition set. The owner's `ROLA-A` entry is recorded as `ROLE-A`, the matching stable direction ID. Original recommendations and rejected alternatives remain available in the Design Lab as decision history. WP05 is closed; programme identity is the next planned work package.
+
+## R-009: Programme identity approval
+
+**Status:** Accepted
+**Date:** 2 September 2026
+
+The owner approved the WP06 programme identity system at `/design-lab/programmes`. The approved implementation uses the `COURSE-B` capability constellation and `ARTEFACT-B` evidence index, with all courses and workshops remaining explicitly `coming-soon`. WP06 is closed. Public-page assembly, Figma work and production integrations remain excluded.
