@@ -1,0 +1,234 @@
+.field,
+.checkboxField,
+.form,
+.fieldset,
+.successPanel,
+.submissionError,
+.errorSummary,
+.newsletterForm {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+}
+
+.field,
+.checkboxField,
+.successPanel,
+.submissionError,
+.errorSummary {
+  gap: var(--space-2);
+}
+
+.form,
+.fieldset,
+.newsletterForm {
+  gap: var(--space-5);
+}
+
+.fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.label {
+  color: var(--color-text-primary);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.hint {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.error,
+.errorSummary p {
+  margin: 0;
+  color: var(--color-error);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.control {
+  width: 100%;
+  min-height: var(--component-field-height);
+  padding-inline: var(--space-4);
+  border: var(--primitive-dimension-border-default) solid var(--color-border-control);
+  border-radius: var(--component-field-radius);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font: inherit;
+}
+
+.control::placeholder {
+  color: var(--color-text-muted);
+}
+
+.control:focus-visible {
+  outline: 0;
+  border-color: var(--color-accent);
+  box-shadow: var(--focus-ring);
+}
+
+.control[aria-invalid="true"] {
+  border-color: var(--color-status-error-border);
+}
+
+.control:disabled {
+  border-color: var(--color-border-subtle);
+  background: var(--color-surface);
+  color: var(--color-text-disabled);
+  cursor: not-allowed;
+}
+
+.textarea {
+  min-height: var(--component-field-textarea-minimum);
+  padding-block: var(--space-4);
+  resize: vertical;
+}
+
+.checkbox {
+  min-height: var(--component-control-target-minimum);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-3);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: var(--space-5);
+  height: var(--space-5);
+  margin: var(--space-1) 0 0;
+  accent-color: var(--color-accent);
+}
+
+.checkbox input:focus-visible {
+  outline: 0;
+  box-shadow: var(--focus-ring);
+}
+
+.checkbox input[aria-invalid="true"] {
+  outline: var(--primitive-dimension-border-default) solid var(--color-status-error-border);
+}
+
+.fieldset:disabled .checkbox {
+  color: var(--color-text-disabled);
+  cursor: not-allowed;
+}
+
+.errorSummary {
+  padding: var(--space-4);
+  border: var(--primitive-dimension-border-default) solid var(--color-status-error-border);
+  background: var(--color-status-error-background);
+}
+
+.errorSummary ul {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding-left: var(--space-5);
+}
+
+.errorSummary a {
+  color: var(--color-error);
+  text-decoration-line: underline;
+  text-underline-offset: var(--space-1);
+}
+
+.errorSummary a:focus-visible {
+  outline: 0;
+  box-shadow: var(--focus-ring);
+}
+
+.turnstileSlot {
+  min-height: 0;
+}
+
+.submitOnRose :global([data-variant="primary"]) {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
+.submitOnRose :global([data-variant="primary"]:hover:not(:disabled)) {
+  background: var(--color-surface-hover);
+  color: var(--color-text-primary);
+  transform: none;
+}
+
+.submitOnRose :global([data-variant="primary"]:active:not(:disabled)) {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
+.successPanel h2,
+.submissionError h2 {
+  margin: 0;
+  font-size: var(--text-heading-md);
+  font-weight: var(--text-heading-md-font-weight);
+  letter-spacing: var(--text-heading-md-letter-spacing);
+  line-height: var(--text-heading-md-line-height);
+}
+
+.successPanel p,
+.submissionError p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  line-height: var(--text-body-md-line-height);
+}
+
+.errorId {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--text-technical-mono);
+}
+
+.privacyNote {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm-line-height);
+}
+
+.honeypot {
+  position: absolute;
+  width: var(--primitive-dimension-border-default);
+  height: var(--primitive-dimension-border-default);
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.form,
+.newsletterForm {
+  position: relative;
+}
+
+.newsletterForm .label,
+.newsletterForm .checkbox,
+.newsletterForm .hint,
+.newsletterForm .error,
+.newsletterForm .errorSummary,
+.newsletterForm .errorSummary p,
+.newsletterForm .errorSummary a,
+.newsletterForm .successPanel h2,
+.newsletterForm .successPanel p,
+.newsletterForm .submissionError p,
+.newsletterForm .errorId {
+  color: inherit;
+}
+
+.newsletterForm .errorSummary {
+  border-color: currentColor;
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .submitOnRose :global([data-variant="primary"]:hover:not(:disabled)) {
+    transform: none;
+  }
+}

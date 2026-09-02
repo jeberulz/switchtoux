@@ -1,6 +1,7 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import {
+  ALL_COURSES_INTEREST,
   ArtefactEvidenceBoard,
   CourseCapabilityConstellation,
   FeaturedWorkshopPanel,
@@ -9,8 +10,10 @@ import {
   artefactFixtures,
   flagshipProgramme,
   foundationProgramme,
+  normalizeWaitlistInterest,
   programmeFixtures,
   specialistProgrammes,
+  waitlistInterestSlugs,
   workshopFixtures,
 } from "../../src/design-system/components/programmes";
 
@@ -64,6 +67,19 @@ describe("programme identity", () => {
       expect(markup).toContain(artefact.description);
     }
     expect(markup).toContain("Sample course artefact");
+  });
+
+  it("normalises waitlist interest to the programme allowlist", () => {
+    expect(waitlistInterestSlugs).toHaveLength(13);
+    expect(waitlistInterestSlugs[0]).toBe(ALL_COURSES_INTEREST);
+    expect(normalizeWaitlistInterest("ai-native-product-designer")).toBe(
+      "ai-native-product-designer",
+    );
+    expect(normalizeWaitlistInterest("build-an-ai-product-prototype")).toBe(
+      "build-an-ai-product-prototype",
+    );
+    expect(normalizeWaitlistInterest("not-a-programme")).toBe(ALL_COURSES_INTEREST);
+    expect(normalizeWaitlistInterest(null)).toBe(ALL_COURSES_INTEREST);
   });
 
   it("contains no forbidden dash characters in visible fixture copy", () => {

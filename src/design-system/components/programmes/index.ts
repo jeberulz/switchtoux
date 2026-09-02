@@ -22,15 +22,22 @@ export {
 } from "./programme-components";
 export { ArtefactEvidenceBoard } from "./artefact-evidence-board";
 export {
+  ALL_COURSES_INTEREST,
   artefactFixtures,
   flagshipProgramme,
   foundationProgramme,
+  isWaitlistInterestSlug,
+  normalizeWaitlistInterest,
   programmeFixtures,
   specialistProgrammes,
+  waitlistInterestSlugs,
   workshopFixtures,
   type ArtefactFixture,
   type ProgrammeCapability,
   type ProgrammeCategory,
   type ProgrammeFixture,
+  type ProgrammeSlug,
+  type WaitlistInterestSlug,
   type WorkshopFixture,
+  type WorkshopSlug,
 } from "./programme-data";

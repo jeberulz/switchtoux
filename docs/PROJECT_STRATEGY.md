@@ -10,6 +10,7 @@
 | WP04: Controls and brand primitives | `feat/wp04-controls-brand-primitives` | Approved | Twelve core controls and thirteen signature primitives expose complete states, accessible interaction and token-only styling in dedicated Design Lab routes. |
 | WP05: Signature composition exploration | `feat/wp05-signature-exploration` | Approved | Eight signature composition families each present three structurally distinct, static-first directions at desktop and mobile, with one owner-approved direction per family and retained decision history. |
 | WP06: Programme identity | `feat/wp06-programme-identity` | Approved | The approved course-system direction becomes a coherent programme family without assembling a public page or starting production integrations. |
+| WP07: Trust, conversion and forms | `feat/wp07-trust-conversion-forms` | In progress | Credibility, audience, instructor, newsletter, waitlist and contact families work in Design Lab with typed form sessions, no fake success and no public pages. |
 
 ## Sequence
 

@@ -233,3 +233,38 @@ export const specialistProgrammes = programmeFixtures.filter(
   (programme) => programme.category === "specialist",
 );
 export const foundationProgramme = programmeFixtures[5];
+
+export const ALL_COURSES_INTEREST = "all-courses" as const;
+
+export type ProgrammeSlug = (typeof programmeFixtures)[number]["slug"];
+export type WorkshopSlug = (typeof workshopFixtures)[number]["slug"];
+export type WaitlistInterestSlug =
+  | typeof ALL_COURSES_INTEREST
+  | ProgrammeSlug
+  | WorkshopSlug;
+
+const waitlistInterestValues: readonly WaitlistInterestSlug[] = [
+  ALL_COURSES_INTEREST,
+  ...programmeFixtures.map((programme) => programme.slug),
+  ...workshopFixtures.map((workshop) => workshop.slug),
+];
+
+const waitlistInterestSet = new Set<string>(waitlistInterestValues);
+
+export function isWaitlistInterestSlug(
+  value: string,
+): value is WaitlistInterestSlug {
+  return waitlistInterestSet.has(value);
+}
+
+export function normalizeWaitlistInterest(
+  value: string | null | undefined,
+): WaitlistInterestSlug {
+  if (value && isWaitlistInterestSlug(value)) {
+    return value;
+  }
+
+  return ALL_COURSES_INTEREST;
+}
+
+export const waitlistInterestSlugs = waitlistInterestValues;
